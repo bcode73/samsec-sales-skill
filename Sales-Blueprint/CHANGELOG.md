@@ -6,6 +6,13 @@ Format: `## [Date] Phase: Summary`, followed by a short bullet list of changes.
 
 ---
 
+## [Unreleased] Phase 17: Appendices
+
+- Added three new template files: `templates/proposal-template.md` (the seven-part structure behind Module 7's proposals), `templates/customer-persona-template.md` (one per stakeholder, tied to Module 4's discovery questions), and `templates/follow-up-email-template.md` (the check-ins, referral ask, and loop-closing note from Modules 10-11).
+- Added `manuscript/appendices/00-worksheets-index.md` through `04-references.md`: an index of all fourteen worksheets, an index of the three templates, an index of the one checklist, an alphabetical glossary cross-referenced to the modules that use each term, and a references page that states plainly the case study is fictional and offers four further-reading titles without claiming them as sources.
+- Added `manuscript/references/traceability-notes.md`, an internal (non-reader-facing) record mapping manuscript concepts to the general topic areas of the repository's SKILL.md library that informed them, per `BOOK_BIBLE.md` §10.
+- Self-reviewed all new files against the Humanizer Pass.
+
 ## [Unreleased] Phase 16 (approved): all manuscript content Final
 
 - Module 14 approved and marked Final, along with Figure 14.1.

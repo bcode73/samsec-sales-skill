@@ -16,7 +16,7 @@ Status values used throughout: **Not started · Drafted · Revised · Final**.
 | 5-13 | Part Two: Modules 3-11 (one per Blueprint letter) | Final |
 | 14-15 | Part Three: Modules 12-13 | Final |
 | 16 | Part Four: Module 14 (30-Day Sales Blueprint) | Final |
-| 17 | Appendices: worksheets, templates, checklists, glossary, references | In progress |
+| 17 | Appendices: worksheets, templates, checklists, glossary, references | Drafted, awaiting review |
 | 18 | Visuals: diagrams, illustrations, charts, icons, and generation prompts | Not started |
 | 19 | Final quality control pass across the full manuscript | Not started |
 | 20 | Export: compiled DOCX / PDF / EPUB / print-ready files | Not started |
@@ -76,11 +76,11 @@ Status values used throughout: **Not started · Drafted · Revised · Final**.
 
 | File | Status |
 |---|---|
-| Glossary | Not started |
-| References index | Not started |
-| Worksheet index | Not started |
-| Template index | Not started |
-| Checklist index | Not started |
+| Glossary | Drafted |
+| References index | Drafted |
+| Worksheet index | Drafted |
+| Template index | Drafted |
+| Checklist index | Drafted |
 
 ## Visuals
 
@@ -148,5 +148,6 @@ Status values used throughout: **Not started · Drafted · Revised · Final**.
 | n/a | 15 (approved) | Module 13 approved and marked Final, along with Figures 13.1 and 13.2. Part Three is complete and Final in full. |
 | n/a | 16 | Module 14, "The 30-Day Sales Blueprint," drafted, completing all manuscript content. Compresses the nine Blueprint stages into a four-week rollout, tied directly to the worksheets from Modules 3-13. Added Figure 14.1 (the 30-Day Rollout), Worksheet 14 (rollout planner), and Checklist 14 (the first entry in `/checklists`). Self-reviewed against the Humanizer Pass; awaiting user review before being marked Final. All fourteen modules and all front matter are now drafted or Final; remaining work is appendices, remaining visual polish, final QC, and export. |
 | n/a | 16 (approved) | Module 14 approved and marked Final, along with Figure 14.1. All manuscript content (front matter and Modules 1-14) is now Final. |
+| n/a | 17 | Appendices drafted: worksheet index (all 14), template index plus three new template files (proposal, customer persona, follow-up email), checklist index, glossary (alphabetical, cross-referenced to modules), and a reader-facing references page (further reading, no direct citations since the case study is fictional). Also added internal traceability notes in `manuscript/references/` mapping manuscript concepts to general research areas. Self-reviewed against the Humanizer Pass; awaiting user review before being marked Final. |
 
 See [`CHANGELOG.md`](./CHANGELOG.md) for the detailed, dated changelog.
