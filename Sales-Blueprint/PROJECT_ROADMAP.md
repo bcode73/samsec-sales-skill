@@ -15,8 +15,8 @@ Status values used throughout: **Not started · Drafted · Revised · Final**.
 | 3-4 | Part One: Modules 1-2 | Final |
 | 5-13 | Part Two: Modules 3-11 (one per Blueprint letter) | Final |
 | 14-15 | Part Three: Modules 12-13 | Final |
-| 16 | Part Four: Module 14 (30-Day Sales Blueprint) | Drafted, awaiting review |
-| 17 | Appendices: worksheets, templates, checklists, glossary, references | Not started |
+| 16 | Part Four: Module 14 (30-Day Sales Blueprint) | Final |
+| 17 | Appendices: worksheets, templates, checklists, glossary, references | In progress |
 | 18 | Visuals: diagrams, illustrations, charts, icons, and generation prompts | Not started |
 | 19 | Final quality control pass across the full manuscript | Not started |
 | 20 | Export: compiled DOCX / PDF / EPUB / print-ready files | Not started |
@@ -70,7 +70,7 @@ Status values used throughout: **Not started · Drafted · Revised · Final**.
 
 | Module | Status |
 |---|---|
-| 14: The 30-Day Sales Blueprint | Drafted |
+| 14: The 30-Day Sales Blueprint | Final |
 
 ## Appendices (`manuscript/appendices/`) and References (`manuscript/references/`)
 
@@ -147,5 +147,6 @@ Status values used throughout: **Not started · Drafted · Revised · Final**.
 | n/a | 15 | Module 13, "Sales Systems," drafted, completing Part Three. Priya rebuilds her pipeline around the nine Blueprint letters instead of generic stage labels, tracks stakeholders individually, and adopts four dashboard metrics; win rate and referral rate are shown rising over four quarters, consistent with the arc set out in `BOOK_BIBLE.md` §8. Added Figure 13.1 (the Lead Pipeline), Figure 13.2 (the Sales Dashboard, in `visuals/charts/`), and Worksheet 13 (pipeline rebuild). Self-reviewed against the Humanizer Pass and checked for continuity; awaiting user review before being marked Final. |
 | n/a | 15 (approved) | Module 13 approved and marked Final, along with Figures 13.1 and 13.2. Part Three is complete and Final in full. |
 | n/a | 16 | Module 14, "The 30-Day Sales Blueprint," drafted, completing all manuscript content. Compresses the nine Blueprint stages into a four-week rollout, tied directly to the worksheets from Modules 3-13. Added Figure 14.1 (the 30-Day Rollout), Worksheet 14 (rollout planner), and Checklist 14 (the first entry in `/checklists`). Self-reviewed against the Humanizer Pass; awaiting user review before being marked Final. All fourteen modules and all front matter are now drafted or Final; remaining work is appendices, remaining visual polish, final QC, and export. |
+| n/a | 16 (approved) | Module 14 approved and marked Final, along with Figure 14.1. All manuscript content (front matter and Modules 1-14) is now Final. |
 
 See [`CHANGELOG.md`](./CHANGELOG.md) for the detailed, dated changelog.
