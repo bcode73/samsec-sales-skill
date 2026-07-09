@@ -8,7 +8,7 @@ Published by **SSO Publishing**. First Edition, 2026.
 
 ## Rights reserved
 
-No part of this publication — including but not limited to the manuscript text, the Blueprint Framework and its component definitions, worksheets, templates, checklists, diagrams, illustrations, charts, and any other material contained in this repository — may be reproduced, distributed, stored in a retrieval system, or transmitted in any form or by any means, electronic, mechanical, photocopying, recording, or otherwise, without prior written permission from the copyright holder, except for brief quotations used in reviews or other uses permitted by applicable copyright law.
+No part of this publication, including but not limited to the manuscript text, the Blueprint Framework and its component definitions, worksheets, templates, checklists, diagrams, illustrations, charts, and any other material contained in this repository, may be reproduced, distributed, stored in a retrieval system, or transmitted in any form or by any means, electronic, mechanical, photocopying, recording, or otherwise, without prior written permission from the copyright holder, except for brief quotations used in reviews or other uses permitted by applicable copyright law.
 
 ## Repository status
 

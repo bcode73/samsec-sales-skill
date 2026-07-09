@@ -10,18 +10,18 @@ Status values used throughout: **Not started · Drafted · Revised · Final**.
 
 | Phase | Content | Status |
 |---|---|---|
-| 1 | Repository architecture, `BOOK_BIBLE.md`, `README.md` | Revised — awaiting review |
-| 2 | Front matter (copyright → introduction → Blueprint Framework overview) | Not started |
-| 3–4 | Part One: Modules 1–2 | Not started |
-| 5–13 | Part Two: Modules 3–11 (one per Blueprint letter) | Not started |
-| 14–15 | Part Three: Modules 12–13 | Not started |
+| 1 | Repository architecture, `BOOK_BIBLE.md`, `README.md` | Revised, awaiting review |
+| 2 | Front matter (copyright to introduction to Blueprint Framework overview) | Not started |
+| 3-4 | Part One: Modules 1-2 | Not started |
+| 5-13 | Part Two: Modules 3-11 (one per Blueprint letter) | Not started |
+| 14-15 | Part Three: Modules 12-13 | Not started |
 | 16 | Part Four: Module 14 (30-Day Sales Blueprint) | Not started |
 | 17 | Appendices: worksheets, templates, checklists, glossary, references | Not started |
 | 18 | Visuals: diagrams, illustrations, charts, icons, and generation prompts | Not started |
 | 19 | Final quality control pass across the full manuscript | Not started |
 | 20 | Export: compiled DOCX / PDF / EPUB / print-ready files | Not started |
 
-**Rule:** no phase begins until the previous phase has been reviewed and explicitly confirmed.
+**Rule:** no phase begins until the previous phase has been reviewed and explicitly confirmed. Every file marked Final has passed the Humanizer Pass (`BOOK_BIBLE.md` §13).
 
 ---
 
@@ -38,39 +38,39 @@ Status values used throughout: **Not started · Drafted · Revised · Final**.
 | `manuscript/front-matter/06-introduction.md` | Not started |
 | `manuscript/front-matter/07-the-blueprint-framework.md` | Not started |
 
-## Part One — Foundations (`manuscript/part-01-foundations/`)
+## Part One: Foundations (`manuscript/part-01-foundations/`)
 
 | Module | Status |
 |---|---|
-| 1 — The Truth About Sales | Not started |
-| 2 — How Customers Really Buy | Not started |
+| 1: The Truth About Sales | Not started |
+| 2: How Customers Really Buy | Not started |
 
-## Part Two — The Blueprint Framework (`manuscript/part-02-blueprint-framework/`)
-
-| Module | Status |
-|---|---|
-| 3 — Build Trust | Not started |
-| 4 — Learn the Customer | Not started |
-| 5 — Understand the Problem | Not started |
-| 6 — Establish Value | Not started |
-| 7 — Present the Offer | Not started |
-| 8 — Remove Doubt | Not started |
-| 9 — Inspire Action | Not started |
-| 10 — Nurture Relationships | Not started |
-| 11 — Turn Customers into Advocates | Not started |
-
-## Part Three — Modern Selling (`manuscript/part-03-modern-selling/`)
+## Part Two: The Blueprint Framework (`manuscript/part-02-blueprint-framework/`)
 
 | Module | Status |
 |---|---|
-| 12 — Digital Selling | Not started |
-| 13 — Sales Systems | Not started |
+| 3: Build Trust | Not started |
+| 4: Learn the Customer | Not started |
+| 5: Understand the Problem | Not started |
+| 6: Establish Value | Not started |
+| 7: Present the Offer | Not started |
+| 8: Remove Doubt | Not started |
+| 9: Inspire Action | Not started |
+| 10: Nurture Relationships | Not started |
+| 11: Turn Customers into Advocates | Not started |
 
-## Part Four — Implementation (`manuscript/part-04-implementation/`)
+## Part Three: Modern Selling (`manuscript/part-03-modern-selling/`)
 
 | Module | Status |
 |---|---|
-| 14 — The 30-Day Sales Blueprint | Not started |
+| 12: Digital Selling | Not started |
+| 13: Sales Systems | Not started |
+
+## Part Four: Implementation (`manuscript/part-04-implementation/`)
+
+| Module | Status |
+|---|---|
+| 14: The 30-Day Sales Blueprint | Not started |
 
 ## Appendices (`manuscript/appendices/`) and References (`manuscript/references/`)
 
@@ -117,7 +117,8 @@ Status values used throughout: **Not started · Drafted · Revised · Final**.
 
 | Date | Phase | Change |
 |---|---|---|
-| — | 1 | Repository architecture, `BOOK_BIBLE.md`, `README.md` created |
-| — | 1 (revision) | Publisher renamed to SSO Publishing; repository restructured to production tree; `PROJECT_ROADMAP.md`, `CHANGELOG.md`, `LICENSE.md` added; `STATUS.md` retired in favour of this file |
+| n/a | 1 | Repository architecture, `BOOK_BIBLE.md`, `README.md` created. |
+| n/a | 1 (revision) | Publisher renamed to SSO Publishing; repository restructured to production tree; `PROJECT_ROADMAP.md`, `CHANGELOG.md`, `LICENSE.md` added; `STATUS.md` retired in favour of this file. |
+| n/a | 1 (addendum) | Added `BOOK_BIBLE.md` §13, the mandatory Humanizer Pass, referencing the repository-root `SKILL (1).md`; removed every em dash and en dash from all Phase 1 files. |
 
 See [`CHANGELOG.md`](./CHANGELOG.md) for the detailed, dated changelog.
