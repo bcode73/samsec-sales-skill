@@ -26,3 +26,11 @@ In one sentence, what would you need to have done differently, in what order, fo
 ## Step 5: Apply it forward
 
 Pick one open deal in your current pipeline. Using Step 4's answer, write down the single next action you'll take in the next 24 hours to close that same gap before it costs you this deal too.
+
+## Step 6: Check for the pattern
+
+Repeat Steps 1 to 3 for two more lost deals from the last year. Do the same myth keep showing up? If so, that is your primary myth, the one worth watching for on every deal from now on, not just the one you happened to audit today.
+
+## Step 7: Name the discomfort
+
+In one honest sentence, what did believing this myth protect you from admitting? (For example: "believing my product should speak for itself let me avoid the discomfort of asking directly for the sale.") You don't need to share this with anyone. Naming it is what makes it easier to catch next time.
