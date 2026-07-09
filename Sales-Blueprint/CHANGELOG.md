@@ -6,6 +6,13 @@ Format: `## [Date] Phase: Summary`, followed by a short bullet list of changes.
 
 ---
 
+## [Unreleased] Phase 8: Module 6 (Establish Value)
+
+- Module 5 approved and marked Final, along with Figure 5.1.
+- Drafted Module 6, "Establish Value," continuing the Bramble Analytics deal. Priya replaces her old generic design pitch with a three-item value stack built entirely from Dominic's own numbers and language: recovered focus time, avoided cost of a full office expansion, and improved in-office attendance.
+- Added Figure 6.1, the Value Stack, and Worksheet 6, value stack builder.
+- Self-reviewed against the Humanizer Pass and checked for continuity against Modules 1-5.
+
 ## [Unreleased] Phase 7: Module 5 (Understand the Problem)
 
 - Module 4 approved and marked Final, along with Figure 4.1.

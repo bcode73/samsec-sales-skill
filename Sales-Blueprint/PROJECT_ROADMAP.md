@@ -51,8 +51,8 @@ Status values used throughout: **Not started · Drafted · Revised · Final**.
 |---|---|
 | 3: Build Trust | Final |
 | 4: Learn the Customer | Final |
-| 5: Understand the Problem | Drafted |
-| 6: Establish Value | Not started |
+| 5: Understand the Problem | Final |
+| 6: Establish Value | Drafted |
 | 7: Present the Offer | Not started |
 | 8: Remove Doubt | Not started |
 | 9: Inspire Action | Not started |
@@ -89,8 +89,8 @@ Status values used throughout: **Not started · Drafted · Revised · Final**.
 | The Blueprint Framework | Final | Not started | Not started |
 | Trust Pyramid | Final | Not started | Not started |
 | Customer Journey | Final | Not started | Not started |
-| Buying Psychology Wheel | Drafted | Not started | Not started |
-| Value Stack | Not started | Not started | Not started |
+| Buying Psychology Wheel | Final | Not started | Not started |
+| Value Stack | Drafted | Not started | Not started |
 | Offer Builder | Not started | Not started | Not started |
 | Pricing Ladder | Not started | Not started | Not started |
 | Decision Tree | Not started | Not started | Not started |
@@ -129,5 +129,7 @@ Status values used throughout: **Not started · Drafted · Revised · Final**.
 | n/a | 6 | Module 4, "Learn the Customer," drafted, continuing the same Bramble Analytics deal from Module 3. Added Figure 4.1 (the Customer Journey) and Worksheet 4 (discovery questions). Self-reviewed against the Humanizer Pass and checked for continuity; awaiting user review before being marked Final. |
 | n/a | 6 (approved) | Module 4 approved and marked Final, along with Figure 4.1. |
 | n/a | 7 | Module 5, "Understand the Problem," drafted, continuing the Bramble Analytics deal: the stated symptom ("outgrown this office") is diagnosed down to the real cause (fixed space that does not flex to uneven daily attendance). Added Figure 5.1 (the Buying Psychology Wheel) and Worksheet 5 (problem diagnosis). Self-reviewed against the Humanizer Pass and checked for continuity; awaiting user review before being marked Final. |
+| n/a | 7 (approved) | Module 5 approved and marked Final, along with Figure 5.1. |
+| n/a | 8 | Module 6, "Establish Value," drafted, continuing the Bramble Analytics deal: Priya translates the diagnosed problem into a three-item value stack in Dominic's own numbers, instead of a generic design pitch. Added Figure 6.1 (the Value Stack) and Worksheet 6 (value stack builder). Self-reviewed against the Humanizer Pass and checked for continuity; awaiting user review before being marked Final. |
 
 See [`CHANGELOG.md`](./CHANGELOG.md) for the detailed, dated changelog.

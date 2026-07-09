@@ -1,0 +1,17 @@
+%% Figure 6.1: The Value Stack
+%% Placement: manuscript/part-02-blueprint-framework/module-06-establish-value.md
+%% Caption: Figure 6.1: each layer is a distinct, buyer-confirmed outcome. The price sits at the bottom, visually smaller than the pile of value stacked above it.
+flowchart TD
+    V3["Improved in-office attendance\non the two days that matter most"]
+    V2["Avoided cost of a full office expansion\na larger, slower project not needed"]
+    V1["Recovered focus time\nstaff no longer working from a coffee shop"]
+    PRICE["The price"]
+
+    V1 --> V2 --> V3
+    V3 -.stacked above.-> PRICE
+
+    classDef value fill:#E3EEEC,stroke:#0F3D3E,color:#0F3D3E;
+    classDef price fill:#1B1F1E,stroke:#1B1F1E,color:#FFFFFF;
+
+    class V1,V2,V3 value;
+    class PRICE price;
