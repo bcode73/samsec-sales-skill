@@ -6,6 +6,11 @@ Format: `## [Date] Phase: Summary`, followed by a short bullet list of changes.
 
 ---
 
+## [Unreleased] Phase 13 (approved): Part Two complete
+
+- Module 11 approved and marked Final, along with Figures 11.1 and 11.2.
+- Part Two, all nine Blueprint Framework modules (Build Trust through Turn Customers into Advocates), is now Final in full.
+
 ## [Unreleased] Phase 13: Module 11 (Turn Customers into Advocates) — Part Two complete
 
 - Module 10 approved and marked Final, along with Figure 10.1.
