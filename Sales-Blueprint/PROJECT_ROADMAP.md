@@ -12,8 +12,8 @@ Status values used throughout: **Not started · Drafted · Revised · Final**.
 |---|---|---|
 | 1 | Repository architecture, `BOOK_BIBLE.md`, `README.md` | Final |
 | 2 | Front matter (copyright to introduction to Blueprint Framework overview) | Final |
-| 3-4 | Part One: Modules 1-2 | Drafted, awaiting review |
-| 5-13 | Part Two: Modules 3-11 (one per Blueprint letter) | Not started |
+| 3-4 | Part One: Modules 1-2 | Final |
+| 5-13 | Part Two: Modules 3-11 (one per Blueprint letter) | In progress |
 | 14-15 | Part Three: Modules 12-13 | Not started |
 | 16 | Part Four: Module 14 (30-Day Sales Blueprint) | Not started |
 | 17 | Appendices: worksheets, templates, checklists, glossary, references | Not started |
@@ -42,14 +42,14 @@ Status values used throughout: **Not started · Drafted · Revised · Final**.
 
 | Module | Status |
 |---|---|
-| 1: The Truth About Sales | Drafted |
-| 2: How Customers Really Buy | Drafted |
+| 1: The Truth About Sales | Final |
+| 2: How Customers Really Buy | Final |
 
 ## Part Two: The Blueprint Framework (`manuscript/part-02-blueprint-framework/`)
 
 | Module | Status |
 |---|---|
-| 3: Build Trust | Not started |
+| 3: Build Trust | Drafted |
 | 4: Learn the Customer | Not started |
 | 5: Understand the Problem | Not started |
 | 6: Establish Value | Not started |
@@ -87,7 +87,7 @@ Status values used throughout: **Not started · Drafted · Revised · Final**.
 | Visual | Diagram (`visuals/diagrams`) | Prompt (`visuals/prompts`) | Export (`visuals/exports`) |
 |---|---|---|---|
 | The Blueprint Framework | Final | Not started | Not started |
-| Trust Pyramid | Not started | Not started | Not started |
+| Trust Pyramid | Drafted | Not started | Not started |
 | Customer Journey | Not started | Not started | Not started |
 | Buying Psychology Wheel | Not started | Not started | Not started |
 | Value Stack | Not started | Not started | Not started |
@@ -123,5 +123,7 @@ Status values used throughout: **Not started · Drafted · Revised · Final**.
 | n/a | 2 | All eight front-matter files drafted (copyright, disclaimer, dedication, preface, table of contents, how to use this book, introduction, the Blueprint Framework) plus Figure 0.1 (the Blueprint Framework flowchart). Self-reviewed against the Humanizer Pass; awaiting user review before being marked Final. |
 | n/a | 2 (approved) | Front matter approved; all eight files and Figure 0.1 marked Final. |
 | n/a | 3-4 | Modules 1 and 2 drafted (The Truth About Sales; How Customers Really Buy), each with a diagram and worksheet. First appearance of Kestrel Office Interiors and Priya Shah in the manuscript body. Self-reviewed against the Humanizer Pass; awaiting user review before being marked Final. |
+| n/a | 3-4 (approved) | Part One approved; Modules 1 and 2 marked Final. |
+| n/a | 5 | Module 3, "Build Trust," drafted: the first Part Two module, opening the Blueprint Framework proper. Added Figure 3.1 (the Trust Pyramid) and Worksheet 3 (trust audit). Self-reviewed against the Humanizer Pass and checked for continuity; awaiting user review before being marked Final. |
 
 See [`CHANGELOG.md`](./CHANGELOG.md) for the detailed, dated changelog.

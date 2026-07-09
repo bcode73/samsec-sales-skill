@@ -1,0 +1,20 @@
+%% Figure 3.1: The Trust Pyramid
+%% Placement: manuscript/part-02-blueprint-framework/module-03-build-trust.md
+%% Caption: Figure 3.1: competence and reliability form the base; candour sits above them; trust granted is the apex, not the starting point.
+flowchart TD
+    APEX["Trust granted"]
+    CANDOUR["Candour signals\nadmitting real limitations before the buyer finds them"]
+    RELIABILITY["Reliability signals\nproof you do what you say, when you say it"]
+    COMPETENCE["Competence signals\nspecific, checkable proof you can do this exact job"]
+
+    COMPETENCE --> RELIABILITY --> CANDOUR --> APEX
+
+    classDef base fill:#E3EEEC,stroke:#0F3D3E,color:#0F3D3E;
+    classDef mid fill:#0F3D3E,stroke:#0F3D3E,color:#FFFFFF;
+    classDef top fill:#0A2C2D,stroke:#0A2C2D,color:#FFFFFF;
+    classDef apex fill:#1B1F1E,stroke:#1B1F1E,color:#FFFFFF;
+
+    class COMPETENCE base;
+    class RELIABILITY mid;
+    class CANDOUR top;
+    class APEX apex;

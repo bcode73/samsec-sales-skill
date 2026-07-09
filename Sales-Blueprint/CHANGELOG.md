@@ -6,6 +6,13 @@ Format: `## [Date] Phase: Summary`, followed by a short bullet list of changes.
 
 ---
 
+## [Unreleased] Phase 5: Module 3 (Build Trust)
+
+- Part One approved; Modules 1 and 2 marked Final in `PROJECT_ROADMAP.md`.
+- Drafted Module 3, "Build Trust," the first module of Part Two and the first letter of the Blueprint Framework. Introduces the trust deficit concept and three trust signals (competence, reliability, candour) through a new Kestrel client, Bramble Analytics, a 45-person analytics company.
+- Added Figure 3.1, the Trust Pyramid (one of the fifteen tracked signature visuals), and Worksheet 3, the trust audit.
+- Self-reviewed against the Humanizer Pass and checked for continuity against Modules 1-2 and `BOOK_BIBLE.md` §8.
+
 ## [Unreleased] Phase 3-4: Part One (Modules 1-2)
 
 - Author renamed to Samuel Omobusuyi (dropped the middle initial) throughout the manuscript and legal files.
