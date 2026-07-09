@@ -6,6 +6,13 @@ Format: `## [Date] Phase: Summary`, followed by a short bullet list of changes.
 
 ---
 
+## [Unreleased] Phase 7: Module 5 (Understand the Problem)
+
+- Module 4 approved and marked Final, along with Figure 4.1.
+- Drafted Module 5, "Understand the Problem," continuing the Bramble Analytics deal. Dominic's stated symptom ("we've outgrown this office") is diagnosed down to the real cause: fixed office space that doesn't flex to attendance that varies by roughly 40 per cent between the busiest and quietest days.
+- Added Figure 5.1, the Buying Psychology Wheel, and Worksheet 5, problem diagnosis.
+- Self-reviewed against the Humanizer Pass and checked for continuity against Modules 1-4.
+
 ## [Unreleased] Phase 6: Module 4 (Learn the Customer)
 
 - Module 3 approved and marked Final, along with Figure 3.1.

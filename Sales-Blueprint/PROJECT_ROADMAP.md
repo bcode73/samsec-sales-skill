@@ -50,8 +50,8 @@ Status values used throughout: **Not started · Drafted · Revised · Final**.
 | Module | Status |
 |---|---|
 | 3: Build Trust | Final |
-| 4: Learn the Customer | Drafted |
-| 5: Understand the Problem | Not started |
+| 4: Learn the Customer | Final |
+| 5: Understand the Problem | Drafted |
 | 6: Establish Value | Not started |
 | 7: Present the Offer | Not started |
 | 8: Remove Doubt | Not started |
@@ -88,8 +88,8 @@ Status values used throughout: **Not started · Drafted · Revised · Final**.
 |---|---|---|---|
 | The Blueprint Framework | Final | Not started | Not started |
 | Trust Pyramid | Final | Not started | Not started |
-| Customer Journey | Drafted | Not started | Not started |
-| Buying Psychology Wheel | Not started | Not started | Not started |
+| Customer Journey | Final | Not started | Not started |
+| Buying Psychology Wheel | Drafted | Not started | Not started |
 | Value Stack | Not started | Not started | Not started |
 | Offer Builder | Not started | Not started | Not started |
 | Pricing Ladder | Not started | Not started | Not started |
@@ -127,5 +127,7 @@ Status values used throughout: **Not started · Drafted · Revised · Final**.
 | n/a | 5 | Module 3, "Build Trust," drafted: the first Part Two module, opening the Blueprint Framework proper. Added Figure 3.1 (the Trust Pyramid) and Worksheet 3 (trust audit). Self-reviewed against the Humanizer Pass and checked for continuity; awaiting user review before being marked Final. |
 | n/a | 5 (approved) | Module 3 approved and marked Final, along with Figure 3.1. |
 | n/a | 6 | Module 4, "Learn the Customer," drafted, continuing the same Bramble Analytics deal from Module 3. Added Figure 4.1 (the Customer Journey) and Worksheet 4 (discovery questions). Self-reviewed against the Humanizer Pass and checked for continuity; awaiting user review before being marked Final. |
+| n/a | 6 (approved) | Module 4 approved and marked Final, along with Figure 4.1. |
+| n/a | 7 | Module 5, "Understand the Problem," drafted, continuing the Bramble Analytics deal: the stated symptom ("outgrown this office") is diagnosed down to the real cause (fixed space that does not flex to uneven daily attendance). Added Figure 5.1 (the Buying Psychology Wheel) and Worksheet 5 (problem diagnosis). Self-reviewed against the Humanizer Pass and checked for continuity; awaiting user review before being marked Final. |
 
 See [`CHANGELOG.md`](./CHANGELOG.md) for the detailed, dated changelog.

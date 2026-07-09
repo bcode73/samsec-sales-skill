@@ -1,0 +1,15 @@
+%% Figure 5.1: The Buying Psychology Wheel
+%% Placement: manuscript/part-02-blueprint-framework/module-05-understand-the-problem.md
+%% Caption: Figure 5.1: a buyer's stated problem is a mix of four forces. Missing any one means an incomplete diagnosis.
+flowchart TD
+    CENTRE["The stated problem"]
+    CENTRE --- IRRITATION["Immediate irritation\nwhat they notice day to day"]
+    CENTRE --- COST["Quantifiable cost\nwhat leaving it unsolved is costing, in numbers"]
+    CENTRE --- RISK["Risk of a wrong fix\nwhat happens if the solution misses"]
+    CENTRE --- ASPIRATION["What success feels like\nthe state they're actually trying to reach"]
+
+    classDef centre fill:#1B1F1E,stroke:#1B1F1E,color:#FFFFFF;
+    classDef force fill:#E3EEEC,stroke:#0F3D3E,color:#0F3D3E;
+
+    class CENTRE centre;
+    class IRRITATION,COST,RISK,ASPIRATION force;
