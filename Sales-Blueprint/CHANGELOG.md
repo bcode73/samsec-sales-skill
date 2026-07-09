@@ -6,6 +6,12 @@ Format: `## [Date] Phase: Summary`, followed by a short bullet list of changes.
 
 ---
 
+## [Unreleased] Phase 14: Module 12 (Digital Selling)
+
+- Drafted Module 12, "Digital Selling," opening Part Three. A new remote-sourced lead, Tom, finds Kestrel through a published write-up of the Bramble Analytics project and never meets Priya in person until installation is nearly finished. The module maps each Blueprint stage from Part Two onto its digital equivalent (published proof instead of a conversational trust signal, direct questions instead of reading body language, shareable documents instead of an in-person handover).
+- Added Figure 12.1 (Digital Trust and Discovery Signals) and Worksheet 12 (digital signal audit).
+- Self-reviewed against the Humanizer Pass and checked for continuity against Modules 1-11 and `BOOK_BIBLE.md` §8 (Kestrel's remote-first client base was already established there).
+
 ## [Unreleased] Phase 13 (approved): Part Two complete
 
 - Module 11 approved and marked Final, along with Figures 11.1 and 11.2.

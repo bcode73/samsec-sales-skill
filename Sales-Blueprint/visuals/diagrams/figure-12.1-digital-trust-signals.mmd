@@ -1,0 +1,24 @@
+%% Figure 12.1: Digital Trust and Discovery Signals
+%% Placement: manuscript/part-03-modern-selling/module-12-digital-selling.md
+%% Caption: Figure 12.1: each in-person signal has a digital equivalent. Asking directly replaces reading the room.
+flowchart LR
+    subgraph InPerson["In person"]
+        A1["Conversational\ncompetence signal"]
+        A2["Read hesitation\nfrom body language"]
+        A3["Hand across\na physical proposal"]
+    end
+
+    subgraph Digital["Digital equivalent"]
+        B1["Published proof\nfound before contact"]
+        B2["Ask directly:\nwhat worries you here?"]
+        B3["Shareable document\nor recorded walkthrough"]
+    end
+
+    A1 -.-> B1
+    A2 -.-> B2
+    A3 -.-> B3
+
+    classDef inperson fill:#E3EEEC,stroke:#0F3D3E,color:#0F3D3E;
+    classDef digital fill:#0F3D3E,stroke:#0F3D3E,color:#FFFFFF;
+    class A1,A2,A3 inperson;
+    class B1,B2,B3 digital;

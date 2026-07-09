@@ -63,7 +63,7 @@ Status values used throughout: **Not started · Drafted · Revised · Final**.
 
 | Module | Status |
 |---|---|
-| 12: Digital Selling | Not started |
+| 12: Digital Selling | Drafted |
 | 13: Sales Systems | Not started |
 
 ## Part Four: Implementation (`manuscript/part-04-implementation/`)
@@ -142,5 +142,6 @@ Status values used throughout: **Not started · Drafted · Revised · Final**.
 | n/a | 12 (approved) | Module 10 approved and marked Final, along with Figure 10.1. |
 | n/a | 13 | Module 11, "Turn Customers into Advocates," drafted, completing Part Two. Priya turns Dominic's offhand comment about other interested teams into a specific referral ask and closes the loop afterward, rather than hoping the introduction happens on its own. Added Figure 11.1 (the Referral Flywheel), Figure 11.2 (Customer Lifetime Value, in `visuals/charts/`), and Worksheet 11 (referral ask builder). Self-reviewed against the Humanizer Pass and checked for continuity; awaiting user review before being marked Final. All nine Blueprint Framework modules (3-11) are now drafted. |
 | n/a | 13 (approved) | Module 11 approved and marked Final, along with Figures 11.1 and 11.2. Part Two is complete and Final in full. |
+| n/a | 14 | Module 12, "Digital Selling," drafted, opening Part Three. A new remote lead, Tom, finds Kestrel through a published write-up of the Bramble Analytics project and never meets Priya in person until installation. Shows how each Blueprint stage translates to digital-first selling. Added Figure 12.1 (Digital Trust and Discovery Signals) and Worksheet 12 (digital signal audit). Self-reviewed against the Humanizer Pass and checked for continuity; awaiting user review before being marked Final. |
 
 See [`CHANGELOG.md`](./CHANGELOG.md) for the detailed, dated changelog.
