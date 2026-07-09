@@ -2,7 +2,7 @@
 
 **Sales Blueprint: The Practical System for Attracting Customers, Closing More Sales and Building a Business People Trust**
 
-Copyright © 2026 Samuel S. Omobusuyi. All rights reserved.
+Copyright © 2026 Samuel Omobusuyi. All rights reserved.
 
 Published by **SSO Publishing**. First Edition, 2026.
 

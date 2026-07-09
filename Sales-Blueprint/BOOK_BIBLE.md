@@ -12,7 +12,7 @@ Every module, worksheet, diagram and line of front matter must be consistent wit
 |---|---|
 | **Title** | Sales Blueprint |
 | **Subtitle** | The Practical System for Attracting Customers, Closing More Sales and Building a Business People Trust |
-| **Author** | Samuel S. Omobusuyi |
+| **Author** | Samuel Omobusuyi |
 | **Publisher** | SSO Publishing |
 | **Language** | British English |
 | **Category** | Business / Sales / Entrepreneurship |
@@ -311,7 +311,7 @@ Module 14: The 30-Day Sales Blueprint
 
 This exact text is used verbatim on the copyright page in front matter:
 
-> Copyright © 2026 Samuel S. Omobusuyi. All rights reserved.
+> Copyright © 2026 Samuel Omobusuyi. All rights reserved.
 >
 > No part of this publication may be reproduced, stored in a retrieval system or transmitted in any form or by any means, electronic, mechanical, photocopying, recording or otherwise, without prior written permission from the copyright holder, except for brief quotations used in reviews or other uses permitted by applicable copyright law.
 >

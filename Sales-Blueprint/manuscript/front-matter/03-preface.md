@@ -16,4 +16,4 @@ You'll notice one company running through the whole book: Kestrel Office Interio
 
 I still think about that six-week deal I lost. These days, though, it is a much rarer story. I hope that by the time you finish this book, it is a rarer one for you too.
 
-Samuel S. Omobusuyi
+Samuel Omobusuyi

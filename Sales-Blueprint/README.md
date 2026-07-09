@@ -1,7 +1,7 @@
 # Sales Blueprint
 ### The Practical System for Attracting Customers, Closing More Sales and Building a Business People Trust
 
-**Author:** Samuel S. Omobusuyi · **Publisher:** SSO Publishing · **Language:** British English
+**Author:** Samuel Omobusuyi · **Publisher:** SSO Publishing · **Language:** British English
 
 This directory is the working repository for the manuscript, worksheets, templates, checklists, diagrams and premium visuals that make up *Sales Blueprint*, a commercially publishable business book (220 to 280 pages), built and edited to sit alongside the best-known books on sales and customer psychology.
 
@@ -121,4 +121,4 @@ No module is marked final until it has been checked against:
 
 ## Rights
 
-© 2026 Samuel S. Omobusuyi. Published by SSO Publishing. See [`LICENSE.md`](./LICENSE.md) for full terms.
+© 2026 Samuel Omobusuyi. Published by SSO Publishing. See [`LICENSE.md`](./LICENSE.md) for full terms.
