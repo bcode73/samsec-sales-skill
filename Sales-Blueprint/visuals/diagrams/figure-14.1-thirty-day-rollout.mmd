@@ -1,0 +1,10 @@
+%% Figure 14.1: The 30-Day Rollout
+%% Placement: manuscript/part-04-implementation/module-14-the-30-day-sales-blueprint.md
+%% Caption: Figure 14.1: four weeks, two or three stages installed at a time, each building on the week before.
+flowchart TD
+    W1["Week 1\nBuild Trust + Learn the Customer"] --> W2["Week 2\nUnderstand the Problem + Establish Value"]
+    W2 --> W3["Week 3\nPresent the Offer + Remove Doubt + Inspire Action"]
+    W3 --> W4["Week 4\nNurture Relationships + Turn Customers into Advocates + Systems"]
+
+    classDef week fill:#E3EEEC,stroke:#0F3D3E,color:#0F3D3E;
+    class W1,W2,W3,W4 week;

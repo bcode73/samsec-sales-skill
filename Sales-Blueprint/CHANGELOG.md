@@ -6,6 +6,14 @@ Format: `## [Date] Phase: Summary`, followed by a short bullet list of changes.
 
 ---
 
+## [Unreleased] Phase 16: Module 14 (The 30-Day Sales Blueprint) — all manuscript content drafted
+
+- Module 13 approved and marked Final, along with Figures 13.1 and 13.2. Part Three is complete and Final in full.
+- Drafted Module 14, "The 30-Day Sales Blueprint," completing Part Four and all core manuscript content. Compresses the nine Blueprint stages into a four-week rollout (Week 1: Build Trust + Learn the Customer; Week 2: Understand the Problem + Establish Value; Week 3: Present the Offer + Remove Doubt + Inspire Action; Week 4: Nurture + Advocates + Systems), tied directly to the relevant worksheet from each earlier module.
+- Added Figure 14.1 (the 30-Day Rollout), Worksheet 14 (rollout planner), and Checklist 14 (the first file in `/checklists`, a quick-reference tick-list version of the rollout).
+- Self-reviewed against the Humanizer Pass and checked for continuity against all thirteen preceding modules.
+- With this module drafted, every planned module (1-14) and all front matter exists in the repository. Remaining work: appendices (glossary, references, worksheet/template/checklist index), remaining visual prompts and exports, a final quality control pass, and compiled export.
+
 ## [Unreleased] Phase 15: Module 13 (Sales Systems) — Part Three complete
 
 - Module 12 approved and marked Final, along with Figure 12.1.
