@@ -6,6 +6,13 @@ Format: `## [Date] Phase: Summary`, followed by a short bullet list of changes.
 
 ---
 
+## [Unreleased] Phase 12: Module 10 (Nurture Relationships)
+
+- Module 9 approved and marked Final, along with Figure 9.1.
+- Drafted Module 10, "Nurture Relationships," continuing the Bramble Analytics deal. Six weeks after installation, Priya calls Dominic with a genuine, no-pitch question about whether the original problem is actually solved, which surfaces unprompted interest from other Bramble teams in the flexible-room concept, setting up Module 11.
+- Added Figure 10.1 (the Follow-up Timeline) and Worksheet 10 (nurture cadence planner).
+- Self-reviewed against the Humanizer Pass and checked for continuity against Modules 1-9.
+
 ## [Unreleased] Phase 11: Module 9 (Inspire Action)
 
 - Module 8 approved and marked Final, along with Figures 8.1 and 8.2.
