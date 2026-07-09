@@ -13,7 +13,7 @@ Status values used throughout: **Not started · Drafted · Revised · Final**.
 | 1 | Repository architecture, `BOOK_BIBLE.md`, `README.md` | Final |
 | 2 | Front matter (copyright to introduction to Blueprint Framework overview) | Final |
 | 3-4 | Part One: Modules 1-2 | Final |
-| 5-13 | Part Two: Modules 3-11 (one per Blueprint letter) | In progress |
+| 5-13 | Part Two: Modules 3-11 (one per Blueprint letter) | Drafted, awaiting review on Module 11 |
 | 14-15 | Part Three: Modules 12-13 | Not started |
 | 16 | Part Four: Module 14 (30-Day Sales Blueprint) | Not started |
 | 17 | Appendices: worksheets, templates, checklists, glossary, references | Not started |
@@ -56,8 +56,8 @@ Status values used throughout: **Not started · Drafted · Revised · Final**.
 | 7: Present the Offer | Final |
 | 8: Remove Doubt | Final |
 | 9: Inspire Action | Final |
-| 10: Nurture Relationships | Drafted |
-| 11: Turn Customers into Advocates | Not started |
+| 10: Nurture Relationships | Final |
+| 11: Turn Customers into Advocates | Drafted |
 
 ## Part Three: Modern Selling (`manuscript/part-03-modern-selling/`)
 
@@ -96,11 +96,11 @@ Status values used throughout: **Not started · Drafted · Revised · Final**.
 | Decision Tree | Final | Not started | Not started |
 | Sales Funnel | Final | Not started | Not started |
 | Lead Pipeline | Not started | Not started | Not started |
-| Referral Flywheel | Not started | Not started | Not started |
-| Customer Lifetime Value | Not started | Not started | Not started |
+| Referral Flywheel | Drafted | Not started | Not started |
+| Customer Lifetime Value | Drafted | Not started | Not started |
 | Objection Flowchart | Final | Not started | Not started |
 | Sales Dashboard | Not started | Not started | Not started |
-| Follow-up Timeline | Drafted | Not started | Not started |
+| Follow-up Timeline | Final | Not started | Not started |
 
 ## Exports (`exports/`)
 
@@ -139,5 +139,7 @@ Status values used throughout: **Not started · Drafted · Revised · Final**.
 | n/a | 11 | Module 9, "Inspire Action," drafted, continuing the Bramble Analytics deal: a week after Marguerite says "nothing is stopping this," the proposal is still unsigned. Priya diagnoses ordinary friction rather than doubt, shrinks the next step to a fifteen-minute signing call, and uses the genuine installation-slot deadline from Module 7 to prompt action. Added Figure 9.1 (the Sales Funnel) and Worksheet 9 (action friction audit). Self-reviewed against the Humanizer Pass and checked for continuity; awaiting user review before being marked Final. |
 | n/a | 11 (approved) | Module 9 approved and marked Final, along with Figure 9.1. |
 | n/a | 12 | Module 10, "Nurture Relationships," drafted, continuing the Bramble Analytics deal: six weeks after installation, Priya calls Dominic with a genuine, no-pitch question about how the space is performing, which surfaces unprompted expansion interest from other Bramble teams. Added Figure 10.1 (the Follow-up Timeline) and Worksheet 10 (nurture cadence planner). Self-reviewed against the Humanizer Pass and checked for continuity; awaiting user review before being marked Final. |
+| n/a | 12 (approved) | Module 10 approved and marked Final, along with Figure 10.1. |
+| n/a | 13 | Module 11, "Turn Customers into Advocates," drafted, completing Part Two. Priya turns Dominic's offhand comment about other interested teams into a specific referral ask and closes the loop afterward, rather than hoping the introduction happens on its own. Added Figure 11.1 (the Referral Flywheel), Figure 11.2 (Customer Lifetime Value, in `visuals/charts/`), and Worksheet 11 (referral ask builder). Self-reviewed against the Humanizer Pass and checked for continuity; awaiting user review before being marked Final. All nine Blueprint Framework modules (3-11) are now drafted. |
 
 See [`CHANGELOG.md`](./CHANGELOG.md) for the detailed, dated changelog.

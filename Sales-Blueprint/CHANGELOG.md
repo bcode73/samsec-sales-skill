@@ -6,6 +6,14 @@ Format: `## [Date] Phase: Summary`, followed by a short bullet list of changes.
 
 ---
 
+## [Unreleased] Phase 13: Module 11 (Turn Customers into Advocates) — Part Two complete
+
+- Module 10 approved and marked Final, along with Figure 10.1.
+- Drafted Module 11, "Turn Customers into Advocates," completing Part Two. Priya turns Dominic's offhand comment from Module 10 into a specific, named referral ask, then closes the loop with him afterward, rather than hoping the introduction happens on its own.
+- Added Figure 11.1 (the Referral Flywheel) and Figure 11.2 (Customer Lifetime Value), the latter placed in `visuals/charts/` rather than `visuals/diagrams/`, consistent with the architecture split between process diagrams and data-style charts. Added Worksheet 11 (referral ask builder).
+- Self-reviewed against the Humanizer Pass and checked for continuity against Modules 1-10.
+- All nine Blueprint Framework modules (Build Trust through Turn Customers into Advocates) are now drafted, tracing one continuous deal, Bramble Analytics, from first contact through to a closed, referring customer.
+
 ## [Unreleased] Phase 12: Module 10 (Nurture Relationships)
 
 - Module 9 approved and marked Final, along with Figure 9.1.
