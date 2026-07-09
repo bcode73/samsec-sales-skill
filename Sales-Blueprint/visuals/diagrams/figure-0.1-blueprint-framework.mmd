@@ -1,0 +1,16 @@
+%% Figure 0.1: The Blueprint Framework
+%% Placement: manuscript/front-matter/07-the-blueprint-framework.md
+%% Caption: Figure 0.1: The Blueprint Framework, the nine stages a buyer moves through on the way to a decision.
+flowchart LR
+    B["B\nBuild Trust"] --> L["L\nLearn the Customer"]
+    L --> U["U\nUnderstand the Problem"]
+    U --> E["E\nEstablish Value"]
+    E --> P["P\nPresent the Offer"]
+    P --> R["R\nRemove Doubt"]
+    R --> I["I\nInspire Action"]
+    I --> N["N\nNurture Relationships"]
+    N --> T["T\nTurn Customers into Advocates"]
+    T -.->|new referral, cycle restarts| B
+
+    classDef stage fill:#0F3D3E,stroke:#0F3D3E,color:#FFFFFF;
+    class B,L,U,E,P,R,I,N,T stage;

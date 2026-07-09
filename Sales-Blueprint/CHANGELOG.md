@@ -6,6 +6,14 @@ Format: `## [Date] Phase: Summary`, followed by a short bullet list of changes.
 
 ---
 
+## [Unreleased] Phase 2: Front matter
+
+- Drafted all eight front-matter files in `manuscript/front-matter/`: copyright, disclaimer, dedication, preface, table of contents, how to use this book, introduction, and the Blueprint Framework overview.
+- The preface introduces the author's voice and a specific origin story for the framework; the introduction sets up the book's central argument (selling as sequence, not personality) without repeating the preface's anecdote.
+- The Blueprint Framework chapter expands each of the nine stages into a short explanation with its failure mode, and introduces the idea that the sequence loops (a referral or a new stakeholder restarts Build Trust).
+- Added `visuals/diagrams/figure-0.1-blueprint-framework.mmd`, a Mermaid flowchart of the nine-stage sequence, referenced from the Blueprint Framework chapter. This is the first of the fifteen tracked visuals to reach Drafted status.
+- All eight files and the diagram were checked against the Humanizer Pass (`BOOK_BIBLE.md` §13): no em dashes, en dashes, curly quotes, emojis, or AI-vocabulary clusters found on review.
+
 ## [Unreleased] Phase 1 addendum: Humanizer Pass
 
 - Added Section 13 to `BOOK_BIBLE.md`, "Humanizer Pass (Mandatory Writing Quality Gate)," which makes the repository-root `SKILL (1).md` (the humanizer skill) a required quality check on every piece of manuscript text before it is marked Final in `PROJECT_ROADMAP.md`.

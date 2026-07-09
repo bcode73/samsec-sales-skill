@@ -10,8 +10,8 @@ Status values used throughout: **Not started · Drafted · Revised · Final**.
 
 | Phase | Content | Status |
 |---|---|---|
-| 1 | Repository architecture, `BOOK_BIBLE.md`, `README.md` | Revised, awaiting review |
-| 2 | Front matter (copyright to introduction to Blueprint Framework overview) | Not started |
+| 1 | Repository architecture, `BOOK_BIBLE.md`, `README.md` | Final |
+| 2 | Front matter (copyright to introduction to Blueprint Framework overview) | Drafted, awaiting review |
 | 3-4 | Part One: Modules 1-2 | Not started |
 | 5-13 | Part Two: Modules 3-11 (one per Blueprint letter) | Not started |
 | 14-15 | Part Three: Modules 12-13 | Not started |
@@ -29,14 +29,14 @@ Status values used throughout: **Not started · Drafted · Revised · Final**.
 
 | File | Status |
 |---|---|
-| `manuscript/front-matter/00-copyright.md` | Not started |
-| `manuscript/front-matter/01-disclaimer.md` | Not started |
-| `manuscript/front-matter/02-dedication.md` | Not started |
-| `manuscript/front-matter/03-preface.md` | Not started |
-| `manuscript/front-matter/04-table-of-contents.md` | Not started |
-| `manuscript/front-matter/05-how-to-use-this-book.md` | Not started |
-| `manuscript/front-matter/06-introduction.md` | Not started |
-| `manuscript/front-matter/07-the-blueprint-framework.md` | Not started |
+| `manuscript/front-matter/00-copyright.md` | Drafted |
+| `manuscript/front-matter/01-disclaimer.md` | Drafted |
+| `manuscript/front-matter/02-dedication.md` | Drafted |
+| `manuscript/front-matter/03-preface.md` | Drafted |
+| `manuscript/front-matter/04-table-of-contents.md` | Drafted |
+| `manuscript/front-matter/05-how-to-use-this-book.md` | Drafted |
+| `manuscript/front-matter/06-introduction.md` | Drafted |
+| `manuscript/front-matter/07-the-blueprint-framework.md` | Drafted |
 
 ## Part One: Foundations (`manuscript/part-01-foundations/`)
 
@@ -86,7 +86,7 @@ Status values used throughout: **Not started · Drafted · Revised · Final**.
 
 | Visual | Diagram (`visuals/diagrams`) | Prompt (`visuals/prompts`) | Export (`visuals/exports`) |
 |---|---|---|---|
-| The Blueprint Framework | Not started | Not started | Not started |
+| The Blueprint Framework | Drafted | Not started | Not started |
 | Trust Pyramid | Not started | Not started | Not started |
 | Customer Journey | Not started | Not started | Not started |
 | Buying Psychology Wheel | Not started | Not started | Not started |
@@ -120,5 +120,6 @@ Status values used throughout: **Not started · Drafted · Revised · Final**.
 | n/a | 1 | Repository architecture, `BOOK_BIBLE.md`, `README.md` created. |
 | n/a | 1 (revision) | Publisher renamed to SSO Publishing; repository restructured to production tree; `PROJECT_ROADMAP.md`, `CHANGELOG.md`, `LICENSE.md` added; `STATUS.md` retired in favour of this file. |
 | n/a | 1 (addendum) | Added `BOOK_BIBLE.md` §13, the mandatory Humanizer Pass, referencing the repository-root `SKILL (1).md`; removed every em dash and en dash from all Phase 1 files. |
+| n/a | 2 | All eight front-matter files drafted (copyright, disclaimer, dedication, preface, table of contents, how to use this book, introduction, the Blueprint Framework) plus Figure 0.1 (the Blueprint Framework flowchart). Self-reviewed against the Humanizer Pass; awaiting user review before being marked Final. |
 
 See [`CHANGELOG.md`](./CHANGELOG.md) for the detailed, dated changelog.
