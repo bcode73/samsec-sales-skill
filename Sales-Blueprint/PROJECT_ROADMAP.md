@@ -18,7 +18,7 @@ Status values used throughout: **Not started · Drafted · Revised · Final**.
 | 16 | Part Four: Module 14 (30-Day Sales Blueprint) | Final |
 | 17 | Appendices: worksheets, templates, checklists, glossary, references | Drafted, awaiting review |
 | 18 | Visuals: diagrams, illustrations, charts, icons, and generation prompts | Drafted, awaiting review |
-| 19 | Final quality control pass across the full manuscript | Not started |
+| 19 | Final quality control pass across the full manuscript | Complete, one finding for review |
 | 20 | Export: compiled DOCX / PDF / EPUB / print-ready files | Not started |
 
 **Rule:** no phase begins until the previous phase has been reviewed and explicitly confirmed. Every file marked Final has passed the Humanizer Pass (`BOOK_BIBLE.md` §13).
@@ -150,5 +150,7 @@ Status values used throughout: **Not started · Drafted · Revised · Final**.
 | n/a | 16 (approved) | Module 14 approved and marked Final, along with Figure 14.1. All manuscript content (front matter and Modules 1-14) is now Final. |
 | n/a | 17 | Appendices drafted: worksheet index (all 14), template index plus three new template files (proposal, customer persona, follow-up email), checklist index, glossary (alphabetical, cross-referenced to modules), and a reader-facing references page (further reading, no direct citations since the case study is fictional). Also added internal traceability notes in `manuscript/references/` mapping manuscript concepts to general research areas. Self-reviewed against the Humanizer Pass; awaiting user review before being marked Final. |
 | n/a | 18 | All fifteen tracked visuals now have a detailed generation prompt in `visuals/prompts/` (purpose, placement, caption, generation prompt), consistent with the visual style in `BOOK_BIBLE.md` §7. Diagrams and charts remain Final in `visuals/diagrams/` and `visuals/charts/`; exports of the premium versions are not yet generated. Self-reviewed against the Humanizer Pass; awaiting user review before being marked Final. |
+| n/a | 18 (decision) | User decided to skip Phase 20 (export) for now; no DOCX/PDF/EPUB/print tooling is set up in this environment. Proceeding directly to Phase 19. |
+| n/a | 19 | Final QC pass across the full manuscript: fixed 3 stray em dashes in CHANGELOG.md headers (the only Humanizer Pass violations found in a full-repository sweep); verified all 19 figure references in prose match actual diagram/chart files; verified all cross-module references (e.g. "Module 4\'s three questions") against the modules they cite; verified appendix index counts (14 worksheets, 3 templates, 1 checklist) match actual files; verified no Kestrel continuity contradictions. One substantive finding: total manuscript word count is approximately 23,300 words (about 65 to 80 pages at typical business-book density), well short of the 220 to 280 page target set in `BOOK_BIBLE.md` §1. Flagged for user decision rather than padded with filler. |
 
 See [`CHANGELOG.md`](./CHANGELOG.md) for the detailed, dated changelog.

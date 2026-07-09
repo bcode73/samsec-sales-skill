@@ -6,6 +6,15 @@ Format: `## [Date] Phase: Summary`, followed by a short bullet list of changes.
 
 ---
 
+## [Unreleased] Phase 19: Final QC pass
+
+- Fixed 3 stray em dashes in CHANGELOG.md phase headers, introduced during later phases after the initial Humanizer cleanup; a full-repository sweep found no other em dashes, en dashes, curly quotes, or emoji anywhere in the project.
+- Verified all 19 figure references in the manuscript prose (Figures 0.1 through 14.1) match an actual file in `visuals/diagrams/` or `visuals/charts/`.
+- Verified every cross-module reference (e.g. "Module 4's three questions," "Module 3's trust signals," "Module 8's specific-doubt resolution") against the module it cites; all accurate.
+- Verified appendix index counts against actual files: 14 worksheets, 3 templates, 1 checklist, 15 visual prompts, all match.
+- Verified no contradictions in established Kestrel Office Interiors facts across any module.
+- **Finding:** total manuscript word count (front matter, all 14 modules, appendices) is approximately 18,900 words; including worksheets, templates, and checklists brings the total to roughly 23,300 words, which is approximately 65 to 80 formatted pages at typical business-book density. This is well short of the 220 to 280 page target set in `BOOK_BIBLE.md` §1. Flagged for a decision rather than closed by padding existing chapters with filler, which `BOOK_BIBLE.md` §10 explicitly prohibits.
+
 ## [Unreleased] Phase 18: Visual generation prompts
 
 - Added all fifteen detailed generation prompts in `visuals/prompts/`, one per tracked signature visual (The Blueprint Framework, Trust Pyramid, Customer Journey, Buying Psychology Wheel, Value Stack, Offer Builder, Pricing Ladder, Objection Flowchart, Decision Tree, Sales Funnel, Follow-up Timeline, Referral Flywheel, Customer Lifetime Value, Lead Pipeline, Sales Dashboard). Each includes purpose, placement, caption, and a full image-generation prompt consistent with the visual style in `BOOK_BIBLE.md` §7 (minimal, premium, business-consulting; deep teal accent; no gradients or drop shadows).
@@ -24,7 +33,7 @@ Format: `## [Date] Phase: Summary`, followed by a short bullet list of changes.
 - Module 14 approved and marked Final, along with Figure 14.1.
 - Every piece of manuscript content, all front matter and Modules 1-14, is now Final. Remaining work is appendices, remaining visual prompts and exports, a final quality control pass, and compiled export.
 
-## [Unreleased] Phase 16: Module 14 (The 30-Day Sales Blueprint) — all manuscript content drafted
+## [Unreleased] Phase 16: Module 14 (The 30-Day Sales Blueprint), all manuscript content drafted
 
 - Module 13 approved and marked Final, along with Figures 13.1 and 13.2. Part Three is complete and Final in full.
 - Drafted Module 14, "The 30-Day Sales Blueprint," completing Part Four and all core manuscript content. Compresses the nine Blueprint stages into a four-week rollout (Week 1: Build Trust + Learn the Customer; Week 2: Understand the Problem + Establish Value; Week 3: Present the Offer + Remove Doubt + Inspire Action; Week 4: Nurture + Advocates + Systems), tied directly to the relevant worksheet from each earlier module.
@@ -32,7 +41,7 @@ Format: `## [Date] Phase: Summary`, followed by a short bullet list of changes.
 - Self-reviewed against the Humanizer Pass and checked for continuity against all thirteen preceding modules.
 - With this module drafted, every planned module (1-14) and all front matter exists in the repository. Remaining work: appendices (glossary, references, worksheet/template/checklist index), remaining visual prompts and exports, a final quality control pass, and compiled export.
 
-## [Unreleased] Phase 15: Module 13 (Sales Systems) — Part Three complete
+## [Unreleased] Phase 15: Module 13 (Sales Systems), Part Three complete
 
 - Module 12 approved and marked Final, along with Figure 12.1.
 - Drafted Module 13, "Sales Systems," completing Part Three. Priya rebuilds her pipeline around the nine Blueprint letters instead of generic stage labels, tracks stakeholders individually so a new person joining a deal doesn't get assumed to be at the same stage as everyone else, and adopts four dashboard metrics. Win rate and referral rate are shown rising over four quarters, consistent with the improvement arc set out in `BOOK_BIBLE.md` §8.
@@ -50,7 +59,7 @@ Format: `## [Date] Phase: Summary`, followed by a short bullet list of changes.
 - Module 11 approved and marked Final, along with Figures 11.1 and 11.2.
 - Part Two, all nine Blueprint Framework modules (Build Trust through Turn Customers into Advocates), is now Final in full.
 
-## [Unreleased] Phase 13: Module 11 (Turn Customers into Advocates) — Part Two complete
+## [Unreleased] Phase 13: Module 11 (Turn Customers into Advocates), Part Two complete
 
 - Module 10 approved and marked Final, along with Figure 10.1.
 - Drafted Module 11, "Turn Customers into Advocates," completing Part Two. Priya turns Dominic's offhand comment from Module 10 into a specific, named referral ask, then closes the loop with him afterward, rather than hoping the introduction happens on its own.
