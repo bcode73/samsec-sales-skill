@@ -1,0 +1,16 @@
+%% Figure 7.2: The Pricing Ladder
+%% Placement: manuscript/part-02-blueprint-framework/module-07-present-the-offer.md
+%% Caption: Figure 7.2: three tiers, one clearly anchored as the recommendation. A ladder, not a menu of equals.
+flowchart TD
+    ENH["Enhanced\nrecommended package plus a defined extra"]
+    REC["Recommended\nsolves the confirmed problem in full"]
+    RED["Reduced\na scaled-down version, named trade-offs"]
+
+    ENH --- REC
+    REC --- RED
+
+    classDef anchor fill:#0F3D3E,stroke:#0F3D3E,color:#FFFFFF;
+    classDef tier fill:#E3EEEC,stroke:#0F3D3E,color:#0F3D3E;
+
+    class REC anchor;
+    class ENH,RED tier;

@@ -6,6 +6,13 @@ Format: `## [Date] Phase: Summary`, followed by a short bullet list of changes.
 
 ---
 
+## [Unreleased] Phase 9: Module 7 (Present the Offer)
+
+- Module 6 approved and marked Final, along with Figure 6.1.
+- Drafted Module 7, "Present the Offer," continuing the Bramble Analytics deal. One recommended package replaces Priya's old three-tier menu, with an explicit "what's included / what's a variation" boundary answering the overrun concern raised in Modules 2 and 4, and a specific dated next step replacing an open-ended close.
+- Added Figure 7.1 (the Offer Builder), Figure 7.2 (the Pricing Ladder), and Worksheet 7 (offer builder).
+- Self-reviewed against the Humanizer Pass and checked for continuity against Modules 1-6.
+
 ## [Unreleased] Phase 8: Module 6 (Establish Value)
 
 - Module 5 approved and marked Final, along with Figure 5.1.
