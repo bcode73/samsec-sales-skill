@@ -1,0 +1,7 @@
+# Temi Learnings
+
+Accumulated tips, gotchas, and corrections discovered during use. Claude reads this at the start of each invocation and appends new learnings as they're discovered.
+
+<!-- Add entries below in format: **YYYY-MM-DD**: Learning description -->
+**2026-04-22**: Research baseline (from git history) — platform docs were captured on/around this date and the API surface, pricing, and webhooks have NOT been re-verified against live docs since. Re-verify specifics before relying on them.
+**2026-06-13**: API re-verified against live official docs — job `status` enum corrected from `queued`/`transcribing`/`transcribed`/`failed` to the documented `in_progress`/`transcribed`/`failed`; added documented `failure` reason enum (`unspecified`/`download_failure`/`insufficient_balance`/`invalid_media`) and exact error type slugs (`out-of-credit` for 403, `invalid-parameters`, `job-not-found`, `invalid-job-state`, `unsupported-transcript-format`, etc.); base URL `https://api.temi.com/v1`, Bearer auth, all 7 endpoints, char limits (media_url 1024 / metadata 256), 100-item list pagination, multipart+JSON submit, `{job:<Job>}` webhook payload, RFC 7807 errors, and pricing ($0.25/min rounded up, pay-as-you-go, no subscription, one free transcript under 45 min) all UNCHANGED. Rate limits still not documented. Sources: https://www.temi.com/api/reference/v1, https://www.temi.com/api, https://help.temi.com/hc/en-us/articles/20678722371853-Accounts-Billing.

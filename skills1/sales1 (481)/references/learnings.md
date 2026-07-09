@@ -1,0 +1,7 @@
+# Replymer Learnings
+
+Accumulated tips, gotchas, and corrections discovered during use. Claude reads this at the start of each invocation and appends new learnings as they're discovered.
+
+<!-- Add entries below in format: **YYYY-MM-DD**: Learning description -->
+**2026-05-10**: Research baseline (from git history) — platform docs were captured on/around this date and the API surface, pricing, and webhooks have NOT been re-verified against live docs since. Re-verify specifics before relying on them.
+**2026-06-13**: API re-verified against live official docs — pricing unchanged ($99/$199/$399 Starter/Growth/Scale, Reddit + X only; a secondary aggregator listed $49/$99/$199 + LinkedIn but the live site does not, so not adopted); yearly billing confirmed as "6 months free"; rate limits unchanged (100/500/1000/unlimited) but now expose RateLimit-Limit/Remaining/Reset headers; added newly-documented endpoints GET single mention/reply/seo-reply, corrected keyword/negative-keyword/seo-keyword DELETE to per-`:id` paths, documented PUT project writable fields + mention status enum (approved/declined/pending_client_approval), confirmed offset pagination (page=1, limit=20, max 100, meta.pages), max 3 active API keys, stats period default 7; still no webhooks/SDK. 7-day refund guarantee not restated on current pages — left as-is, unverified. Sources: https://replymer.com/api/docs, https://replymer.com/pricing, https://replymer.com/.

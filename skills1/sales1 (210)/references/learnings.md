@@ -1,0 +1,7 @@
+# Grain Learnings
+
+Accumulated tips, gotchas, and corrections discovered during use. Claude reads this at the start of each invocation and appends new learnings as they're discovered.
+
+<!-- Add entries below in format: **YYYY-MM-DD**: Learning description -->
+
+**2026-06-13**: API re-verified against live official docs — confirmed REST API at `https://api.grain.com` with all endpoints under `/_/public-api/v2/`; corrected rate limit from old "1 req/sec recommended" to the published **300 requests/minute (429 beyond)**; documented three auth schemes (Personal Access Token, Workspace Access Token, OAuth2 Authorization Code + PKCE) replacing the vague single Bearer/`GRAIN_API_TOKEN` note; added the full v2 endpoint map (recordings list/get/update/download, two-step upload, transcript in JSON/TXT/VTT/SRT, tags add/remove, share/unshare with users and teams, list users/teams/meeting_types, ai_action_items + ai_summary include params); added Webhooks (`POST /_/public-api/v2/hooks/create` with 2xx reachability test; events recording_added/updated/deleted, highlight_added/updated/deleted, story_added/updated/deleted, upload_status; payload `{type, user_id, data}`; no documented HMAC/signature). Pricing tiers and API-plan-gating left unchanged — the live grain.com/pricing page did not expose Starter/Business per-seat numbers or API gating to WebFetch and third-party sources conflict, so those remain unverified. Sources: https://developers.grain.com/, https://grain.com/pricing.

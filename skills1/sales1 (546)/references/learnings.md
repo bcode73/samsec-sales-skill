@@ -1,0 +1,7 @@
+# Solidroad Learnings
+
+Accumulated tips, gotchas, and corrections discovered during use. Claude reads this at the start of each invocation and appends new learnings as they're discovered.
+
+<!-- Add entries below in format: **YYYY-MM-DD**: Learning description -->
+**2026-04-20**: Research baseline (from git history) — platform docs were captured on/around this date and the API surface, pricing, and webhooks have NOT been re-verified against live docs since. Re-verify specifics before relying on them.
+**2026-06-13**: API re-verified against live official docs — pricing is now custom/quote-based only (no published per-user tiers; old $10-50/user/mo figures came from third-party aggregators and are no longer reflected officially); native connectors are now Zendesk, Intercom, Gladly, Gorgias, ServiceNow, Help Scout (plus Gong/Guru/Front broader integrations) and Salesforce Service Cloud is no longer listed as a connector; no public API/webhooks confirmed; 80+ languages, 100% scoring, 20x coverage / 90% QA-time reduction, YC W25 + $6.5M seed + $25M Series A (Hedosophia, Apr 2026), SOC 2 / ISO 27001 all unchanged. Could not verify: PartnerStack affiliate terms (partner.solidroad.com is JS-rendered), 14-day free trial, SCORE methodology, IQS framework — left unchanged. Sources: https://www.solidroad.com/resources/call-center-quality-assurance-software, https://www.solidroad.com/resources/contact-center-qa-software-ecommerce, https://www.solidroad.com/quality, https://www.solidroad.com/resources/series-a, https://www.ycombinator.com/companies/solidroad.

@@ -1,0 +1,15 @@
+# Graphy — Learnings
+
+Accumulated platform knowledge. Append new findings with the date discovered.
+
+**2026-06-22**: Research baseline. Graphy (graphy.com) is an all-in-one course/membership platform for creators/coaches/educators — **formerly Spayee, backed by Unacademy**. Courses (self-paced + cohort), memberships, communities, coaching, webinars/live classes, digital products, no-code branded mobile apps, and an AI layer (AI website builder, AI operator, AI agent for sales/support, AI brain). 200k+ creators, India-centric. Positioned vs Kajabi/Teachable.
+
+- **REST API gated to the top (Advanced/Scale) plan.** Auth = **Merchant Id (MID) + API token (key)** from Dashboard → Integration API. iPaaS-confirmed operations: Create Learner, Enroll Learner to Course (email → course URL); read endpoints exist for learners/enrollments/courses/transactions. **Email is the learner identity.**
+- ⚠️ Canonical API docs are a **Postman collection that is JS-rendered** (`documenter.getpostman.com/view/15796483/Tzz5vKKr`, older `.../10740263/Szt8eA1V`) — did not return content to WebFetch. Exact base URL + endpoint paths NOT captured verbatim; confirm in Postman / in-account Integration API page. Did not invent paths.
+- **Webhooks (9 triggers):** New Learner Created, New Enrollment, New Course Published, Course Completion, Course Item Completion, Learner Profile Updated, New Subscriber, Success Transaction, Init Transaction (+ an AI Agent trigger). Setup: Integrations → Webhooks. **Auto-disabled after 5 failed deliveries** (#1 silent breakage). Only status+URL editable; logs persist after deletion. No published payload schema or signature — capture a real delivery to learn keys.
+- **Fulfill on Success Transaction, not Init Transaction** (Init = checkout started).
+- Native integrations: Zapier, Pabbly, Webhooks, API, Zoom, Mailchimp, Facebook Pixel, Google Tag Manager. **No MCP server.**
+- **Pricing (best-effort + sources conflict):** current tiers ~Launch $49 / Rise $149 / Scale $399 (25% off annual); mobile apps gated to **Rise+** (DIY build + publish under your own Apple/Google accounts); API + SSO gated to top plan. ⚠️ Graphy markets "0% platform fee" but a third-party review reports ~10% on Launch / ~5% on Rise — **verify the real transaction fee**. Older tier naming (Basic $54 / Pro $109 / Business $182 / Advanced $320) also still appears in listings.
+- **Top pain points:** slow post-sale support on India timezone (most consistent Trustpilot complaint across ~355 reviews); smaller integration/tutorial ecosystem than Kajabi; limited advanced marketing tools; transaction-fee confusion; DIY mobile-app publishing.
+- Affiliate program: Graphy has run affiliate/partner promos (e.g. AppSumo deals seen) — note for `_internal/affiliates.md` if tracking.
+- Adjacent platforms surfaced → backlog: Ruzuku, uTeach (course/membership creator platforms). Skipped: Unacademy (consumer EdTech parent), WordPress/Webflow (web-design-first, not sales/marketing-primary), Adilo (video hosting).

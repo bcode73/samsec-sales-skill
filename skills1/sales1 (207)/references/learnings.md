@@ -1,0 +1,7 @@
+# Gmelius Learnings
+
+Accumulated tips, gotchas, and corrections discovered during use. Claude reads this at the start of each invocation and appends new learnings as they're discovered.
+
+<!-- Add entries below in format: **YYYY-MM-DD**: Learning description -->
+**2026-05-02**: Research baseline (from git history) — platform docs were captured on/around this date and the API surface, pricing, and webhooks have NOT been re-verified against live docs since. Re-verify specifics before relying on them.
+**2026-06-13**: API re-verified against live official docs — corrected OAuth authorize URL (gmelius.io → app.gmelius.com/oauth/authorize), conversation reply path (/replies → /reply), assign endpoint (PATCH /assignee → POST /assign), and sequence enrollment paths (POST /enrollments + DELETE /enrollments/{user_id} → POST /enroll + POST /disenroll); added missing endpoints (create/delete card, card tags, list/get shared-folders, notes/tags metadata, /me, token introspection/revocation). Pricing UNCHANGED (Meli $19/$21, Growth $25/$33, Pro $40/$50, Enterprise custom min 50 seats); API still Growth+, Webhooks/CRM still Pro+ — note developer docs phrase API access as "Growth and Enterprise" but live pricing page confirms Growth+. Rate limits + webhook payload/signing still undocumented. Sources: https://developers.gmelius.com/, https://gmelius.com/pricing, https://github.com/gmelius/gmelius-getting-started-nodejs.

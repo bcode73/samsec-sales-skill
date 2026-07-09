@@ -1,0 +1,7 @@
+# Demodesk Learnings
+
+Accumulated tips, gotchas, and corrections discovered during use. Claude reads this at the start of each invocation and appends new learnings as they're discovered.
+
+<!-- Add entries below in format: **YYYY-MM-DD**: Learning description -->
+**2026-04-18**: Research baseline (from git history) — platform docs were captured on/around this date and the API surface, pricing, and webhooks have NOT been re-verified against live docs since. Re-verify specifics before relying on them.
+**2026-06-13**: API re-verified against live official docs — auth changed to `Authorization: Bearer YOUR_API_KEY` (legacy `api-key` header now deprecated but still accepted); added two NEW V2 endpoints `GET /me` and `GET /users` (search/cursor/limit); pricing updated — plan now "Coaching & AI" at €49/user/mo monthly / €39.20 annual with API access included; AI Crew is no longer a paid-only add-on — now usage-based by "runs" with a free Starter tier (1,000 runs/mo), Growth 5,000 €299, Scale 25,000 €999, Enterprise unlimited custom; webhook count corrected from "13" to 10 per V2 OpenAPI spec (help-center page still lists only the 8 core events — left as a caveat, unverified at 13). Sources: https://demodesk.com/api/docs/v2/generated.yaml, https://demodesk.com/pricing, https://demodesk.com/blog/introducing-demodesk-ai-crew, https://help.demodesk.com/en/articles/8518816-api-reference, https://help.demodesk.com/en/articles/13989763-download-past-transcripts-via-api-v2.

@@ -1,0 +1,9 @@
+# InstantPersonas Learnings
+
+Accumulated tips, gotchas, and corrections discovered during use. Claude reads this at the start of each invocation and appends new learnings as they're discovered.
+
+<!-- Add entries below in format: **YYYY-MM-DD**: Learning description -->
+
+**2026-07-05**: **userpersona.dev is the same maker's free front door.** Confirmed during a backlog run that `userpersona.dev` ("User Persona — Free AI-Powered Personas in Seconds", "Made with ❤️ in Canada, © 2024") and `instantpersonas.com` are the **same company** — userpersona.dev cross-links to instantpersonas.com/blog, and third-party reviews (opentools.ai, deepgram) describe InstantPersonas as its "premium/upgraded version." userpersona.dev is a **free, no-signup, single-tool** persona generator (one persona, click-to-edit, save-as-image only; no account, no export, no API). Folded coverage into this skill instead of creating a duplicate `sales-userpersona` skill — same product family, same no-API reality. Router keyword "User Persona / userpersona.dev" added to the sales-do catalog + skill-index so those queries resolve here.
+
+**2026-07-05**: Research baseline — platform features, free micro-tools inventory, and best-effort pricing captured from the live homepage and third-party review/comparison sources on this date. The homepage renders enough for research; the `/pricing` and `/free-marketing-tools` sub-paths returned 404 on fetch (URLs may differ), so pricing figures (~$9.95/mo monthly, ~$6.20/mo yearly, 3-day trial, 30-day guarantee) are best-effort — re-verify against current site before relying on them. **No public API, no webhooks, no Zapier/Make, no MCP server, and no GitHub org** (github.com/orgs/instantpersonas → 404) — it is a UI-only tool; do not plan integrations around it. Positioned in the idea-validation/persona family alongside FounderPal, User Persona, and SoloLaunch.

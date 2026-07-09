@@ -1,0 +1,7 @@
+# Bazzly Learnings
+
+Accumulated tips, gotchas, and corrections discovered during use. Claude reads this at the start of each invocation and appends new learnings as they're discovered.
+
+<!-- Add entries below in format: **YYYY-MM-DD**: Learning description -->
+**2026-05-06**: Research baseline (from git history) — platform docs were captured on/around this date and the API surface, pricing, and webhooks have NOT been re-verified against live docs since. Re-verify specifics before relying on them.
+**2026-06-13**: API re-verified against live official docs — SIGNIFICANT DRIFT. Bazzly now (a) ships a public REST API (`https://api.bazzly.ai`, Bearer `bzly_live_` / `X-Bazzly-Api-Key`, scopes read/write/top-ups, `GET /public/v1/opportunities`, Postman docs) and (b) an MCP server (`https://api.bazzly.ai/mcp`, streamable-HTTP; tools list_opportunities / generate_opportunity_reply / queue_reply / list_reply_queue) — the old "no API, no webhooks, no MCP" claim is FALSE (webhooks/Zapier still absent). Pricing collapsed from three tiers ($19 Starter / $39 Growth / $99 Elite, 20/200/unlimited credits, 4/6/unlimited subreddits) to a SINGLE "All in One" plan at $99/mo with 100 credits/month + top-ups, unlimited leads, high-karma autopilot accounts ("zero ban risk"). Per-action credit costs unchanged (comment 10 / upvote 0.2 / AI draft 0.1). Affiliate program 30%. Explicit "7-day free trial" no longer stated (now "Get Started for Free"). Sources: https://www.bazzly.ai/, https://www.bazzly.ai/mcp, https://documenter.getpostman.com/view/3358302/2sBXqKof1B.

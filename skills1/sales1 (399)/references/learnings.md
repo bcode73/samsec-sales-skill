@@ -1,0 +1,7 @@
+# Outdoo Learnings
+
+Accumulated tips, gotchas, and corrections discovered during use. Claude reads this at the start of each invocation and appends new learnings as they're discovered.
+
+<!-- Add entries below in format: **YYYY-MM-DD**: Learning description -->
+**2026-04-18**: Research baseline (from git history) — platform docs were captured on/around this date and the API surface, pricing, and webhooks have NOT been re-verified against live docs since. Re-verify specifics before relying on them.
+**2026-06-13**: API re-verified against live official docs — API surface UNCHANGED (base URL https://openapi.outdoo.ai/api/v1/, JWT Bearer HTTP scheme, all 17 endpoints, page/size+page_size pagination max 20, no documented rate limits, Enterprise-gated all confirmed via openapi.json + help.outdoo.ai). Pricing drift: integration count is now 150+ (was 120+); Premium now lists 55+ call recording integrations (was 15+) and 15+ LMS + 7 authoring tools (was 6 LMS); NEW 14-day free trial on Premium/Enterprise + free sandbox at playground.outdoo.ai/sales-roleplay; NEW Premium features (12 defined roleplay agents, software/workflow simulation, course certifications, in-person AI mode, build agents from calls/prompts/templates); SSO now specifies Google/Microsoft OAuth/SAML 2.0/OIDC, CCPA added to compliance. G2 still 4.6/5. Sources: https://openapi.outdoo.ai/openapi.json, https://www.outdoo.ai/pricing, https://www.outdoo.ai/integrations, https://help.outdoo.ai/en/article/outdoo-open-api.

@@ -1,0 +1,7 @@
+# NeoReach Platform Help Learnings
+
+Accumulated tips, gotchas, and corrections discovered during use. Claude reads this at the start of each invocation and appends new learnings as they're discovered. Once significant learnings have accumulated, use `/sales-request-skill` to share them back to the community. Shared and declined entries are marked so they won't be re-prompted.
+
+<!-- Add entries below in format: **YYYY-MM-DD**: Learning description -->
+**2026-04-12**: Research baseline (from git history) — platform docs were captured on/around this date and the API surface, pricing, and webhooks have NOT been re-verified against live docs since. Re-verify specifics before relying on them.
+**2026-06-13**: API re-verified against live official docs — pricing page now shows custom-quote only (three offerings: Influencer Campaigns, Platform & API, Enterprise, all "Let's Chat!", no list prices — the old ~$399/$1,500/mo + $50K-$500K/yr figures are now unconfirmed/dated); official API page confirms 4 named endpoint categories (Social Profile Information, Social Profile Analytics, Social Post, Social Audience), 6 supported platforms (YouTube, Twitter, Instagram, Facebook, Twitch, TikTok — skill previously listed only IG/TikTok/YT), "100+ NeoReach custom endpoints" / "400+ network endpoints", standard REST/JSON, contact team@neoreach.com; auth, base URL, rate limits, webhooks and SDKs still NOT publicly documented (unchanged). Sources: https://neoreach.com/api/, https://neoreach.com/pricing/.

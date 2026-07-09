@@ -1,0 +1,6 @@
+# SavvyCal Learnings
+
+Accumulated tips, gotchas, and workarounds discovered during real usage.
+**2026-04-26**: Research baseline (from git history) — platform docs were captured on/around this date and the API surface, pricing, and webhooks have NOT been re-verified against live docs since. Re-verify specifics before relying on them.
+
+**2026-06-13**: API re-verified against live official docs — pricing dropped (Basic $12→$10/user/mo, Premium $20→$17/user/mo); ranked availability is now a Premium-only feature; webhook `x-savvycal-signature` value is formatted `sha256=<hex>` (must strip the prefix before HMAC compare — fixed both verification recipes); added documented REST endpoints the skill lacked (GET /v1/events/:id, POST /v1/links/:link_id/events, POST /v1/events/:id/cancel, GET /v1/me, full /v1/webhooks CRUD, plus Time Zones & Workflows resource groups); 16 webhook events, HMAC-SHA256, OAuth 2hr token expiry, PAT pt_secret_ format, base URL all unchanged. Sources: https://savvycal.com/pricing, https://developers.savvycal.com/authentication, https://developers.savvycal.com/webhooks, https://developers.savvycal.com/category/rest-api, https://developers.savvycal.com/api/create-event, https://developers.savvycal.com/api/cancel-event, https://developers.savvycal.com/api/get-current-user, https://developers.savvycal.com/api/list-webhooks.

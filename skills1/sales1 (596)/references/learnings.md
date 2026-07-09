@@ -1,0 +1,7 @@
+# Teachery Learnings
+
+Accumulated tips, gotchas, and corrections discovered during use. Claude reads this at the start of each invocation and appends new learnings as they're discovered.
+
+<!-- Add entries below in format: **YYYY-MM-DD**: Learning description -->
+
+**2026-06-27**: Research baseline — platform docs, integration surface, pricing, and affiliate feature captured from live sources on this date. Re-verify before relying. Key facts: **no public REST API** — integration is an API key (Account → Integrations) for **Zapier** (3 triggers: Completed Course, New Lead, New Order; 4 actions: Add User to Course/Theme, Revoke Course/Theme Access), plus Make and Pabbly; no native webhooks beyond Zapier; identity is email. **No native video/file hosting** (embed from YouTube/Vimeo/Drive) — the #1 user complaint; also no quizzes, no multiple instructors, no live sessions, and only 3 automated email types (welcome, completion, lesson-unlock). Flat-rate pricing (~$49/mo, $470/yr, $550 lifetime LTD), 0% transaction fees, unlimited courses/customers/admins/domains/hubs, 14-day trial; payments via Stripe + PayPal. "Theme" = a Course Hub (membership grouping). Built-in **course affiliate** feature (UI-only): unique Payment Page links, 30-day last-click cookie, recurring commissions on recurring pages. GitHub org github.com/teachery exists but has 0 public repos (not a dev platform). No Teachery partner/affiliate program for promoting Teachery itself was found. No MCP server.

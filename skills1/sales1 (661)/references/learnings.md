@@ -1,0 +1,7 @@
+# Whatfix Learnings
+
+Accumulated tips, gotchas, and corrections discovered during use. Claude reads this at the start of each invocation and appends new learnings as they're discovered.
+
+<!-- Add entries below in format: **YYYY-MM-DD**: Learning description -->
+**2026-04-15**: Research baseline (from git history) — platform docs were captured on/around this date and the API surface, pricing, and webhooks have NOT been re-verified against live docs since. Re-verify specifics before relying on them.
+**2026-06-13**: API re-verified against live official docs — confirmed base URL `https://api.whatfix.com/v1/` (content) + `https://whatfix.com/api/v1/{accountId}/reports/summary/` (reports), and that TWO auth headers are required (`x-whatfix-integration-key` + `x-whatfix-user`, previously only the first was documented); added content endpoint `GET/POST /v1/accounts/{accountId}/content` and report endpoint `mostPopularFlows?format=csv`; confirmed HTTPS-only and that the API token must be enabled by Whatfix support before generation; rate limits, error codes, pagination, and any Whatfix-emitted signed webhooks remain undocumented (left unverified); pricing unchanged (still sales-only, third-party estimate ranges only). Sources: https://developer.whatfix.com/, https://support.whatfix.com/docs/developer-api, https://support.whatfix.com/docs/developer-guide, https://support.whatfix.com/docs/generatingtheapitoken, https://support.whatfix.com/docs/downloading-report-analytics-data-using-api.

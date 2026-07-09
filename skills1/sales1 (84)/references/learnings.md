@@ -1,0 +1,7 @@
+# CallMiner Learnings
+
+Accumulated tips, gotchas, and corrections discovered during use. Claude reads this at the start of each invocation and appends new learnings as they're discovered.
+
+<!-- Add entries below in format: **YYYY-MM-DD**: Learning description -->
+**2026-04-24**: Research baseline (from git history) — platform docs were captured on/around this date and the API surface, pricing, and webhooks have NOT been re-verified against live docs since. Re-verify specifics before relying on them.
+**2026-06-13**: API re-verified against live official docs — auth CHANGED from "API key" to OAuth 2.0 client-credentials (token endpoint POST {Identity Provider Service URL}/connect/token, grant_type=client_credentials, scope https://callminer.net/auth/platform-ingestion, client_id/client_secret emailed by support@callminer.com); NEW Data API route GET /api/v2/audiosources confirmed; NEW Advanced AI (generative + agentic AI: auto category creation, summarization, NL discovery) added to Eureka. Pricing UNCHANGED (no public pricing, ~$102K avg / ~$140K max / ~$1K+ start, packages by user count or interaction volume). Modules UNCHANGED (Record/Screen Record/Redact/Analyze/Visualize/Coach/RealTime/OmniAgent/Outreach/LiveTranslate). Webhooks/rate limits still undocumented publicly — left as-is. Sources: https://callminer.com/products/eureka, https://callminer.com/faq/how-does-callminer-pricing-work, https://boost.elevio.help/en/articles/620-callminer, https://www.macrosoftinc.com/callminer/api/, https://info.macrosoftinc.com/callminer-data-api.

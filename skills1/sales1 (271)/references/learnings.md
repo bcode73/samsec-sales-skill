@@ -1,0 +1,7 @@
+# KaraX.ai Learnings
+
+Accumulated tips, gotchas, and corrections discovered during use. Claude reads this at the start of each invocation and appends new learnings as they're discovered.
+
+<!-- Add entries below in format: **YYYY-MM-DD**: Learning description -->
+**2026-04-25**: Research baseline (from git history) — platform docs were captured on/around this date and the API surface, pricing, and webhooks have NOT been re-verified against live docs since. Re-verify specifics before relying on them.
+**2026-06-13**: API re-verified against live official docs — significant drift in AI models and webhooks. AI models are now Gemini-family ONLY (Starter: Gemini 3 Flash ×1; Pro: Gemini 3.1 Pro / 3 Flash / 3.1 Flash Lite ×3; Business: 3 + Private) — the prior "Claude 4.5 Sonnet" and "6 models" claims are gone. Webhooks NOW EXIST on the Business plan ("Advanced + Webhooks" workflow builder), correcting the old "no webhooks on any plan" claim — but there is still no published webhook event/payload/signing doc. Integrations now marketed as "1000+ tools" (homepage header still says 800+). HQ now shown as "New York • Hyderabad." Still no public developer API/SDK/MCP. Pricing unchanged: Starter free / Pro $14.99 annual ($19.99 mo, $179.88/yr) / Business $39.99 annual ($49.99 mo) / Enterprise custom. Compliance wording softened on FAQ to "SOC 2 and HIPAA-aligned practices." Sources: https://karax.ai/pricing, https://karax.ai/about, https://karax.ai/ai-workspace-faq, https://karax.ai/real-time-meeting-assistant, https://karax.ai/onechat, https://karax.ai/.

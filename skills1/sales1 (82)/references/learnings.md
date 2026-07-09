@@ -1,0 +1,7 @@
+# Cal.com Learnings
+
+Accumulated tips, gotchas, and corrections discovered during use. Claude reads this at the start of each invocation and appends new learnings as they're discovered.
+
+<!-- Add entries below in format: **YYYY-MM-DD**: Learning description -->
+**2026-04-26**: Research baseline (from git history) — platform docs were captured on/around this date and the API surface, pricing, and webhooks have NOT been re-verified against live docs since. Re-verify specifics before relying on them.
+**2026-06-13**: API re-verified against live official docs — added now-required date-based `cal-api-version` header (POST /v2/bookings = 2026-02-25, baseline 2024-08-13); corrected slots endpoint from `GET /v2/slots/available` to `GET /v2/slots`; renamed webhook event `PAYMENT_INITIATED` → `BOOKING_PAYMENT_INITIATED` and added `RECORDING_TRANSCRIPTION_GENERATED` + `DELEGATION_CREDENTIAL_ERROR`; pricing ($0 / $12 / $28 / Enterprise), base URL `https://api.cal.com/v2`, `Authorization: Bearer` auth, `cal_`/`cal_live_` key prefixes, 120 req/min rate limit, and `x-cal-signature-256` HMAC header all confirmed UNCHANGED. Sources: https://cal.com/pricing, https://cal.com/docs/api-reference/v2/introduction, https://cal.com/docs/api-reference/v2/bookings/create-a-booking, https://cal.com/docs/api-reference/v2/v1-v2-differences, https://cal.com/docs/developing/guides/automation/webhooks, https://cal.com/help/webhooks.

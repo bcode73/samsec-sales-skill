@@ -1,0 +1,9 @@
+# MutualGro Learnings
+
+Accumulated tips, gotchas, and corrections discovered during use. Claude reads this at the start of each invocation and appends new learnings as they're discovered.
+
+<!-- Add entries below in format: **YYYY-MM-DD**: Learning description -->
+
+**2026-05-30**: Initial research — UK-based indie tool. Pricing in GBP (£3.99/mo or £47.90/yr for Collaborator, no advertised annual discount). Free Explorer tier is meaningful (unlimited partnership requests, manual matching, growth scoring) but paywalls AI matching, scheduled X/LinkedIn posting, and partnership intelligence dashboard. No public API/webhooks/Zapier/MCP confirmed via WebSearch (only Zapier general docs surfaced for "mutualgro API" query). Differentiator vs Lettergrowth/Collab Match/InboxReads: accepts non-newsletter projects (indie SaaS, courses, podcasts) and bundles scheduled social posting. Self-reported audience metrics for growth score — verify partners' real numbers before major swaps.
+
+**2026-06-13**: API re-verified against live official docs — no API/webhook/integration drift (still no developer surface; /pricing page now 404s, pricing lives on the homepage). One pricing-presentation drift fixed: Collaborator annual is now advertised with a "Save 20%" badge against a £59.88/yr list/anchor price, billed £47.90/yr — the earlier "no advertised annual discount" note was corrected. Monthly £3.99/mo, the billed £47.90/yr figure, the Free Explorer feature set (1 project, unlimited partnership requests/active partnerships, messaging, browse, basic matching algorithm, partnership proposals, growth scoring), and the Collaborator unlocks (unlimited posts + scheduled/auto-scheduled posting, unlimited project showcases, partnership intelligence dashboard, AI-powered smart matching, success tracking, priority discovery placement, project boosts) all match the live homepage. Sources: https://www.mutualgro.com/

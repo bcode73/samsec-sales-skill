@@ -1,0 +1,7 @@
+# Motion Learnings
+
+Accumulated tips, gotchas, and corrections discovered during use. Claude reads this at the start of each invocation and appends new learnings as they're discovered.
+
+<!-- Add entries below in format: **YYYY-MM-DD**: Learning description -->
+**2026-04-26**: Research baseline (from git history) — platform docs were captured on/around this date and the API surface, pricing, and webhooks have NOT been re-verified against live docs since. Re-verify specifics before relying on them.
+**2026-06-13**: API re-verified against live official docs — base URL, X-API-Key auth, rate limits (12/min individual, 120/min team, enterprise custom), cursor pagination, endpoint surface, and the four-way pricing matrix all UNCHANGED; still no webhooks. NEW: task autoScheduled.deadlineType now enumerates HARD/SOFT/NONE (default SOFT, was HARD/SOFT only); AI credits documented as per-seat (7,500/15,000 per seat/mo); credit overage rates now published — Pro AI $0.25/100 credits, Business AI $0.19/100 credits; project customFieldValues type discriminators documented (text/number/url/date/select/multiSelect/person/multiPerson/email/phone/checkbox/relatedTo); annual billing stated as 33% off. Sources: https://docs.usemotion.com/api-reference/tasks/post/, https://docs.usemotion.com/api-reference/tasks/list/, https://docs.usemotion.com/api-reference/projects/list/, https://docs.usemotion.com/cookbooks/rate-limits/, https://docs.usemotion.com/cookbooks/getting-started/, https://www.usemotion.com/pricing.

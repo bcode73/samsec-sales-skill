@@ -1,0 +1,7 @@
+# Fastmail Learnings
+
+Accumulated tips, gotchas, and corrections discovered during use. Claude reads this at the start of each invocation and appends new learnings as they're discovered.
+
+<!-- Add entries below in format: **YYYY-MM-DD**: Learning description -->
+**2026-05-04**: Research baseline (from git history) — platform docs were captured on/around this date and the API surface, pricing, and webhooks have NOT been re-verified against live docs since. Re-verify specifics before relying on them.
+**2026-06-13**: API re-verified against live official docs — no drift in JMAP base URL, session endpoint, OAuth endpoints (/oauth/authorize, /oauth/refresh, /oauth/revoke), all 6 OAuth scopes, Masked Email capability/methods, supported protocols, or pricing (EUR Individual €6/€5, Duo €10/€8, Family €14/€11; Business Basic €4/€3, Standard €6/€5, Professional €10/€9 — all exact matches). Calendar remains CalDAV-only (JMAP calendar still pending RFC finalization, confirmed on /dev/). Affiliate program confirmed: PartnerStack, $10/referral, 10% off first year for referee. NEW: a second community MCP server MadLlama25/fastmail-mcp adds contacts + calendar coverage (~38 tools) and a Claude Desktop DXT; added alongside jmhron/FastMailMCP. Sources: https://www.fastmail.com/dev/, https://www.fastmail.com/pricing/, https://github.com/jmhron/FastMailMCP, https://github.com/MadLlama25/fastmail-mcp, https://www.fastmail.com/policies/partnerstack-terms-of-service/.

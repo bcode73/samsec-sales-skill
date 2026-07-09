@@ -1,0 +1,7 @@
+# TrustMRR Learnings
+
+Accumulated tips, gotchas, and corrections discovered during use. Claude reads this at the start of each invocation and appends new learnings as they're discovered.
+
+<!-- Add entries below in format: **YYYY-MM-DD**: Learning description -->
+**2026-04-16**: Research baseline (from git history) — platform docs were captured on/around this date and the API surface, pricing, and webhooks have NOT been re-verified against live docs since. Re-verify specifics before relying on them.
+**2026-06-13**: API re-verified against live official docs — minimal drift. API surface UNCHANGED (base URL https://trustmrr.com/api/v1, Bearer tmrr_* auth, 20 req/min, X-RateLimit-* headers, GET /startups + GET /startups/{slug}, same error codes, no webhooks/SDKs). Pricing UNCHANGED per FAQ (Starter $29 / Growth $199 5x / Scale $499 20x; buyer alerts $199/yr; 3% marketplace fee split 50/50 + tiered Escrow.com combined fees 5.60%→3.70%; APA-only; ~30% discrepancy; hourly sync). NEW: Whop added as a 9th supported payment provider (shown on /acquire as "Stripe, LemonSqueezy, Polar, DodoPayment, Paddle, RevenueCat, Superwall, Creem, Whop" — note the FAQ copy still lists only 8 and lags). A third-party review snippet suggesting Growth 3x/Scale 10x and Scale $999 was NOT corroborated by the authoritative FAQ and was treated as noise (not applied). Sources: https://trustmrr.com/docs/api, https://trustmrr.com/fees, https://trustmrr.com/acquire, https://trustmrr.com/faq.

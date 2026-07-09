@@ -1,0 +1,7 @@
+# Convin Learnings
+
+Accumulated tips, gotchas, and corrections discovered during use. Claude reads this at the start of each invocation and appends new learnings as they're discovered.
+
+<!-- Add entries below in format: **YYYY-MM-DD**: Learning description -->
+**2026-04-19**: Research baseline (from git history) — platform docs were captured on/around this date and the API surface, pricing, and webhooks have NOT been re-verified against live docs since. Re-verify specifics before relying on them.
+**2026-06-13**: API re-verified against live official docs — minor drift. No public API / no developer docs portal found (consistent with prior claim; left unchanged). Pricing still custom/quote-only but the pricing page now packages the product into 4 named suites (CX, Real-Time, Voice of Customer, Post Interaction) and marks Quality Management Software as a FREE manual-QA tier (added). 70+ languages, ~3-day custom-integration TAT, and SOC2 Type II / ISO 27001 / GDPR / HIPAA / CCPA all reconfirmed unchanged. Integrations directory now also shows Alvaria + Cloudtalk; CRM directory still only confirms Close, but the Conversation Intelligence product page names Salesforce/HubSpot/Freshworks/Pipedrive (CRM gap note softened). On-prem/private-cloud deployment no longer stated on the security page (now says AWS-hosted) — marked unverified, not deleted. Sources: https://convin.ai/pricing, https://convin.ai/integrations, https://convin.ai/security, https://convin.ai/language-support, https://convin.ai/products/conversation-intelligence.

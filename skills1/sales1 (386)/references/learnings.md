@@ -1,0 +1,7 @@
+# Omi AI Learnings
+
+Accumulated tips, gotchas, and corrections discovered during use. Claude reads this at the start of each invocation and appends new learnings as they're discovered.
+
+<!-- Add entries below in format: **YYYY-MM-DD**: Learning description -->
+**2026-04-17**: Research baseline (from git history) — platform docs were captured on/around this date and the API surface, pricing, and webhooks have NOT been re-verified against live docs since. Re-verify specifics before relying on them.
+**2026-06-13**: API re-verified against live official docs — no drift in base URL, Bearer/`omi_dev_` auth, rate limits (100/min, 10K/day), batch limits (25 memories / 50 action items), webhook triggers, or pricing ($89 device, Basic 1,200 cloud min/mo, Unlimited $19/mo or $199/yr, no feature gating). NEW: official hosted MCP server at `https://api.omi.me/v1/mcp/sse` (SSE, `omi_mcp_` keys from Settings → Developer → MCP; tools get_memories/create_memory/edit_memory/delete_memory/get_conversations/get_conversation_by_id; clients Claude Desktop/Cursor/Poke); `GET /v1/dev/user/folders` endpoint; two distinct key types (`omi_dev_` REST vs `omi_mcp_` MCP-only). Docs URL moved from /doc/developer/api/overview to /doc/developer/api. Sources: https://docs.omi.me/doc/developer/api, https://docs.omi.me/doc/developer/MCP, https://www.omi.me/blogs/integrations/mcp-claude-cursor, https://help.omi.me/en/articles/12058411-understanding-omi-subscriptions, https://www.omi.me/pages/product, https://docs.omi.me/doc/developer/apps/Introduction.

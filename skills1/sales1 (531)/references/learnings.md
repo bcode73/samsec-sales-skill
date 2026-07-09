@@ -1,0 +1,7 @@
+# Siro Learnings
+
+Accumulated tips, gotchas, and corrections discovered during use. Claude reads this at the start of each invocation and appends new learnings as they're discovered.
+
+<!-- Add entries below in format: **YYYY-MM-DD**: Learning description -->
+**2026-04-18**: Research baseline (from git history) — platform docs were captured on/around this date and the API surface, pricing, and webhooks have NOT been re-verified against live docs since. Re-verify specifics before relying on them.
+**2026-06-13**: API re-verified against live official docs — no breaking drift; existing base URLs, dual auth (Bearer org token + x-siro-auth-token OAuth, 16hr), sync/recording/extraction endpoints, OAuth flow, and Svix webhook headers all confirmed UNCHANGED. Added newly-documented details: GET /v1/core/mobile-events?pageSize=100 endpoint, enriched webhook payload (crm.integrationConnectionId, crm.users[], internal id UUID alongside externalId on engagement/opportunity/account, process only when recordingProcessed && recordingLinked both true), svix-signature format `v1,<sig>`, and activityType note that only MEETING/APPOINTMENT/EVENT surface in the Appointment List. Pricing remains not-publicly-listed (third-party estimates only, unchanged). Referral program "through June 2026" end-date UNVERIFIED — current siro.ai/referrals describes 10% first-year-CV + $50K top-referrer prize as an ongoing program with no end date confirmable from official pages. Sources: https://docs.siro.ai/getting-started, https://www.siro.ai/referrals

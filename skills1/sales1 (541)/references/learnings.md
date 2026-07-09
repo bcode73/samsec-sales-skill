@@ -1,0 +1,7 @@
+# Socialhose Learnings
+
+Accumulated tips, gotchas, and corrections discovered during use. Claude reads this at the start of each invocation and appends new learnings as they're discovered.
+
+<!-- Add entries below in format: **YYYY-MM-DD**: Learning description -->
+**2026-05-05**: Research baseline (from git history) — platform docs were captured on/around this date and the API surface, pricing, and webhooks have NOT been re-verified against live docs since. Re-verify specifics before relying on them.
+**2026-06-13**: API re-verified against live official docs — Socialhose now ships a PUBLIC REST API (OpenAPI 3.1, docs at socialhose.net/api/public/v1/docs/, org-scoped read/write API keys, reads AI-enriched mentions + manages campaigns/live searches + monitors TikTok Live), gated to Pro+ — the prior "no public REST API" claim was wrong; also corrected Smart Alerts on Agency from "Unlimited" to 10, and Export from "Agency-only" to "Pro and higher". Core $149/$399/$999 pricing, mention/keyword/search/seat/webhook limits, add-ons, 14-day trial, and Agency-only Crisis mode all UNCHANGED. Exact API base-URL path, auth header name, endpoint paths/methods, pagination, and rate limits live only inside the JS-rendered docs portal (Cloudflare-protected) and remain UNVERIFIED. Sources: https://socialhose.net/pricing/, https://socialhose.net/, https://socialhose.net/blog/vibecoding-with-data-build-the-social-listening-app-only-you-need/, https://socialhose.net/api/public/v1/docs/.

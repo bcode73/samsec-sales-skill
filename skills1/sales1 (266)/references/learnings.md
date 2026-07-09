@@ -1,0 +1,7 @@
+# Jotform Learnings
+
+Accumulated tips, gotchas, and corrections discovered during use. Claude reads this at the start of each invocation and appends new learnings as they're discovered.
+
+<!-- Add entries below in format: **YYYY-MM-DD**: Learning description -->
+**2026-04-14**: Research baseline (from git history) — platform docs were captured on/around this date and the API surface, pricing, and webhooks have NOT been re-verified against live docs since. Re-verify specifics before relying on them.
+**2026-06-13**: API re-verified against live official docs — base URLs (api/eu-api/hipaa), header+query auth, pagination (default 20/max 1000), SDK list, and the "webhooks don't fire on API submissions" limitation all UNCHANGED; corrected pricing to USD (Bronze $39/$34, Silver $49/$39, Gold $129/$99 monthly/annual; Enterprise is custom not $199.95), renamed Free→Starter, fixed Enterprise API daily limit from 1,000,000 to Unlimited (resets midnight EST), added per-plan total submission storage, corrected signed-docs limits (Bronze 100/Silver 250/Gold 1,000), and added the hosted MCP endpoint mcp.jotform.com (OAuth 2.0 only, no Bearer). Sources: https://api.jotform.com/docs/, https://www.jotform.com/pricing/, https://www.jotform.com/help/406-daily-api-call-limits/, https://www.jotform.com/developers/mcp/, https://www.jotform.com/answers/12188931-webhook-not-being-triggered-by-new-submission-from-api

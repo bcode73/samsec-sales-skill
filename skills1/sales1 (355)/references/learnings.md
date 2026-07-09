@@ -1,0 +1,7 @@
+# Minelead Platform Help Learnings
+
+Accumulated tips, gotchas, and corrections discovered during use. Claude reads this at the start of each invocation and appends new learnings as they're discovered. Once significant learnings have accumulated, use `/sales-request-skill` to share them back to the community. Shared and declined entries are marked so they won't be re-prompted.
+
+<!-- Add entries below in format: **YYYY-MM-DD**: Learning description -->
+**2026-03-29**: Research baseline (from git history) — platform docs were captured on/around this date and the API surface, pricing, and webhooks have NOT been re-verified against live docs since. Re-verify specifics before relying on them.
+**2026-06-13**: API re-verified against live official docs — pricing UNCHANGED ($39/$69/$149/$299; 25/1k/10k/50k/200k credits; same bulk limits) and the official page now states a rate limit ("8 calls per second, or 2400 per 5 mins") that was previously undocumented; annual billing is 30% off; added three endpoints the skill was missing — GET /enrich (2 credits), GET /social-email-finder (2 credits, free if none found), GET /buying-intent (5 credits, score 0–100); /search now has an `enrich` param and `max-emails` caps at 4; `generic` means ONLY generic emails (not "include"); /tags is a POST with a JSON `tags` array (no `location` query param); /history requires `start`+`limit`; /find uses firstname/lastname (no underscore); no webhook support found. Sources: https://minelead.io/docs/, https://minelead.io/media/api_docs/api_docs.yml, https://minelead.io/pricing/.

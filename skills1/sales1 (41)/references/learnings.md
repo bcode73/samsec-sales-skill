@@ -1,0 +1,7 @@
+# Avoma Learnings
+
+Accumulated tips, gotchas, and corrections discovered during use. Claude reads this at the start of each invocation and appends new learnings as they're discovered.
+
+<!-- Add entries below in format: **YYYY-MM-DD**: Learning description -->
+**2026-04-17**: Research baseline (from git history) — platform docs were captured on/around this date and the API surface, pricing, and webhooks have NOT been re-verified against live docs since. Re-verify specifics before relying on them.
+**2026-06-13**: API re-verified against live official docs — corrected Organization annual price $24→$29 (Startup $19 / Enterprise $39 unchanged); raised max API keys per org 5→10; added scoped API keys (User-limited / User-full / Organization-limited, scope permanent) and the legacy-key read-only + migrate-to-Org-limited-by-2026-05-31 detail; documented the official MCP server at mcp.avoma.com/mcp (Claude Desktop API-key, Claude/ChatGPT web+mobile OAuth, ~7 tools); clarified the CLIENT_KEY:CLIENT_SECRET string is passed as a bearer token; rate limit 60/min, API gated to Organization+, and the 4 webhook events (new note / meeting scheduled / rescheduled / cancelled) all UNCHANGED. Exact REST endpoint paths still live only on JS-rendered dev.avoma.com and were NOT captured (left as a documented gap). Sources: https://www.avoma.com/pricing, https://help.avoma.com/api-documentation, https://help.avoma.com/api-integration-for-avoma, https://help.avoma.com/avoma-mcp-server-user-guide, https://www.avoma.com/blog/avoma-mcp-server, https://dev.avoma.com/.

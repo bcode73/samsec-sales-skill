@@ -1,0 +1,7 @@
+# ForumScout Learnings
+
+Accumulated tips, gotchas, and corrections discovered during use. Claude reads this at the start of each invocation and appends new learnings as they're discovered.
+
+<!-- Add entries below in format: **YYYY-MM-DD**: Learning description -->
+**2026-05-06**: Research baseline (from git history) — platform docs were captured on/around this date and the API surface, pricing, and webhooks have NOT been re-verified against live docs since. Re-verify specifics before relying on them.
+**2026-06-13**: API re-verified against live official docs — ForumScout post retention changed from 3/6/12 months to 30/60/180 days (Starter/Pro/Ultra, quoted from forum-monitoring FAQ); API Direct base URL (https://apidirect.io), X-API-Key auth, $0.008 forum cost, +$0.001 sentiment, 50-free-requests/endpoint and 3-concurrency limits all UNCHANGED; NEW: $5 free account credit, several endpoints billed per-page not per-request (Reddit comments $0.003/page ~20 items 1–5 pages/call, X/YouTube per page), and new endpoints added (Reddit users, YouTube channels, Web search $0.004/page, Google AI Mode $0.005, Places search/details/reviews/photos). Free plan, exact keyword counts, and per-tier scan-frequency mapping could not be confirmed from the JS-rendered official pricing page → left unverified. Sources: https://apidirect.io/, https://apidirect.io/endpoints, https://apidirect.io/endpoints/forums, https://apidirect.io/endpoints/reddit-comments, https://forumscout.app/forum-monitoring, https://forumscout.app/

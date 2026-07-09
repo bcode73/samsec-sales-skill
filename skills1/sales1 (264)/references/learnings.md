@@ -1,0 +1,7 @@
+# Jiminny Learnings
+
+Accumulated tips, gotchas, and corrections discovered during use. Claude reads this at the start of each invocation and appends new learnings as they're discovered.
+
+<!-- Add entries below in format: **YYYY-MM-DD**: Learning description -->
+**2026-04-18**: Research baseline (from git history) — platform docs were captured on/around this date and the API surface, pricing, and webhooks have NOT been re-verified against live docs since. Re-verify specifics before relying on them.
+**2026-06-13**: API re-verified against live official docs — API surface unchanged (partial REST/JSON, admin-only keys, getActivities 30 rpm / others 120 rpm, 24h download links, no webhooks); pricing confirmed verbatim on the official FAQ (Recording $83/mo, Insights $42/mo, Listener $0/mo, 12-mo min, one-time setup fee, no platform fee, 14-day trial); drift fixed in dialer list (now 22 official dialers, many CRM-gated; Bloobirds dropped) + dialer data refresh "every 15 min or sooner" + Zoom Notetaker added to video conferencing + API data now lists action items + teams/topics + GitHub org gained oauth2-zoom/oauth2-ringcentral/hubspot-php. Sources: https://help.jiminny.com/en/articles/9527212-what-is-the-jiminny-api, https://jiminny.com/faq, https://help.jiminny.com/en/articles/9529026-supported-dialers, https://help.jiminny.com/en/articles/9527160-how-your-zoom-notetaker-works, https://github.com/jiminny
