@@ -6,6 +6,13 @@ Format: `## [Date] Phase: Summary`, followed by a short bullet list of changes.
 
 ---
 
+## [Unreleased] Phase 15: Module 13 (Sales Systems) — Part Three complete
+
+- Module 12 approved and marked Final, along with Figure 12.1.
+- Drafted Module 13, "Sales Systems," completing Part Three. Priya rebuilds her pipeline around the nine Blueprint letters instead of generic stage labels, tracks stakeholders individually so a new person joining a deal doesn't get assumed to be at the same stage as everyone else, and adopts four dashboard metrics. Win rate and referral rate are shown rising over four quarters, consistent with the improvement arc set out in `BOOK_BIBLE.md` §8.
+- Added Figure 13.1 (the Lead Pipeline) and Figure 13.2 (the Sales Dashboard, in `visuals/charts/`), and Worksheet 13 (pipeline rebuild).
+- Self-reviewed against the Humanizer Pass and checked for continuity against Modules 1-12.
+
 ## [Unreleased] Phase 14: Module 12 (Digital Selling)
 
 - Drafted Module 12, "Digital Selling," opening Part Three. A new remote-sourced lead, Tom, finds Kestrel through a published write-up of the Bramble Analytics project and never meets Priya in person until installation is nearly finished. The module maps each Blueprint stage from Part Two onto its digital equivalent (published proof instead of a conversational trust signal, direct questions instead of reading body language, shareable documents instead of an in-person handover).

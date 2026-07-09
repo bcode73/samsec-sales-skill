@@ -14,7 +14,7 @@ Status values used throughout: **Not started · Drafted · Revised · Final**.
 | 2 | Front matter (copyright to introduction to Blueprint Framework overview) | Final |
 | 3-4 | Part One: Modules 1-2 | Final |
 | 5-13 | Part Two: Modules 3-11 (one per Blueprint letter) | Final |
-| 14-15 | Part Three: Modules 12-13 | In progress |
+| 14-15 | Part Three: Modules 12-13 | Drafted, awaiting review on Module 13 |
 | 16 | Part Four: Module 14 (30-Day Sales Blueprint) | Not started |
 | 17 | Appendices: worksheets, templates, checklists, glossary, references | Not started |
 | 18 | Visuals: diagrams, illustrations, charts, icons, and generation prompts | Not started |
@@ -63,8 +63,8 @@ Status values used throughout: **Not started · Drafted · Revised · Final**.
 
 | Module | Status |
 |---|---|
-| 12: Digital Selling | Drafted |
-| 13: Sales Systems | Not started |
+| 12: Digital Selling | Final |
+| 13: Sales Systems | Drafted |
 
 ## Part Four: Implementation (`manuscript/part-04-implementation/`)
 
@@ -95,11 +95,11 @@ Status values used throughout: **Not started · Drafted · Revised · Final**.
 | Pricing Ladder | Final | Not started | Not started |
 | Decision Tree | Final | Not started | Not started |
 | Sales Funnel | Final | Not started | Not started |
-| Lead Pipeline | Not started | Not started | Not started |
+| Lead Pipeline | Drafted | Not started | Not started |
 | Referral Flywheel | Final | Not started | Not started |
 | Customer Lifetime Value | Final | Not started | Not started |
 | Objection Flowchart | Final | Not started | Not started |
-| Sales Dashboard | Not started | Not started | Not started |
+| Sales Dashboard | Drafted | Not started | Not started |
 | Follow-up Timeline | Final | Not started | Not started |
 
 ## Exports (`exports/`)
@@ -143,5 +143,7 @@ Status values used throughout: **Not started · Drafted · Revised · Final**.
 | n/a | 13 | Module 11, "Turn Customers into Advocates," drafted, completing Part Two. Priya turns Dominic's offhand comment about other interested teams into a specific referral ask and closes the loop afterward, rather than hoping the introduction happens on its own. Added Figure 11.1 (the Referral Flywheel), Figure 11.2 (Customer Lifetime Value, in `visuals/charts/`), and Worksheet 11 (referral ask builder). Self-reviewed against the Humanizer Pass and checked for continuity; awaiting user review before being marked Final. All nine Blueprint Framework modules (3-11) are now drafted. |
 | n/a | 13 (approved) | Module 11 approved and marked Final, along with Figures 11.1 and 11.2. Part Two is complete and Final in full. |
 | n/a | 14 | Module 12, "Digital Selling," drafted, opening Part Three. A new remote lead, Tom, finds Kestrel through a published write-up of the Bramble Analytics project and never meets Priya in person until installation. Shows how each Blueprint stage translates to digital-first selling. Added Figure 12.1 (Digital Trust and Discovery Signals) and Worksheet 12 (digital signal audit). Self-reviewed against the Humanizer Pass and checked for continuity; awaiting user review before being marked Final. |
+| n/a | 14 (approved) | Module 12 approved and marked Final, along with Figure 12.1. |
+| n/a | 15 | Module 13, "Sales Systems," drafted, completing Part Three. Priya rebuilds her pipeline around the nine Blueprint letters instead of generic stage labels, tracks stakeholders individually, and adopts four dashboard metrics; win rate and referral rate are shown rising over four quarters, consistent with the arc set out in `BOOK_BIBLE.md` §8. Added Figure 13.1 (the Lead Pipeline), Figure 13.2 (the Sales Dashboard, in `visuals/charts/`), and Worksheet 13 (pipeline rebuild). Self-reviewed against the Humanizer Pass and checked for continuity; awaiting user review before being marked Final. |
 
 See [`CHANGELOG.md`](./CHANGELOG.md) for the detailed, dated changelog.
