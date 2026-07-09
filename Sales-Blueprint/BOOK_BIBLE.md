@@ -13,11 +13,13 @@ Every module, worksheet, diagram and line of front matter must be consistent wit
 | **Title** | Sales Blueprint |
 | **Subtitle** | The Practical System for Attracting Customers, Closing More Sales and Building a Business People Trust |
 | **Author** | Samuel S. Omobusuyi |
-| **Publisher** | SamSec Publishing |
+| **Publisher** | SSO Publishing |
 | **Language** | British English |
 | **Category** | Business / Sales / Entrepreneurship |
 | **Target length** | 220–280 formatted pages |
 | **Comparable shelf** | Sits beside *To Sell Is Human*, *The Challenger Sale*, *Never Split the Difference*, *Influence* — practical, structured, no-nonsense business craft rather than motivational content |
+
+**SSO Publishing is the official publishing imprint of this entire project.** Every front-matter page, copyright notice, footer, export (DOCX/PDF/EPUB/print) and external reference to the book's publisher must read "SSO Publishing" — no other imprint name is used anywhere in the manuscript, repository, or generated assets.
 
 ### Target audience
 
@@ -119,7 +121,7 @@ Use blockquote-style callouts with a bold label so they are visually distinct an
 2. Opening story (60–150 words, sets up the problem the module solves)
 3. Core principles (H2 sections)
 4. Kestrel Office Interiors case study thread (woven through or boxed)
-5. Diagram(s) (Mermaid, referenced by filename in `/diagrams`)
+5. Diagram(s) (Mermaid, referenced by filename in `/visuals/diagrams`)
 6. Worksheet / exercise (referenced by filename in `/worksheets`)
 7. Common mistakes (bullet list, framed as "watch for", not "never do")
 8. Chapter summary (3–6 bullet points)
@@ -131,7 +133,7 @@ Use tables for anything comparative (before/after, option A vs option B, tier de
 
 ### Diagram formatting
 
-All in-manuscript diagrams are Mermaid, stored in `/diagrams/`, referenced from the module text with a caption line directly beneath:
+All in-manuscript diagrams are Mermaid, stored in `/visuals/diagrams/`, referenced from the module text with a caption line directly beneath:
 
 ```
 *Figure 3.1 — The Trust Pyramid*
@@ -310,7 +312,7 @@ This exact text is used verbatim on the copyright page in front matter:
 >
 > No part of this publication may be reproduced, stored in a retrieval system or transmitted in any form or by any means, electronic, mechanical, photocopying, recording or otherwise, without prior written permission from the copyright holder, except for brief quotations used in reviews or other uses permitted by applicable copyright law.
 >
-> Published by SamSec Publishing.
+> Published by SSO Publishing.
 >
 > First Edition, 2026.
 >
