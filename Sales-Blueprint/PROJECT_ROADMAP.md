@@ -17,7 +17,7 @@ Status values used throughout: **Not started · Drafted · Revised · Final**.
 | 14-15 | Part Three: Modules 12-13 | Final |
 | 16 | Part Four: Module 14 (30-Day Sales Blueprint) | Final |
 | 17 | Appendices: worksheets, templates, checklists, glossary, references | Drafted, awaiting review |
-| 18 | Visuals: diagrams, illustrations, charts, icons, and generation prompts | Not started |
+| 18 | Visuals: diagrams, illustrations, charts, icons, and generation prompts | Drafted, awaiting review |
 | 19 | Final quality control pass across the full manuscript | Not started |
 | 20 | Export: compiled DOCX / PDF / EPUB / print-ready files | Not started |
 
@@ -86,21 +86,21 @@ Status values used throughout: **Not started · Drafted · Revised · Final**.
 
 | Visual | Diagram (`visuals/diagrams`) | Prompt (`visuals/prompts`) | Export (`visuals/exports`) |
 |---|---|---|---|
-| The Blueprint Framework | Final | Not started | Not started |
-| Trust Pyramid | Final | Not started | Not started |
-| Customer Journey | Final | Not started | Not started |
-| Buying Psychology Wheel | Final | Not started | Not started |
-| Value Stack | Final | Not started | Not started |
-| Offer Builder | Final | Not started | Not started |
-| Pricing Ladder | Final | Not started | Not started |
-| Decision Tree | Final | Not started | Not started |
-| Sales Funnel | Final | Not started | Not started |
-| Lead Pipeline | Final | Not started | Not started |
-| Referral Flywheel | Final | Not started | Not started |
-| Customer Lifetime Value | Final | Not started | Not started |
-| Objection Flowchart | Final | Not started | Not started |
-| Sales Dashboard | Final | Not started | Not started |
-| Follow-up Timeline | Final | Not started | Not started |
+| The Blueprint Framework | Final | Drafted | Not started |
+| Trust Pyramid | Final | Drafted | Not started |
+| Customer Journey | Final | Drafted | Not started |
+| Buying Psychology Wheel | Final | Drafted | Not started |
+| Value Stack | Final | Drafted | Not started |
+| Offer Builder | Final | Drafted | Not started |
+| Pricing Ladder | Final | Drafted | Not started |
+| Decision Tree | Final | Drafted | Not started |
+| Sales Funnel | Final | Drafted | Not started |
+| Lead Pipeline | Final | Drafted | Not started |
+| Referral Flywheel | Final | Drafted | Not started |
+| Customer Lifetime Value | Final | Drafted | Not started |
+| Objection Flowchart | Final | Drafted | Not started |
+| Sales Dashboard | Final | Drafted | Not started |
+| Follow-up Timeline | Final | Drafted | Not started |
 
 ## Exports (`exports/`)
 
@@ -149,5 +149,6 @@ Status values used throughout: **Not started · Drafted · Revised · Final**.
 | n/a | 16 | Module 14, "The 30-Day Sales Blueprint," drafted, completing all manuscript content. Compresses the nine Blueprint stages into a four-week rollout, tied directly to the worksheets from Modules 3-13. Added Figure 14.1 (the 30-Day Rollout), Worksheet 14 (rollout planner), and Checklist 14 (the first entry in `/checklists`). Self-reviewed against the Humanizer Pass; awaiting user review before being marked Final. All fourteen modules and all front matter are now drafted or Final; remaining work is appendices, remaining visual polish, final QC, and export. |
 | n/a | 16 (approved) | Module 14 approved and marked Final, along with Figure 14.1. All manuscript content (front matter and Modules 1-14) is now Final. |
 | n/a | 17 | Appendices drafted: worksheet index (all 14), template index plus three new template files (proposal, customer persona, follow-up email), checklist index, glossary (alphabetical, cross-referenced to modules), and a reader-facing references page (further reading, no direct citations since the case study is fictional). Also added internal traceability notes in `manuscript/references/` mapping manuscript concepts to general research areas. Self-reviewed against the Humanizer Pass; awaiting user review before being marked Final. |
+| n/a | 18 | All fifteen tracked visuals now have a detailed generation prompt in `visuals/prompts/` (purpose, placement, caption, generation prompt), consistent with the visual style in `BOOK_BIBLE.md` §7. Diagrams and charts remain Final in `visuals/diagrams/` and `visuals/charts/`; exports of the premium versions are not yet generated. Self-reviewed against the Humanizer Pass; awaiting user review before being marked Final. |
 
 See [`CHANGELOG.md`](./CHANGELOG.md) for the detailed, dated changelog.

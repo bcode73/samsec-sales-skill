@@ -6,6 +6,12 @@ Format: `## [Date] Phase: Summary`, followed by a short bullet list of changes.
 
 ---
 
+## [Unreleased] Phase 18: Visual generation prompts
+
+- Added all fifteen detailed generation prompts in `visuals/prompts/`, one per tracked signature visual (The Blueprint Framework, Trust Pyramid, Customer Journey, Buying Psychology Wheel, Value Stack, Offer Builder, Pricing Ladder, Objection Flowchart, Decision Tree, Sales Funnel, Follow-up Timeline, Referral Flywheel, Customer Lifetime Value, Lead Pipeline, Sales Dashboard). Each includes purpose, placement, caption, and a full image-generation prompt consistent with the visual style in `BOOK_BIBLE.md` §7 (minimal, premium, business-consulting; deep teal accent; no gradients or drop shadows).
+- Self-reviewed against the Humanizer Pass.
+- Remaining visual work: generating the actual premium graphics from these prompts and exporting them to `visuals/exports/`, which depends on an external image-generation tool rather than manuscript writing.
+
 ## [Unreleased] Phase 17: Appendices
 
 - Added three new template files: `templates/proposal-template.md` (the seven-part structure behind Module 7's proposals), `templates/customer-persona-template.md` (one per stakeholder, tied to Module 4's discovery questions), and `templates/follow-up-email-template.md` (the check-ins, referral ask, and loop-closing note from Modules 10-11).
