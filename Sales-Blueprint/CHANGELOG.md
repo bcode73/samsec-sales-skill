@@ -6,6 +6,13 @@ Format: `## [Date] Phase: Summary`, followed by a short bullet list of changes.
 
 ---
 
+## [Unreleased] Phase 6: Module 4 (Learn the Customer)
+
+- Module 3 approved and marked Final, along with Figure 3.1.
+- Drafted Module 4, "Learn the Customer," continuing the same Bramble Analytics deal from Module 3 rather than introducing a new example. Priya asks Dominic direct discovery questions now that trust is established, surfacing the full buying committee (Dominic and his co-founder Marguerite) before it can blindside her the way Neil and Farah did in Module 2.
+- Added Figure 4.1, the Customer Journey, and Worksheet 4, discovery questions.
+- Self-reviewed against the Humanizer Pass and checked for continuity against Modules 1-3.
+
 ## [Unreleased] Phase 5: Module 3 (Build Trust)
 
 - Part One approved; Modules 1 and 2 marked Final in `PROJECT_ROADMAP.md`.

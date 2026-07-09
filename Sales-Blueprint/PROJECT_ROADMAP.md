@@ -49,8 +49,8 @@ Status values used throughout: **Not started · Drafted · Revised · Final**.
 
 | Module | Status |
 |---|---|
-| 3: Build Trust | Drafted |
-| 4: Learn the Customer | Not started |
+| 3: Build Trust | Final |
+| 4: Learn the Customer | Drafted |
 | 5: Understand the Problem | Not started |
 | 6: Establish Value | Not started |
 | 7: Present the Offer | Not started |
@@ -87,8 +87,8 @@ Status values used throughout: **Not started · Drafted · Revised · Final**.
 | Visual | Diagram (`visuals/diagrams`) | Prompt (`visuals/prompts`) | Export (`visuals/exports`) |
 |---|---|---|---|
 | The Blueprint Framework | Final | Not started | Not started |
-| Trust Pyramid | Drafted | Not started | Not started |
-| Customer Journey | Not started | Not started | Not started |
+| Trust Pyramid | Final | Not started | Not started |
+| Customer Journey | Drafted | Not started | Not started |
 | Buying Psychology Wheel | Not started | Not started | Not started |
 | Value Stack | Not started | Not started | Not started |
 | Offer Builder | Not started | Not started | Not started |
@@ -125,5 +125,7 @@ Status values used throughout: **Not started · Drafted · Revised · Final**.
 | n/a | 3-4 | Modules 1 and 2 drafted (The Truth About Sales; How Customers Really Buy), each with a diagram and worksheet. First appearance of Kestrel Office Interiors and Priya Shah in the manuscript body. Self-reviewed against the Humanizer Pass; awaiting user review before being marked Final. |
 | n/a | 3-4 (approved) | Part One approved; Modules 1 and 2 marked Final. |
 | n/a | 5 | Module 3, "Build Trust," drafted: the first Part Two module, opening the Blueprint Framework proper. Added Figure 3.1 (the Trust Pyramid) and Worksheet 3 (trust audit). Self-reviewed against the Humanizer Pass and checked for continuity; awaiting user review before being marked Final. |
+| n/a | 5 (approved) | Module 3 approved and marked Final, along with Figure 3.1. |
+| n/a | 6 | Module 4, "Learn the Customer," drafted, continuing the same Bramble Analytics deal from Module 3. Added Figure 4.1 (the Customer Journey) and Worksheet 4 (discovery questions). Self-reviewed against the Humanizer Pass and checked for continuity; awaiting user review before being marked Final. |
 
 See [`CHANGELOG.md`](./CHANGELOG.md) for the detailed, dated changelog.
