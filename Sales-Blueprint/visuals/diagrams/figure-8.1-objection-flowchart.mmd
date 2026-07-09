@@ -1,0 +1,19 @@
+%% Figure 8.1: The Objection Flowchart
+%% Placement: manuscript/part-02-blueprint-framework/module-08-remove-doubt.md
+%% Caption: Figure 8.1: when a buyer hesitates, ask what specifically is behind it before responding.
+flowchart TD
+    HESITATE["Buyer hesitates"] --> ASK["Ask: what specifically\nworries you about this?"]
+    ASK --> SPECIFIC{"Specific answer?"}
+
+    SPECIFIC -->|"Yes, names a day,\na cost, a risk"| RESOLVE["Build a specific plan\nor piece of evidence that\nanswers exactly that"]
+    RESOLVE --> SIGNED["Doubt resolved"]
+
+    SPECIFIC -->|"No, vague or\nnon-committal"| REVISIT["Revisit an earlier stage\ntrust, discovery, or diagnosis\nwas likely incomplete"]
+
+    classDef neutral fill:#E3EEEC,stroke:#0F3D3E,color:#0F3D3E;
+    classDef good fill:#0F3D3E,stroke:#0F3D3E,color:#FFFFFF;
+    classDef warn fill:#F2E3DE,stroke:#8C5A4A,color:#8C5A4A;
+
+    class HESITATE,ASK,SPECIFIC neutral;
+    class RESOLVE,SIGNED good;
+    class REVISIT warn;

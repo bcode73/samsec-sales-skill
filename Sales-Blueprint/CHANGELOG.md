@@ -6,6 +6,13 @@ Format: `## [Date] Phase: Summary`, followed by a short bullet list of changes.
 
 ---
 
+## [Unreleased] Phase 10: Module 8 (Remove Doubt)
+
+- Module 7 approved and marked Final, along with Figures 7.1 and 7.2.
+- Drafted Module 8, "Remove Doubt," continuing the Bramble Analytics deal. Marguerite, the co-founder introduced in Module 4, appears on the page for the first time and raises a specific, late-stage doubt about construction disruption on Bramble's two busiest days. Priya resolves it with a schedule built around exactly that concern, rather than general reassurance.
+- Added Figure 8.1 (the Objection Flowchart), Figure 8.2 (the Decision Tree), and Worksheet 8 (objection resolution).
+- Self-reviewed against the Humanizer Pass and checked for continuity against Modules 1-7.
+
 ## [Unreleased] Phase 9: Module 7 (Present the Offer)
 
 - Module 6 approved and marked Final, along with Figure 6.1.

@@ -1,0 +1,19 @@
+%% Figure 8.2: The Decision Tree
+%% Placement: manuscript/part-02-blueprint-framework/module-08-remove-doubt.md
+%% Caption: Figure 8.2: once a doubt is named, it usually sorts into one of four categories, each with its own kind of resolution.
+flowchart TD
+    DOUBT["Named doubt"] --> TIMING["Timing\nwill this disrupt when it matters most?"]
+    DOUBT --> BUDGET["Budget\nwill this cost more than agreed?"]
+    DOUBT --> TRUST["Delivery\nwill this actually get done as promised?"]
+    DOUBT --> BUYIN["Internal buy-in\nwill others here object later?"]
+
+    TIMING --> R1["Resolution: a schedule\nbuilt around their calendar"]
+    BUDGET --> R2["Resolution: the fixed-scope\npage from Module 7"]
+    TRUST --> R3["Resolution: reliability signals\nfrom Module 3"]
+    BUYIN --> R4["Resolution: equip the champion\nModule 7's next step"]
+
+    classDef cat fill:#E3EEEC,stroke:#0F3D3E,color:#0F3D3E;
+    classDef res fill:#0F3D3E,stroke:#0F3D3E,color:#FFFFFF;
+
+    class TIMING,BUDGET,TRUST,BUYIN cat;
+    class R1,R2,R3,R4 res;
