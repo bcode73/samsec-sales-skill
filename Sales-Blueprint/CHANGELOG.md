@@ -6,6 +6,14 @@ Format: `## [Date] Phase: Summary`, followed by a short bullet list of changes.
 
 ---
 
+## [Unreleased] Phase 3-4: Part One (Modules 1-2)
+
+- Author renamed to Samuel Omobusuyi (dropped the middle initial) throughout the manuscript and legal files.
+- Phase 2 front matter approved and marked Final in `PROJECT_ROADMAP.md`.
+- Drafted Module 1, "The Truth About Sales": the first appearance of Kestrel Office Interiors and Priya Shah, structured around four myths that stop skilled business owners from selling well. Added Figure 1.1 (two sellers, same deal) and Worksheet 1 (myth audit).
+- Drafted Module 2, "How Customers Really Buy": introduces the buying committee (office manager, finance director, managing director) through a new Kestrel client scene, without repeating Module 1's story. Added Figure 2.1 (the hidden committee) and Worksheet 2 (buying committee map).
+- Both modules self-reviewed against the Humanizer Pass and checked for continuity against `BOOK_BIBLE.md` §8 (no contradiction of established Kestrel facts).
+
 ## [Unreleased] Phase 2: Front matter
 
 - Drafted all eight front-matter files in `manuscript/front-matter/`: copyright, disclaimer, dedication, preface, table of contents, how to use this book, introduction, and the Blueprint Framework overview.

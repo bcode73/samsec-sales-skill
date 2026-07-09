@@ -1,0 +1,20 @@
+%% Figure 1.1: Two sellers, same deal
+%% Placement: manuscript/part-01-foundations/module-01-the-truth-about-sales.md
+%% Caption: Figure 1.1: two sellers make the same opening pitch. They diverge at the first unaddressed doubt.
+flowchart TD
+    START["Same opening pitch\nsame product, same price"] --> DOUBT{"Buyer's unspoken doubt\nsurfaces"}
+
+    DOUBT -->|"Personality-led seller\nargues or restates value"| STALL["Doubt never named\nBuyer stays polite, then silent"]
+    STALL --> LOSE["Let me think about it...\nno response"]
+
+    DOUBT -->|"Sequence-led seller\nnames the doubt directly"| ASK["Asks: what would\nneed to be true for\nyou to feel confident?"]
+    ASK --> RESOLVE["Doubt addressed\nwith evidence"]
+    RESOLVE --> WIN["Signed"]
+
+    classDef bad fill:#8C5A4A,stroke:#8C5A4A,color:#FFFFFF;
+    classDef good fill:#0F3D3E,stroke:#0F3D3E,color:#FFFFFF;
+    classDef neutral fill:#E3EEEC,stroke:#0F3D3E,color:#0F3D3E;
+
+    class START,DOUBT neutral;
+    class STALL,LOSE bad;
+    class ASK,RESOLVE,WIN good;

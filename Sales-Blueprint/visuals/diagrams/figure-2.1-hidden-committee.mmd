@@ -1,0 +1,21 @@
+%% Figure 2.1: The hidden committee
+%% Placement: manuscript/part-01-foundations/module-02-how-customers-really-buy.md
+%% Caption: Figure 2.1: three roles, three separate concerns, one decision.
+flowchart TD
+    DECISION["The decision"]
+
+    DECISION --- OM["Office manager\nDay-to-day user"]
+    DECISION --- FD["Finance director\nBudget owner"]
+    DECISION --- MD["Managing director\nReputational owner"]
+
+    OM --> OMC["Concern: will this work\nfor how we operate day to day?"]
+    FD --> FDC["Concern: is the scope fixed,\nand who explains an overrun?"]
+    MD --> MDC["Concern: how disruptive is this,\nand what does it say about my judgement?"]
+
+    classDef role fill:#0F3D3E,stroke:#0F3D3E,color:#FFFFFF;
+    classDef concern fill:#E3EEEC,stroke:#0F3D3E,color:#0F3D3E;
+    classDef center fill:#1B1F1E,stroke:#1B1F1E,color:#FFFFFF;
+
+    class DECISION center;
+    class OM,FD,MD role;
+    class OMC,FDC,MDC concern;

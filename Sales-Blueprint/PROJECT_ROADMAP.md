@@ -11,8 +11,8 @@ Status values used throughout: **Not started · Drafted · Revised · Final**.
 | Phase | Content | Status |
 |---|---|---|
 | 1 | Repository architecture, `BOOK_BIBLE.md`, `README.md` | Final |
-| 2 | Front matter (copyright to introduction to Blueprint Framework overview) | Drafted, awaiting review |
-| 3-4 | Part One: Modules 1-2 | Not started |
+| 2 | Front matter (copyright to introduction to Blueprint Framework overview) | Final |
+| 3-4 | Part One: Modules 1-2 | Drafted, awaiting review |
 | 5-13 | Part Two: Modules 3-11 (one per Blueprint letter) | Not started |
 | 14-15 | Part Three: Modules 12-13 | Not started |
 | 16 | Part Four: Module 14 (30-Day Sales Blueprint) | Not started |
@@ -29,21 +29,21 @@ Status values used throughout: **Not started · Drafted · Revised · Final**.
 
 | File | Status |
 |---|---|
-| `manuscript/front-matter/00-copyright.md` | Drafted |
-| `manuscript/front-matter/01-disclaimer.md` | Drafted |
-| `manuscript/front-matter/02-dedication.md` | Drafted |
-| `manuscript/front-matter/03-preface.md` | Drafted |
-| `manuscript/front-matter/04-table-of-contents.md` | Drafted |
-| `manuscript/front-matter/05-how-to-use-this-book.md` | Drafted |
-| `manuscript/front-matter/06-introduction.md` | Drafted |
-| `manuscript/front-matter/07-the-blueprint-framework.md` | Drafted |
+| `manuscript/front-matter/00-copyright.md` | Final |
+| `manuscript/front-matter/01-disclaimer.md` | Final |
+| `manuscript/front-matter/02-dedication.md` | Final |
+| `manuscript/front-matter/03-preface.md` | Final |
+| `manuscript/front-matter/04-table-of-contents.md` | Final |
+| `manuscript/front-matter/05-how-to-use-this-book.md` | Final |
+| `manuscript/front-matter/06-introduction.md` | Final |
+| `manuscript/front-matter/07-the-blueprint-framework.md` | Final |
 
 ## Part One: Foundations (`manuscript/part-01-foundations/`)
 
 | Module | Status |
 |---|---|
-| 1: The Truth About Sales | Not started |
-| 2: How Customers Really Buy | Not started |
+| 1: The Truth About Sales | Drafted |
+| 2: How Customers Really Buy | Drafted |
 
 ## Part Two: The Blueprint Framework (`manuscript/part-02-blueprint-framework/`)
 
@@ -86,7 +86,7 @@ Status values used throughout: **Not started · Drafted · Revised · Final**.
 
 | Visual | Diagram (`visuals/diagrams`) | Prompt (`visuals/prompts`) | Export (`visuals/exports`) |
 |---|---|---|---|
-| The Blueprint Framework | Drafted | Not started | Not started |
+| The Blueprint Framework | Final | Not started | Not started |
 | Trust Pyramid | Not started | Not started | Not started |
 | Customer Journey | Not started | Not started | Not started |
 | Buying Psychology Wheel | Not started | Not started | Not started |
@@ -121,5 +121,7 @@ Status values used throughout: **Not started · Drafted · Revised · Final**.
 | n/a | 1 (revision) | Publisher renamed to SSO Publishing; repository restructured to production tree; `PROJECT_ROADMAP.md`, `CHANGELOG.md`, `LICENSE.md` added; `STATUS.md` retired in favour of this file. |
 | n/a | 1 (addendum) | Added `BOOK_BIBLE.md` §13, the mandatory Humanizer Pass, referencing the repository-root `SKILL (1).md`; removed every em dash and en dash from all Phase 1 files. |
 | n/a | 2 | All eight front-matter files drafted (copyright, disclaimer, dedication, preface, table of contents, how to use this book, introduction, the Blueprint Framework) plus Figure 0.1 (the Blueprint Framework flowchart). Self-reviewed against the Humanizer Pass; awaiting user review before being marked Final. |
+| n/a | 2 (approved) | Front matter approved; all eight files and Figure 0.1 marked Final. |
+| n/a | 3-4 | Modules 1 and 2 drafted (The Truth About Sales; How Customers Really Buy), each with a diagram and worksheet. First appearance of Kestrel Office Interiors and Priya Shah in the manuscript body. Self-reviewed against the Humanizer Pass; awaiting user review before being marked Final. |
 
 See [`CHANGELOG.md`](./CHANGELOG.md) for the detailed, dated changelog.
