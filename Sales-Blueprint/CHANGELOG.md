@@ -6,6 +6,14 @@ Format: `## [Date] Phase: Summary`, followed by a short bullet list of changes.
 
 ---
 
+## [Unreleased] Phase 11: Module 9 (Inspire Action)
+
+- Module 8 approved and marked Final, along with Figures 8.1 and 8.2.
+- Continuity correction to Module 8: the closing scene originally had Marguerite sign the agreement, which skipped ahead of Module 9. Revised so Marguerite is verbally convinced but the proposal remains unsigned, giving Module 9 a real gap to close.
+- Drafted Module 9, "Inspire Action," continuing the Bramble Analytics deal. Priya diagnoses the unsigned proposal as ordinary friction (a busy co-founder, an open-ended task), not lingering doubt, and closes it with a shrunk next step (a fifteen-minute signing call) and the genuine installation-slot deadline established in Module 7.
+- Added Figure 9.1 (the Sales Funnel) and Worksheet 9 (action friction audit).
+- Self-reviewed against the Humanizer Pass and checked for continuity against Modules 1-8.
+
 ## [Unreleased] Phase 10: Module 8 (Remove Doubt)
 
 - Module 7 approved and marked Final, along with Figures 7.1 and 7.2.

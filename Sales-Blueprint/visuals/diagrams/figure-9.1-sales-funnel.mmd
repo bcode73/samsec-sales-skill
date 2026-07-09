@@ -1,0 +1,12 @@
+%% Figure 9.1: The Sales Funnel
+%% Placement: manuscript/part-02-blueprint-framework/module-09-inspire-action.md
+%% Caption: Figure 9.1: interest and agreement are wide; committed action is the narrowest point. Most stalled deals narrow here, not earlier.
+flowchart TD
+    A["Interest\nbuyer is engaged and responsive"] --> B["Agreement\nbuyer says yes in principle"]
+    B --> C["Committed action\nsigned, scheduled, real"]
+
+    classDef wide fill:#E3EEEC,stroke:#0F3D3E,color:#0F3D3E;
+    classDef narrow fill:#0F3D3E,stroke:#0F3D3E,color:#FFFFFF;
+
+    class A,B wide;
+    class C narrow;

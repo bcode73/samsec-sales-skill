@@ -19,7 +19,7 @@ Skip this stage, or treat a hesitation as a wall to argue against rather than a 
 
 Dominic brought the proposal to Marguerite, and she called Priya directly with one question: "If you're doing construction work in our office, what happens to Tuesdays and Thursdays while it's underway? Those are the two days we can least afford to lose." It was a fair question, and a specific one, not a vague "let me think about it." Priya's old instinct would have been to reassure her broadly: "don't worry, we're very experienced, this won't be a problem." Instead, she asked one question back: "Would it help if I showed you the exact week-by-week schedule, including which days we'd do the noisiest work on, so you can see we've planned around your Tuesdays and Thursdays specifically?"
 
-Marguerite said yes. Priya sent a schedule that deliberately routed the loudest phase of the work to the two quietest days of the Bramble Analytics week, something she could only have planned because Module 4's discovery had already told her which days those were. Marguerite signed two days later.
+Marguerite said yes. Priya sent a schedule that deliberately routed the loudest phase of the work to the two quietest days of the Bramble Analytics week, something she could only have planned because Module 4's discovery had already told her which days those were. Marguerite replied the same afternoon: "This is exactly what I needed to see. I don't think there's anything stopping this now." The proposal still sat unsigned on her desk a week later.
 
 ## An objection is a question wearing a statement's clothes
 

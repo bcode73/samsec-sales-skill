@@ -54,8 +54,8 @@ Status values used throughout: **Not started · Drafted · Revised · Final**.
 | 5: Understand the Problem | Final |
 | 6: Establish Value | Final |
 | 7: Present the Offer | Final |
-| 8: Remove Doubt | Drafted |
-| 9: Inspire Action | Not started |
+| 8: Remove Doubt | Final |
+| 9: Inspire Action | Drafted |
 | 10: Nurture Relationships | Not started |
 | 11: Turn Customers into Advocates | Not started |
 
@@ -93,12 +93,12 @@ Status values used throughout: **Not started · Drafted · Revised · Final**.
 | Value Stack | Final | Not started | Not started |
 | Offer Builder | Final | Not started | Not started |
 | Pricing Ladder | Final | Not started | Not started |
-| Decision Tree | Drafted | Not started | Not started |
-| Sales Funnel | Not started | Not started | Not started |
+| Decision Tree | Final | Not started | Not started |
+| Sales Funnel | Drafted | Not started | Not started |
 | Lead Pipeline | Not started | Not started | Not started |
 | Referral Flywheel | Not started | Not started | Not started |
 | Customer Lifetime Value | Not started | Not started | Not started |
-| Objection Flowchart | Drafted | Not started | Not started |
+| Objection Flowchart | Final | Not started | Not started |
 | Sales Dashboard | Not started | Not started | Not started |
 | Follow-up Timeline | Not started | Not started | Not started |
 
@@ -135,5 +135,7 @@ Status values used throughout: **Not started · Drafted · Revised · Final**.
 | n/a | 9 | Module 7, "Present the Offer," drafted, continuing the Bramble Analytics deal: one recommended package replaces Priya's old three-tier menu, with an explicit scope/variation boundary and a dated next step. Added Figure 7.1 (the Offer Builder), Figure 7.2 (the Pricing Ladder), and Worksheet 7 (offer builder). Self-reviewed against the Humanizer Pass and checked for continuity; awaiting user review before being marked Final. |
 | n/a | 9 (approved) | Module 7 approved and marked Final, along with Figures 7.1 and 7.2. |
 | n/a | 10 | Module 8, "Remove Doubt," drafted, continuing the Bramble Analytics deal: Marguerite (the co-founder) raises a specific, late-stage doubt about disruption on Bramble's two busiest days, which Priya resolves with a schedule built around exactly that concern. Added Figure 8.1 (the Objection Flowchart), Figure 8.2 (the Decision Tree), and Worksheet 8 (objection resolution). Self-reviewed against the Humanizer Pass and checked for continuity; awaiting user review before being marked Final. |
+| n/a | 10 (approved, with correction) | Module 8 approved and marked Final, along with Figures 8.1 and 8.2. Continuity correction: Module 8's ending was revised so Marguerite is convinced but the proposal remains unsigned, rather than already signed, so Module 9 (Inspire Action) has a genuine gap to close instead of a deal that had already closed a stage early. |
+| n/a | 11 | Module 9, "Inspire Action," drafted, continuing the Bramble Analytics deal: a week after Marguerite says "nothing is stopping this," the proposal is still unsigned. Priya diagnoses ordinary friction rather than doubt, shrinks the next step to a fifteen-minute signing call, and uses the genuine installation-slot deadline from Module 7 to prompt action. Added Figure 9.1 (the Sales Funnel) and Worksheet 9 (action friction audit). Self-reviewed against the Humanizer Pass and checked for continuity; awaiting user review before being marked Final. |
 
 See [`CHANGELOG.md`](./CHANGELOG.md) for the detailed, dated changelog.
