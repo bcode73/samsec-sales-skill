@@ -6,6 +6,13 @@ Format: `## [Date] Phase: Summary`, followed by a short bullet list of changes.
 
 ---
 
+## [Unreleased] Phase 19 (round 2 expansion): comparison tables and practice drills
+
+- User decision: another deepening pass rather than adding new content or accepting the shorter length.
+- Added one scannable comparison or reference table and one standing-habit "practice drill" section to all 14 modules, each distinct from the round 1 additions (mechanism explanations and edge cases). Tables include "The four myths, side by side" (Module 1), "Asserted versus demonstrated, three examples" (Module 6), "Menu, ladder, and single recommendation, compared" (Module 7), and similar reference tables for every other module. Drill sections turn each module's single-deal worksheet exercise into a recurring habit, for example "A weekly drill, not a one-off exercise" (Module 1) and "Run the same four-number review every month, regardless" (Module 13).
+- Every edit was self-reviewed against the Humanizer Pass (dash check, curly-quote check, banned-vocabulary check) and checked for continuity against the rest of the manuscript.
+- **New total:** 28,960 words of manuscript (front matter, modules, appendices) plus 5,688 words of worksheets, templates, and checklists, approximately 34,648 words altogether, up from about 31,500 before this pass. At typical business-book density (275 to 325 words per page) that is approximately 107 to 126 pages. This round added roughly 3,150 words against a remaining gap of several tens of thousands of words to reach the 220 to 280 page target in `BOOK_BIBLE.md` §1; a third round of the same kind of addition is unlikely to close that gap on its own. Reported honestly for a further decision on approach.
+
 ## [Unreleased] Phase 19 (expansion): deepen all 14 modules
 
 - User decision: deepen every module rather than add new content or accept the shorter length.
