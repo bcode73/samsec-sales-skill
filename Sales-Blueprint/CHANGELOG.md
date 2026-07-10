@@ -6,6 +6,14 @@ Format: `## [Date] Phase: Summary`, followed by a short bullet list of changes.
 
 ---
 
+## [Unreleased] Phase 19 (round 3 expansion): a second worked scenario per module
+
+- User decision: a third pass with substantially larger additions per module than rounds 1 or 2, specifically to test whether bigger increments close meaningfully more of the length gap.
+- Added a full "In a different kind of business" section (roughly 200 to 300 words each) to all 14 modules: a compact, distinct worked scenario in a different small business, illustrating the same chapter principle outside the Kestrel/Bramble Analytics arc. Businesses used: a freelance copywriter (Module 1, later reused as the capstone example in Module 14), a wedding photographer (Module 2), an independent accountant (Module 3), a commercial cleaning company (Module 4), a small marketing agency (Module 5), a bespoke furniture maker (Module 6), an IT support provider (Module 7), a landscaping company (Module 8), a corporate training consultant (Module 9), a boutique PR agency (Module 10), a specialty coffee roaster (Module 11), a fully asynchronous text-only digital deal (Module 12), and a three-partner events staffing agency (Module 13).
+- Every addition was self-reviewed against the Humanizer Pass and checked for continuity against the rest of the manuscript.
+- **New total:** 31,870 words of manuscript (front matter, modules, appendices) plus 5,688 words of worksheets, templates, and checklists, approximately 37,558 words altogether, up from about 34,648 before this pass. At typical business-book density (275 to 325 words per page) that is approximately 116 to 137 pages.
+- **Finding:** this round added roughly 2,910 words, essentially the same order of magnitude as round 2's 3,150 words, despite each section being deliberately two to three times larger than round 2's additions. This confirms the pattern scales at roughly 3,000 words per round regardless of section size, meaning closing the remaining gap to 220 to 280 pages by repeating this method would take another 10 to 15 rounds. Reported honestly rather than continuing the same pattern; flagged for a decision between adding genuinely new content types or revising the page target.
+
 ## [Unreleased] Phase 19 (round 2 expansion): comparison tables and practice drills
 
 - User decision: another deepening pass rather than adding new content or accepting the shorter length.
