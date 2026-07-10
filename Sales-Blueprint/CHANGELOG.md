@@ -9,7 +9,7 @@ Format: `## [Date] Phase: Summary`, followed by a short bullet list of changes.
 ## [Unreleased] Phase 19 (final length pass): FAQ appendix, expanded glossary, quick reference
 
 - User decision: the manuscript's length is essentially fine as is; add roughly 10 more pages of new content rather than another full deepening round.
-- Added a new appendix, `manuscript/appendices/05-frequently-asked-questions.md`: 20 direct questions and answers covering practical reader concerns not fully addressed elsewhere (genuine commodity markets, selling inside a larger company, internal pitches, formal RFPs, product churn, team consistency without identical scripts, one-off no-repeat businesses, and more), each referencing the relevant module. Added the file to the front-matter table of contents.
+- Added a new appendix, `manuscript/appendices/05-frequently-asked-questions.md`: 22 direct questions and answers covering practical reader concerns not fully addressed elsewhere (genuine commodity markets, selling inside a larger company, internal pitches, formal RFPs, product churn, team consistency without identical scripts, one-off no-repeat businesses, and more), each referencing the relevant module. Added the file to the front-matter table of contents.
 - Added a "quick reference: the nine stages and their key question" table inside the same appendix, a one-line summary of what each Blueprint stage is actually asking, useful for a quick pipeline check.
 - Expanded the glossary with 11 additional terms (asserted value, demonstrated value, discovery, friction, loop-back, nurture cadence, pipeline, status quo gravity, symptom, trust signal), cross-referenced to the modules that define them.
 - Self-reviewed against the Humanizer Pass.
