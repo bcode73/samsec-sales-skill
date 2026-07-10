@@ -48,6 +48,15 @@ There's a genuine exception worth naming honestly: in markets where the product 
 
 Module 8 is dedicated entirely to this: not to overcoming objections through argument, but to removing the doubt that produces them in the first place.
 
+## The four myths, side by side
+
+| Myth | What it leads a seller to do | What actually works instead |
+|---|---|---|
+| Selling is manipulation | Avoid directness, under-sell, hope the product speaks for itself | Diagnose the buyer's need plainly and say honestly whether you're a fit |
+| You need a certain personality | Avoid selling, or perform a confidence that isn't genuine | Run the same sequence regardless of temperament |
+| The best product or price wins | Compete on quality or discount instead of building trust first | Establish trust and diagnosis before value and price ever enter the conversation |
+| An objection is final | Accept a decline at face value and stop learning from it | Treat it as an unresolved, nameable doubt and ask what's behind it |
+
 ## Why capable people fall for these myths anyway
 
 None of the four myths above are stupid. Each one is a reasonable-sounding rule of thumb that happens to be wrong in a specific, costly way, which is exactly what makes them durable. A rule that was obviously false would get discarded the first time it failed; a rule that's usually close enough to true survives dozens of failures before anyone questions it directly.
@@ -61,6 +70,10 @@ There's also a status question hiding underneath all four. Admitting "I don't kn
 Pull up the last deal you lost where you genuinely believed you had the stronger offer. Write down, in the buyer's likely words, the one sentence they would give if asked honestly why they chose someone else. Not the polite reason they gave you; the real one. If you can't answer that question about a deal from last month, that's the gap this book closes.
 
 Then go a step further: name which of the four myths was quietly shaping how you ran that deal. Were you avoiding directness because you didn't want to seem pushy (myth one)? Did you assume your personality, or a colleague's, decided the outcome (myth two)? Did you lean on product quality or price and skip the trust-building that would have mattered more (myth three)? Did an early hesitation get treated as a fixed no rather than something to probe (myth four)? Most lost deals have one myth doing most of the damage. Finding it is more useful than a general resolution to "sell better."
+
+## A weekly drill, not a one-off exercise
+
+Make this a standing five-minute habit rather than something you do once and set aside. At the end of every week, look back at every conversation where a buyer said no, went quiet, or delayed, and ask the same question each time: which myth, if any, was quietly running the conversation? Some weeks the answer will be none; the deal genuinely wasn't a fit. Most weeks, across enough deals, a pattern will surface faster than it did the first time you looked for it, because you'll already recognise the shape of your own default myth from having named it before.
 
 ## Measure success
 

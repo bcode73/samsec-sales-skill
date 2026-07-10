@@ -52,11 +52,25 @@ Even a stakeholder who is completely convinced still has to explain the choice t
 
 > **Figure 2.1: The hidden committee.** See `visuals/diagrams/figure-2.1-hidden-committee.mmd`. Three roles, three separate concerns, one decision. A pitch aimed at only one role leaves the others unaddressed.
 
+## Three roles, three checks
+
+| Role | Typical concern | Question that surfaces it |
+|---|---|---|
+| Day-to-day user | Will this work for how we actually operate? | "Who has to live with this decision every day?" |
+| Budget holder | Will this cost more than agreed, or be hard to justify? | "Who explains this spend if it goes over?" |
+| Reputational owner | How disruptive is this, and what does it say about my judgement? | "Whose judgement is on the line if this goes badly?" |
+
+These three roles won't always map to three separate people; in a small business, one person can hold all three concerns at once. The questions are still worth asking, because the answers tell you which concern to address first even when you're only ever speaking to one person.
+
 ## Apply this today
 
 Take your largest open deal right now. Write down the name of every person who could delay or block it, not just the person you've been talking to. For each name, write one sentence describing what they personally stand to lose if this decision goes wrong. If you can only name one person, that is very likely why the deal has been quiet for longer than you'd expect.
 
 Then ask your main contact one direct question: "Is there anyone else on this who might want something different from what you and I have been discussing?" That single question, asked early, would have surfaced Farah three meetings before she surfaced herself.
+
+## Make committee mapping a standing habit
+
+Don't treat this as a one-time exercise for a single deal. At the start of every new opportunity, before the first proposal is even drafted, run the same two questions: who else could delay or block this, and what does each of them personally stand to lose. Over time, this becomes a reflex rather than a worksheet, and the moment it does, you'll notice yourself asking about the wider committee automatically, in the first conversation, rather than remembering to check for it afterward.
 
 ## Measure success
 
