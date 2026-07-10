@@ -72,6 +72,12 @@ You'll know this is working when past customers respond quickly and openly to yo
 - Only checking in when you expect good news, and avoiding the calls most likely to catch a problem early
 - Templatising the content of a check-in so heavily that it stops feeling specific to that customer
 
+## In a different kind of business
+
+A boutique PR agency founder named Callum used to treat a signed retainer as the finish line, the moment a new client stopped being a prospect to chase and became a name on an invoice schedule. His agency's actual growth only started once he built a habit borrowed, without quite realising it, from the same instinct Priya later formalised: calling a client six weeks into a retainer with one plain question, "has the coverage we've landed so far actually changed anything for you internally, or does it just feel like activity?"
+
+More than one client answered that question with something Callum would never have learned from a status report: a placement he'd been quietly proud of had never reached the internal audience the client actually cared about, because it ran in the wrong section of the wrong outlet. That kind of correction, caught at six weeks rather than at the end of a disappointing quarter, saved several retainers that would otherwise have quietly not renewed. The habit worked precisely because it wasn't attached to a renewal conversation; it was a genuine question asked before there was anything to sell.
+
 ## Chapter summary
 
 - The value of a customer relationship often only begins at the point most sellers stop paying attention to it.

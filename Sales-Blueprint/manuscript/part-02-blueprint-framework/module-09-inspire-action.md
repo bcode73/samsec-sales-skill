@@ -76,6 +76,12 @@ You'll know this is working when the average time between a buyer's verbal agree
 - Manufacturing a deadline when none exists instead of simply shrinking the action further
 - Repeating the same follow-up until reasonable persistence starts to read as pressure
 
+## In a different kind of business
+
+A corporate training consultant named Winifred used to lose a strange share of deals after what felt, by every normal signal, like a successful final call: the client agreed enthusiastically, thanked her for her time, and then simply never returned the signed agreement she emailed afterward. For a long time she assumed those clients had quietly decided against her and were too polite to say so. The truth, once she started calling instead of waiting, was almost always smaller and less dramatic: the agreement had landed in an inbox during a busy week and needed a second internal sign-off nobody had mentioned to her.
+
+Winifred's fix wasn't a stronger follow-up email. It was a direct question, asked once, plainly: "is there anyone else who needs to see this before it's signed, and can we get fifteen minutes with both of you this week?" That question alone recovered several deals a quarter that would otherwise have quietly gone cold, not because the training itself needed reselling, but because the actual obstacle was never the training at all. It was an ordinary scheduling gap nobody had named out loud.
+
 ## Chapter summary
 
 - A convinced buyer and a committed buyer are different people, usually separated by ordinary friction, not lingering doubt.
