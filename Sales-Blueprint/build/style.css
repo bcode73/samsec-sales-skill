@@ -17,13 +17,24 @@ h1, h2, h3, h4 {
   color: #0F3D3E;
   font-weight: 700;
   line-height: 1.25;
+  break-after: avoid-page;
+  page-break-after: avoid;
 }
 
 h1 { font-size: 22pt; margin: 0 0 0.28in 0; }
 h2 { font-size: 14pt; margin: 0.35in 0 0.12in 0; }
 h3 { font-size: 12pt; margin: 0.25in 0 0.1in 0; }
 
-p, li { margin: 0 0 0.14in 0; }
+p, li {
+  margin: 0 0 0.14in 0;
+  orphans: 3;
+  widows: 3;
+}
+
+table, blockquote, .figure {
+  break-inside: avoid-page;
+  page-break-inside: avoid;
+}
 
 a { color: #0F3D3E; }
 
@@ -70,11 +81,16 @@ hr { border: none; border-top: 1px solid #d8d2c4; margin: 0.3in 0; }
 .toc-page {
   min-height: 8.6in;
   padding: 0.9in 0.75in 0.7in 0.75in;
-  page-break-after: always;
 }
 .toc-heading { font-size: 24pt; margin-bottom: 0.3in; }
-.toc-part { font-size: 12.5pt; margin: 0.22in 0 0.06in 0; }
+.toc-part {
+  font-size: 12.5pt;
+  margin: 0.22in 0 0.06in 0;
+  break-after: avoid-page;
+  page-break-after: avoid;
+}
 .toc-part a { text-decoration: none; color: #0F3D3E; }
+.toc-list { break-before: avoid-page; page-break-before: avoid; }
 .toc-list { list-style: none; margin: 0 0 0.05in 0; padding-left: 0.15in; }
 .toc-list li { font-size: 10.3pt; margin: 0.035in 0; font-family: "Liberation Sans", Arial, sans-serif; }
 .toc-list a { text-decoration: none; color: #1B1F1E; }
@@ -84,7 +100,6 @@ hr { border: none; border-top: 1px solid #d8d2c4; margin: 0.3in 0; }
   min-height: 8.6in;
   padding: 0.7in;
   page-break-before: always;
-  page-break-after: always;
   display: flex;
   align-items: center;
   justify-content: center;

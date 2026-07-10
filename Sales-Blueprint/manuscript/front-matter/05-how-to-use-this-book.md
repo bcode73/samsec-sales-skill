@@ -14,11 +14,11 @@ Watch what stays constant about Kestrel (her business, her market, her team) and
 
 ## Do the exercises with your own business
 
-Every chapter includes a worksheet or exercise in the `/worksheets` folder, referenced by filename at the point you need it. These are built to run on your actual business, your actual prospect, your actual price. Reading about the value stack is not the same as building one for what you sell. Twenty minutes with a worksheet, applied to a real deal you're working on right now, will teach you more than the chapter alone.
+Every chapter includes a worksheet or exercise, referenced by name at the point you need it and collected in full in the worksheets section at the back of this book. These are built to run on your actual business, your actual prospect, your actual price. Reading about the value stack is not the same as building one for what you sell. Twenty minutes with a worksheet, applied to a real deal you're working on right now, will teach you more than the chapter alone.
 
 ## Use the templates as starting points, not scripts
 
-The `/templates` folder holds reusable documents (proposal structures, follow-up emails, persona builders) that Part Two introduces and Part Three (Modules 12 and 13) helps you turn into a repeatable system. Adapt the wording to how you actually talk. A template that reads like a corporate memo will lose the trust you're trying to build.
+The templates section at the back of this book holds reusable documents (proposal structures, follow-up emails, persona builders) that Part Two introduces and Part Three (Modules 12 and 13) helps you turn into a repeatable system. Adapt the wording to how you actually talk. A template that reads like a corporate memo will lose the trust you're trying to build.
 
 ## The five questions
 

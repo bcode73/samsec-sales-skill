@@ -6,6 +6,17 @@ Format: `## [Date] Phase: Summary`, followed by a short bullet list of changes.
 
 ---
 
+## [Unreleased] Phase 20 (fix): pagination defects and folder-path wording
+
+- User reported, from reading the actual PDF on a phone: an apparent blank page in the table of contents, paragraphs breaking awkwardly across pages (a mid-phrase split literally read "at the 10 point you need it" when copied, the page number caught between words), and body text referencing `/worksheets` and `/templates` folders, which means nothing to someone holding a finished ebook rather than browsing the repository.
+- **Root causes found and fixed:**
+  - The table of contents' "Checklists" group has only one entry. With no pagination control, the "Checklists" label was orphaned alone at the bottom of one page while its single item started the next, which read as a near-blank page. Fixed by adding `break-after: avoid-page` to TOC part labels so a label always stays with at least the first line of its list.
+  - No `orphans`/`widows` CSS was set anywhere, so Chromium's print engine could split a paragraph one word before or after a page boundary with no minimum. Added `orphans: 3; widows: 3;` document-wide, plus `break-after: avoid-page` on all headings (so a heading can no longer be stranded at the bottom of a page with its content pushed to the next) and `break-inside: avoid-page` on tables, blockquotes, and figures.
+  - `manuscript/front-matter/05-how-to-use-this-book.md` and the three appendix index pages (`00-worksheets-index.md`, `01-templates-index.md`, `02-checklists-index.md`) referenced `` `/worksheets` ``, `` `/templates` ``, `` `/checklists` `` folders and `.md` filenames, appropriate for a repository reader but not a book reader. Reworded all four to point to "the worksheets/templates/checklists section at the back of this book" instead, and replaced filename references (e.g. `` `01-myth-audit.md` ``) with plain titles (e.g. "Myth Audit") in the index tables and in the build script's table of contents.
+- Verified the fix by extracting every one of the 191 pages' text programmatically (not just a visual sample this time): checked for near-blank pages, checked every page with unusually little text against its actual content, and confirmed the previously reported mid-phrase break no longer occurs (the whole paragraph now fits on one page). All remaining short pages were confirmed to be legitimate (chapter endings, part dividers, a table pushed whole onto a fresh page), not defects.
+- Page count moved from 186 to 191 (the wording changes added a small amount of text; the pagination fix does not on its own change page count materially).
+- Re-ran the full build pipeline (diagrams, HTML assembly, PDF render) and replaced `exports/pdf/sales-blueprint.pdf` with the corrected version.
+
 ## [Unreleased] Phase 20: first sellable PDF built for Selar
 
 - User decision: launch as an ebook on Selar first; wider distribution (Amazon KDP, Apple Books, Google Play) is deferred, along with EPUB, ISBN, and print.
@@ -18,7 +29,7 @@ Format: `## [Date] Phase: Summary`, followed by a short bullet list of changes.
 - Included the full text of all 14 worksheets, 3 templates, and 1 checklist in the PDF itself, not just their index entries, so a Selar buyer gets a complete, standalone product rather than an index pointing elsewhere.
 - Typography: "Bitstream Charter" serif for body text, "Liberation Sans" for headings, both metric-compatible system fonts (no external font downloads needed), on the book's established cream/deep-teal/charcoal palette.
 - Visually reviewed a sample of pages before finalizing (cover, contents, copyright, disclaimer, a comparison table, an embedded figure, a worksheet with checkboxes, a part divider, the final page) and fixed one real defect found in review: wrapped checkbox list items lost their hanging indent, now fixed with a flex layout.
-- **Output:** `exports/pdf/sales-blueprint.pdf`, 186 pages, 2.9 MB.
+- **Output:** `exports/pdf/sales-blueprint.pdf`, 191 pages, 2.9 MB.
 - **Known rough edges** (documented in `build/README.md`): a small page number appears in the footer margin on the cover and part-divider pages, since Chromium's header/footer templates apply uniformly to every page with no per-page suppression; no PDF bookmarks/outline (navigation relies on the clickable in-document table of contents instead). Neither blocks a sale.
 - This is a digital-only build: no ISBN, no print bleed or crop marks, no CMYK conversion. Print-ready export and the full wraparound cover (spine + back) remain future work.
 
