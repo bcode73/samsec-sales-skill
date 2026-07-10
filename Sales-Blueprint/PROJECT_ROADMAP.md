@@ -56,7 +56,7 @@ Status values used throughout: **Not started · Drafted · Revised · Final**.
 | 7: Present the Offer | Revised |
 | 8: Remove Doubt | Revised |
 | 9: Inspire Action | Revised |
-| 10: Nurture Relationships | Final |
+| 10: Nurture Relationships | Revised |
 | 11: Turn Customers into Advocates | Final |
 
 ## Part Three: Modern Selling (`manuscript/part-03-modern-selling/`)

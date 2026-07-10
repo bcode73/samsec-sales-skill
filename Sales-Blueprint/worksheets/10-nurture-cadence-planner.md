@@ -23,3 +23,11 @@ For each row above, ask: if there were no possibility of future revenue from thi
 ## Step 4: Apply it forward
 
 Send the first touchpoint this week. Record what the customer tells you, especially anything about how what you delivered is actually being used. That information often points to an expansion opportunity or a referral without you having to ask for either.
+
+## Step 5: Prepare for either answer
+
+Before you send it, write down what you'll do if the answer is good news, and separately what you'll do if it surfaces a real problem. Having a plan for the second case makes it easier to actually ask the question instead of unconsciously avoiding it.
+
+## Step 6: Build the schedule, not the script
+
+If you have more than a handful of customers, set calendar reminders for the timing in Step 2 across all of them. Keep the reminder generic ("check in with [name] about [what they bought]"); write the actual message specific to that customer each time you send it.
