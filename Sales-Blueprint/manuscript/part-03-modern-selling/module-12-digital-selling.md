@@ -74,6 +74,12 @@ You'll know this is working when remote-sourced deals move through the framework
 - Compensating for lost tone with softer language instead of more specific, attentive detail
 - Running every stage through whichever channel happens to be open instead of matching the stage to the channel it needs
 
+## In a different kind of business
+
+Tom's deal still involved video calls and a recorded walkthrough; some digital deals never get even that much. An independent bookkeeper named Priyanka won a full year-long client entirely through asynchronous text, a handful of emails and a messaging app thread, without a single live call at any point in the sale. The client, a small online retailer that had grown out of a single founder's own spreadsheet, replied to Priyanka's messages only late at night after the shop had closed, which meant every stage of the framework had to survive being conducted a message at a time, sometimes with a full day between question and answer.
+
+What made it work wasn't a script; it was discipline about specificity in every single message, because there was no tone of voice or follow-up call to repair a vague one. Priyanka's discovery question, sent as a single clear line rather than folded into a longer paragraph, got a direct answer within a day: the founder's actual fear wasn't cost, it was handing financial control to someone who might not flag a problem until the year-end accounts, the same reliability concern Farooq's client had, just surfaced over a messaging app instead of a phone call. The framework held; only the medium changed, and it changed how patient each stage needed to be, not what each stage needed to accomplish.
+
 ## Chapter summary
 
 - The Blueprint Framework's stages and order don't change online; the channels and cues used to execute each stage do.

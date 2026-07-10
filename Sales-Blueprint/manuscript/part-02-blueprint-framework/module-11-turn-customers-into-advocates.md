@@ -82,6 +82,12 @@ You'll know this is working when a growing share of your new business arrives th
 - Treating a single referral as a nice surprise rather than the first cycle of a repeatable system
 - Returning to the same advocate again and again out of your own need for pipeline rather than their genuine enthusiasm
 
+## In a different kind of business
+
+A specialty coffee roaster supplying independent cafes, run by a man named Idris, spent years assuming that word of mouth among cafe owners would eventually bring him new accounts on its own. It brought him a trickle, not a system, because the cafe owners who loved his coffee had no reason to think introducing him to a competitor down the street was something he actually wanted, let alone something he'd ask for directly. The shift came when he started asking one specific question at exactly the point a cafe owner mentioned, unprompted, that customers kept commenting on the coffee: "would you be comfortable introducing me to one other cafe owner you respect, the way I'd want you to if the situation were reversed?"
+
+That single, specific, well-timed question produced more new accounts in a year than the previous three years of hoping had. It worked for the same reason it worked for Priya: the ask arrived right after proof had landed, named exactly what Idris wanted, and cost the cafe owner almost nothing beyond a short message they were often glad to send. A referral system doesn't require a large customer base to function; it requires asking specifically, at the right moment, rather than waiting for gratitude to translate itself into action on its own.
+
 ## Chapter summary
 
 - Referrals that are asked for deliberately happen far more often than referrals that are only hoped for; the discomfort of asking belongs to the seller, not the customer being asked.
