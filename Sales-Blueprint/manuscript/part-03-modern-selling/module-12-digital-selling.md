@@ -7,6 +7,8 @@ By the end of this module, you will be able to:
 - Adapt each stage of the Blueprint Framework to a deal that starts and often finishes without an in-person meeting
 - Identify the digital equivalents of the trust signals covered in Module 3
 - Run discovery and diagnosis well over video and asynchronous messages
+- Compensate for the tone and nuance lost when a conversation happens in writing
+- Run nurture and advocacy for a customer you may never meet face to face
 - Recognise where digital selling changes the pace of the framework, without changing its order
 
 ## Kestrel Office Interiors: a lead that never set foot in the office
@@ -27,9 +29,21 @@ Module 4's three questions (who else needs to be comfortable, what they're perso
 
 > **Figure 12.1: Digital Trust and Discovery Signals.** See `visuals/diagrams/figure-12.1-digital-trust-signals.mmd`. Each in-person signal from Modules 3 and 4 has a digital equivalent; asking directly replaces reading the room.
 
+## Writing carries less tone than speech, so be more specific
+
+A written message strips out tone of voice, pacing, and facial expression, all of which normally carry some of the emotional weight of a conversation. The natural instinct is to compensate with warmer-sounding language (more exclamation marks, more hedging, more "just checking in"), but that usually reads as vague rather than warm. The better compensation is more specificity, not more softness: naming the exact detail from the buyer's message you're responding to, as Priya did with Tom's line about paying for unused space, communicates attention in a way that tone of voice would have carried automatically in person. A specific reference to something the buyer actually said does the emotional work that a warmer adjective can't.
+
+## Adapting to the channel itself
+
+Email, video, and chat-based messaging aren't interchangeable, and the framework's stages land differently in each. A first message on a fast, informal channel (a chat platform, a social media message) should be shorter and more direct than an equivalent email, because the channel itself signals a faster expected reply; a long, formal opening on an informal channel reads as mismatched before the buyer even gets to the content. Video suits Learn the Customer and Remove Doubt well, because both benefit from a real-time back-and-forth. Written documents suit Present the Offer well, for the reasons already covered. Matching the stage to the channel it needs, rather than running every stage through whichever channel happens to be open, keeps the framework's pace close to what an in-person deal would achieve.
+
 ## Presenting and deciding without being in the room
 
 Module 7's fixed-scope offer and Module 8's specific-doubt resolution both translate directly to a digital process, usually as a shared document or a short recorded walkthrough rather than a page handed across a table. What doesn't translate well is a long, unstructured video call standing in for what should be a written, referenceable offer; a buyer reviewing a decision with people who weren't on the call needs something they can forward, not just a memory of what was said. Priya sent Tom a recorded video walkthrough of the proposed layout alongside the same fixed-scope document she'd have used in person, specifically so he could share it with his co-founders without needing her present to explain it.
+
+## Nurture and advocacy without ever meeting in person
+
+Modules 10 and 11 don't require physical proximity to work, but they do require the same discipline, arguably more of it, because there's no chance encounter or office visit to substitute for a deliberate check-in. Priya's six-week nurture question worked as well over a video call with Tom as it had over the phone with Dominic, precisely because its power came from being genuine and specific, not from being delivered face to face. The same holds for a referral ask: a remote customer can make an introduction just as easily as a local one, sometimes more easily, because a digital introduction (forwarding an email, adding someone to a group chat) costs the advocate even less effort than arranging an in-person meeting would.
 
 ## Apply this today
 
@@ -45,13 +59,18 @@ You'll know this is working when remote-sourced deals move through the framework
 - Letting response time slip, which reads as a negative reliability signal before the conversation has even started
 - Replacing a structured discovery question with silence, on the assumption a video call will surface hesitation on its own
 - Using an unstructured call where a shareable, referenceable document is what the buyer's other stakeholders actually need
+- Compensating for lost tone with softer language instead of more specific, attentive detail
+- Running every stage through whichever channel happens to be open instead of matching the stage to the channel it needs
 
 ## Chapter summary
 
 - The Blueprint Framework's stages and order don't change online; the channels and cues used to execute each stage do.
 - Published proof of competence can build trust before a conversation even starts, and response speed itself acts as a reliability signal.
 - Discovery questions that get read from body language in person need to be asked directly over video or async messages.
+- Specificity, not softer language, compensates for the tone that writing strips out of a conversation.
+- Different channels suit different stages; video for discovery and doubt resolution, written documents for offers.
 - Offers and doubt resolution should produce something shareable, not just something said, so absent stakeholders can review it themselves.
+- Nurture and advocacy work the same at a distance, and a digital introduction often costs an advocate even less effort than an in-person one.
 
 ## Key takeaway
 

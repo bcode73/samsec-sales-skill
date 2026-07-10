@@ -27,3 +27,11 @@ Does your current proposal or offer exist as something the buyer can forward to 
 ## Step 5: Apply it forward
 
 Send the direct question from Step 3 in your next conversation with this lead, and note whether it surfaces something you wouldn't otherwise have learned.
+
+## Step 6: Match stages to channels
+
+List which channel (email, video, chat) you're currently using for each stage of this deal. Flag any mismatch, such as running discovery entirely over email when a video call would surface more, or presenting an offer only verbally on a call when a shareable document is needed.
+
+## Step 7: Plan nurture at a distance
+
+If this deal closes, write down the specific, genuine check-in you'll send at six weeks, exactly as you would for an in-person customer. Note which channel suits it best.
