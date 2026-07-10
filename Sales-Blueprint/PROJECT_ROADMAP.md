@@ -19,7 +19,7 @@ Status values used throughout: **Not started · Drafted · Revised · Final**.
 | 17 | Appendices: worksheets, templates, checklists, glossary, references | Drafted, awaiting review |
 | 18 | Visuals: diagrams, illustrations, charts, icons, and generation prompts | Drafted, awaiting review |
 | 19 | Final quality control pass across the full manuscript | Complete, one finding for review |
-| 20 | Export: compiled DOCX / PDF / EPUB / print-ready files | Not started |
+| 20 | Export: compiled DOCX / PDF / EPUB / print-ready files, plus cover | Front cover drafted in Canva; everything else not started |
 
 **Rule:** no phase begins until the previous phase has been reviewed and explicitly confirmed. Every file marked Final has passed the Humanizer Pass (`BOOK_BIBLE.md` §13).
 
@@ -103,6 +103,13 @@ Status values used throughout: **Not started · Drafted · Revised · Final**.
 | Sales Dashboard | Final | Drafted | Not started |
 | Follow-up Timeline | Final | Drafted | Not started |
 
+## Cover (`assets/brand/`)
+
+| Item | Status |
+|---|---|
+| Front cover | Drafted in Canva, not yet reviewed (see `assets/brand/cover.md`) |
+| Spine + back cover (full wraparound) | Not started; needs a firm page count first |
+
 ## Exports (`exports/`)
 
 | Format | Status |
@@ -161,5 +168,7 @@ Status values used throughout: **Not started · Drafted · Revised · Final**.
 | n/a | 19 (round 3 expansion) | Added a full "In a different kind of business" mini-scenario (roughly 200 to 300 words each) to all 14 modules: a distinct small business (a freelance copywriter, a wedding photographer, an independent accountant, a commercial cleaning company, a marketing agency, a bespoke furniture maker, an IT support provider, a landscaping company, a corporate training consultant, a boutique PR agency, a specialty coffee roaster, a fully asynchronous digital deal, a three-partner events staffing agency, and a capstone scenario reusing Elena from Module 1) illustrating each module's principle outside the Kestrel/Bramble Analytics arc. Self-reviewed against the Humanizer Pass and checked for continuity. New total: 31,870 words across manuscript plus 5,688 words across worksheets, templates, and checklists, approximately 37,558 words in total, approximately 116 to 137 pages. This round added roughly 2,910 words, about the same order of magnitude as round 2 despite deliberately larger per-module sections, confirming that this style of addition scales linearly at roughly 3,000 words per round regardless of section size. Closing the remaining gap to 220 to 280 pages by this method would require another 10 to 15 rounds. Reported honestly; flagged for a decision between adding genuinely new content types (new chapters, deeper appendices) or revising the page target, rather than continuing the same pattern. |
 | n/a | 19 (decision, final) | User decided the manuscript's length was essentially fine as is, and asked for roughly 10 more pages of new content rather than another full deepening round or a strict page-target revision alone. |
 | n/a | 19 (final length pass) | Added a new "Frequently Asked Questions" appendix (`manuscript/appendices/05-frequently-asked-questions.md`), 22 direct questions and answers covering common practical concerns (commodity markets, internal selling, RFPs, team consistency, product churn, and more), each referencing the relevant module; expanded the glossary with 11 additional terms; added a "quick reference: the nine stages and their key question" table inside the FAQ appendix; and added the new appendix to the front-matter table of contents. Self-reviewed against the Humanizer Pass. This added approximately 2,869 words, bringing the total to approximately 40,427 words (31,870 manuscript plus worksheets/templates/checklists), approximately 124 to 147 pages at typical business-book density, close to the requested "about 10 more pages." `BOOK_BIBLE.md`'s target length was revised from 220 to 280 pages to 125 to 150 pages to reflect the manuscript's actual, user-accepted scope. This closes the length-expansion work; the manuscript is considered complete at this length pending any further user direction. |
+| n/a | 19 (diagram QA sweep) | Rendered all 19 Mermaid diagrams with `mermaid-cli` to check for syntax errors and proportions. Found 7 rendering as extreme, flat aspect ratios (worst case 14:1 for Figure 0.1, the flagship Blueprint Framework diagram) unsuitable for a printed page. Rewrote each as a wrapped grid using subgraph rows, solving a dagre layout quirk where a directed cycle-back edge flips row order (fixed by writing those edges as undirected-with-single-arrowhead links). All 19 now render in a 0.44:1 to 3.22:1 range. Also found and fixed a follow-on inconsistency: 5 premium visual-generation prompts in `visuals/prompts/` still described the old flat "landscape" layouts; updated to match. Text-level sweep also found and fixed: the FAQ appendix was logged as "20 questions" but actually has 22, and `README.md` still stated the original "220 to 280 pages" after `BOOK_BIBLE.md`'s target was revised. |
+| n/a | 20 (cover, partial) | Generated a front-cover concept directly in Canva (not as an external generation prompt), using the book's own palette rather than a Canva brand kit: cream background, deep teal accent, charcoal ink, minimal business-consulting style, a restrained nine-node motif nodding to the Blueprint Framework. Four candidates generated; user selected one and it was converted to a permanent, editable Canva design. Recorded as a pointer in `assets/brand/cover.md` (edit and view links, brief used, and remaining to-dos) since the asset is a live Canva design, not a binary file this repository can track directly. Front cover only; spine and back cover await a firm page count. |
 
 See [`CHANGELOG.md`](./CHANGELOG.md) for the detailed, dated changelog.

@@ -6,6 +6,23 @@ Format: `## [Date] Phase: Summary`, followed by a short bullet list of changes.
 
 ---
 
+## [Unreleased] Phase 20 (partial): front cover generated in Canva
+
+- Generated a front-cover concept directly in Canva rather than as a written external-generation prompt, since Canva's tools were connected in this session. Used the book's own palette (cream `#FBF9F4` background, deep teal `#0F3D3E` accent, charcoal `#1B1F1E` ink) and minimal business-consulting style from `BOOK_BIBLE.md` §7, not a Canva brand kit.
+- Four candidates generated; user selected one, converted to a permanent, editable Canva design.
+- Recorded a pointer in `assets/brand/cover.md` (edit and view links, the brief used to generate it, and remaining to-dos), since the asset is a live Canva design rather than a binary file this repository tracks directly.
+- Scope: front cover only. Spine and back cover (full wraparound) intentionally deferred until a firm final page count is set, since spine width depends on it.
+
+## [Unreleased] Phase 19 (diagram QA sweep): fixed 7 badly proportioned diagrams
+
+- Rendered all 19 Mermaid diagrams through `mermaid-cli` to check for syntax errors and print proportions.
+- Found 7 rendering as extreme, flat single-row layouts unsuitable for a printed page: Figure 0.1 (the flagship Blueprint Framework diagram) at 14:1, down to Figure 5.1 at 5.4:1. Figures affected: 0.1, 4.1, 5.1, 7.1, 10.1, 11.1, 13.1.
+- Rewrote each as a wrapped grid (3x3 for the two nine-stage diagrams, 2x2 for the four-node ones) using Mermaid subgraphs. This surfaced a dagre layout quirk: a directed cycle-back edge (the "referral restarts the cycle" arrows in Figures 0.1 and 11.1) flips the whole row order; fixed by writing those edges as undirected-with-single-arrowhead links (e.g. `B <-.-|label| T`) instead of fully directed ones.
+- All 19 diagrams re-verified to render without errors; ratios now range 0.44:1 to 3.22:1.
+- Found and fixed a follow-on inconsistency: 5 of the premium visual-generation prompts in `visuals/prompts/` (Blueprint Framework, Customer Journey, Offer Builder, Follow-up Timeline, Lead Pipeline) still described the old flat "landscape" layouts. Updated to describe the same wrapped-grid arrangement. Two others (Buying Psychology Wheel, Referral Flywheel) already specified a proper circular/square layout and needed no change.
+- Text-level QA sweep also found and fixed two documentation errors: the FAQ appendix was logged as "20 questions" in CHANGELOG.md/PROJECT_ROADMAP.md but actually has 22; and `README.md` still stated the original "220 to 280 pages" target after `BOOK_BIBLE.md`'s target had already been revised to 125 to 150.
+- Full-repository sweep otherwise found no Humanizer Pass violations, no figure-reference mismatches, no continuity contradictions among the "in a different kind of business" secondary characters, and no stale appendix index counts.
+
 ## [Unreleased] Phase 19 (final length pass): FAQ appendix, expanded glossary, quick reference
 
 - User decision: the manuscript's length is essentially fine as is; add roughly 10 more pages of new content rather than another full deepening round.
