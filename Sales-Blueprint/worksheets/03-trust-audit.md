@@ -4,7 +4,7 @@ Use this before your next first meeting with a new prospect.
 
 ## Step 1: Ask about the last attempt
 
-What is the one question you'll ask to find out what happened the last time this buyer tried to solve this problem? Write it out in full, in the words you'll actually say.
+What is the one question you'll ask to find out what happened the last time this buyer tried to solve this problem? Write it out in full, in the words you'll actually say. If this is a first-time buyer with no past supplier to reference, write the hypothetical version instead: what are they most worried could go wrong?
 
 ## Step 2: Predict the deficit
 
@@ -31,3 +31,7 @@ Naming a limitation on the spot is harder than it sounds. Decide now, before the
 ## Step 5: Apply it forward
 
 After the meeting, note whether the buyer volunteered any information they wouldn't tell a stranger (a budget figure, an internal disagreement, a past bad experience). If they did, your trust-building worked. If they didn't, revisit Step 2: you likely led with the wrong signal.
+
+## Step 6: Plan for a slip
+
+Trust built in this meeting isn't permanent. Decide now how you'll handle it if something on your side slips later in this deal (a late reply, a missed date): what you'll say, how quickly, and what specific fix you'll offer. Deciding this in advance means you won't improvise it badly under pressure later.

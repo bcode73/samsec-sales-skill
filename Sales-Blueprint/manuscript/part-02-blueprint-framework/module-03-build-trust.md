@@ -7,7 +7,8 @@ By the end of this module, you will be able to:
 - Explain why Build Trust is the first stage of the Blueprint Framework and what breaks when it's skipped
 - Distinguish genuine trust-building behaviour from charm, rapport, and small talk
 - Diagnose the size of the trust deficit in a specific deal before you try to close it
-- Apply three concrete, repeatable behaviours that build trust in the first conversation
+- Explain why admitting a limitation builds trust rather than losing it
+- Apply three concrete, repeatable behaviours that build trust in the first conversation, including with a first-time buyer who has no past experience to reference
 
 ## Why B comes first
 
@@ -35,11 +36,23 @@ Every buyer starts a conversation with a certain amount of confidence they need 
 
 Before your next first meeting, you can estimate this deficit directly by asking what happened the last time this buyer tried to solve this problem, and listening for where it went wrong. That answer tells you which of the three signals to lead with.
 
+## What to do when there's no past experience to ask about
+
+Dominic's question was easy to answer because he had a specific, recent bad experience to draw on. Plenty of buyers don't. A founder buying a service for the first time, or a company solving a genuinely new problem, has no supplier history to complain about, which means Priya's opening question needs an alternative. In that situation, ask what they're most worried could go wrong, hypothetically, rather than what went wrong last time. The answer usually reveals the same three categories (will you actually be able to do this, will you do it on time, will you tell me the truth along the way) even without a specific past failure attached to them. A first-time buyer's imagined worst case carries the same diagnostic information as a repeat buyer's real one.
+
+## Why admitting a limitation works, not just feels risky
+
+Naming a real weakness before the buyer finds it sounds, to most sellers, like handing them a reason to walk away. It does the opposite, for a specific reason: a buyer's default assumption about any seller is that they're hearing the flattering, curated version of the truth. The moment a seller says something unflattering and true, that default assumption breaks, and everything said afterward gets evaluated differently, because the buyer now has evidence you're capable of telling them things that don't serve you. This is why candour has to come after competence and reliability in the pyramid rather than first: a stranger who opens with a confession sounds like they're apologising for something, not building anything. The same confession, offered by someone who has already demonstrated they know what they're doing, reads as honesty instead of weakness.
+
 > **Figure 3.1: The Trust Pyramid.** See `visuals/diagrams/figure-3.1-trust-pyramid.mmd`. Competence and reliability signals form the base; candour sits above them, because admitting a limitation only builds trust once the buyer already believes you're capable and dependable. Trust granted sits at the apex, not the start.
+
+## Trust can be spent and re-earned within a single deal
+
+Trust built in the first meeting isn't a permanent balance; it can be drawn down by a missed call, a late reply, or a promise that slips, and it has to be actively maintained through every later stage, not just established once and assumed to hold. If something does go wrong mid-deal (a delayed response, a schedule slip), the same three signals apply in reverse: acknowledge it plainly (candour), explain specifically what you're doing about it (reliability), and let the buyer see the underlying competence that makes the fix credible. Treating a small breach as unworthy of comment is usually what turns it into a large one; the buyer notices either way, and silence reads as either not noticing or not caring.
 
 ## Apply this today
 
-Before your next first meeting, write down one question you can ask that surfaces what went wrong the last time this buyer tried to solve this problem. Ask it before you present anything. Then choose one candour signal, a real limitation of your product or service, and say it out loud in that same meeting, before the buyer has to discover it themselves.
+Before your next first meeting, write down one question you can ask that surfaces what went wrong the last time this buyer tried to solve this problem, or what they're most worried could go wrong if they have no past experience to reference. Ask it before you present anything. Then choose one candour signal, a real limitation of your product or service, and say it out loud in that same meeting, before the buyer has to discover it themselves.
 
 ## Measure success
 
@@ -51,13 +64,16 @@ You'll know this is working when a prospect starts volunteering information they
 - Treating rapport (being liked) as a substitute for evidence (being trusted)
 - Only offering competence signals when the buyer's actual deficit is about reliability or candour
 - Hiding a real limitation instead of naming it, and having the buyer discover it later at a worse moment
+- Assuming a first-time buyer has nothing to diagnose because they have no past supplier to complain about
+- Staying silent about a small mid-deal slip on the assumption the buyer won't notice
 
 ## Chapter summary
 
 - Build Trust comes first because every later stage assumes the buyer is willing to take what you say at face value.
 - Trust is built from three specific signals: competence, reliability, and candour, not from charm or rapport.
-- Every buyer has a trust deficit of a particular size and shape, and you can estimate it by asking what went wrong last time.
-- Candour, admitting a real limitation, only builds trust once competence and reliability are already established.
+- Every buyer has a trust deficit of a particular size and shape, and you can estimate it by asking what went wrong last time, or what they're most worried could go wrong if there's no past experience to ask about.
+- Candour works because it breaks the buyer's default assumption that they're hearing a curated version of the truth, which is why it only lands once competence and reliability are already established.
+- Trust is a balance that can be drawn down mid-deal; a small slip handled openly rebuilds it faster than silence does.
 
 ## Key takeaway
 
