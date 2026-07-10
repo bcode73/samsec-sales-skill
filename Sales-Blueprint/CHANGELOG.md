@@ -6,6 +6,15 @@ Format: `## [Date] Phase: Summary`, followed by a short bullet list of changes.
 
 ---
 
+## [Unreleased] Phase 20 (fix): DOCX image clipping and blank pages
+
+- User reported that the docx looked good on-screen (opened in WPS) but produced inconsistent, bad-looking results once rendered to a fixed page format. Investigated by converting the docx to PDF with LibreOffice (a `.docx` has no fixed pages of its own to inspect directly) and found two real defects that Word's on-screen view had been silently absorbing:
+  - Every diagram was embedded at its native pixel size, which for `mermaid-cli`'s print-quality renders is 15-25in wide at 96dpi, far larger than the 6in x 9in page. Whatever renders it to a fixed page ends up clipping the overflow instead of scaling it down. Fixed in `build_docx_md.py` by reading each image's real dimensions with Pillow and giving it an explicit width (capped so height never exceeds one page either, whichever is more restrictive for that image's own aspect ratio), so every figure is guaranteed to fit on one page in any renderer.
+  - A handful of section transitions (3 out of roughly 30) rendered a genuinely blank page, because every section was preceded by a manually inserted raw-XML page break; on the rare occasion the previous section's content happened to end exactly at the bottom of a page, that manual break paragraph had nowhere to go but a fresh, empty page of its own before it could force the next one. Fixed by removing the manual breaks entirely and instead setting `page_break_before` on the "Heading 1" style in `make_reference_docx.py`. Every section starts with exactly one Heading 1, so this guarantees exactly one break per section regardless of how full the previous page was, with no possibility of doubling up.
+- Verified by rendering the corrected file to PDF with LibreOffice and scanning every page programmatically: zero blank pages other than the cover (expected, image-only), zero clipped figures, all remaining short pages confirmed as legitimate part-divider or chapter-ending pages.
+- Page count moved from 249 to 246 (fitting figures on a single page removed a few page-boundary strays; not a content change).
+- **Output:** `exports/docx/sales-blueprint.docx` rebuilt with both fixes applied.
+
 ## [Unreleased] Phase 20: editable DOCX working copy
 
 - User feedback on the PDF pagination fix was that it still was not good enough, and asked instead for a genuinely editable Word document preserving the established layout and design, so they can revise it directly themselves going forward.

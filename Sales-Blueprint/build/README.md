@@ -72,7 +72,7 @@ Turns the same manuscript into a real, editable Word document: proper paragraph 
 ### Requirements
 
 - `pandoc` (`apt-get install pandoc` or see pandoc.org)
-- Python 3 with `pip install python-docx` (also needs `markdown`/`pymdown-extensions` if you haven't already installed them for the PDF pipeline)
+- Python 3 with `pip install python-docx pillow` (also needs `markdown`/`pymdown-extensions` if you haven't already installed them for the PDF pipeline)
 - Diagram images already rendered into `build/diagram-images/` (same step as the PDF pipeline, see above)
 
 ### Steps
@@ -101,3 +101,10 @@ Pandoc's `--toc` flag generates a genuine, native Word TOC field, which sounds b
 - No table header shading (Pandoc's default docx table style is a plain grid); add it in Word with Table Design if wanted.
 - Page count is not comparable to the PDF's; Word reflows text differently (line spacing, font metrics), so it will differ and will keep changing as the user edits.
 - Part-divider pages are a plain heading and subheading, not a full-bleed dark teal page; Word doesn't support per-page background colour, only one background for the whole document.
+
+### Two defects fixed after the first version
+
+The first DOCX build had two real bugs that only became visible once the file was actually converted to a fixed-page format (LibreOffice/print-to-PDF), since Word's on-screen view is more forgiving about both:
+
+- **Oversized images.** `mermaid-cli` renders diagrams at a high pixel scale for print sharpness (many came out 15-25in wide at 96dpi). Pandoc embeds images at their native size unless told otherwise, so every figure was placed far larger than the page and got clipped by whatever renderer eventually produced a fixed page. Fixed in `build_docx_md.py`: `figure_size()` reads each image's actual pixel dimensions with Pillow and computes an explicit `{width=...in}` so every figure fits within one page (4.3in wide, capped at 6.3in tall, whichever is more restrictive for that image's aspect ratio) regardless of which program renders it.
+- **Occasional blank page between sections.** Every major section (front-matter file, module, worksheet, template, checklist, divider) was preceded by a manually inserted raw-XML page break. That works most of the time, but if the previous section's content happened to end exactly at the bottom of a page, the manual break paragraph had nowhere to sit except the start of a new, otherwise-empty page before it could force the next one, producing a genuinely blank page. Fixed by removing the manual breaks and instead setting `page_break_before` on the "Heading 1" style in `make_reference_docx.py`; since every section starts with exactly one Heading 1, this guarantees exactly one break per section with no dependence on how full the previous page happened to be.

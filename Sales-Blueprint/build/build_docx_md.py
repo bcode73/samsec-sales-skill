@@ -8,6 +8,7 @@ has no native page-break syntax that survives to the docx writer."""
 import re
 import os
 import glob
+from PIL import Image
 
 BUILD_DIR = os.path.dirname(os.path.abspath(__file__))
 REPO = os.path.dirname(BUILD_DIR)
@@ -23,12 +24,33 @@ FIGURE_RE = re.compile(
 SIMPLE_FIGURE_RE = re.compile(r"^\*(Figure ([\d.]+): ([^*]+?))\*$", re.MULTILINE)
 SIMPLE_FIGURE_FILES = {"0.1": "figure-0.1-blueprint-framework"}
 
+# Reference page is 6in wide with 0.8in left/right margins and 9in tall with
+# 0.75in top/bottom margins (see make_reference_docx.py), leaving 4.4in x
+# 7.5in of usable space. The mermaid-cli renders are exported at a high
+# pixel scale for print sharpness, so without an explicit size Pandoc embeds
+# them at native size (many are 15-25in at 96dpi) and Word/LibreOffice/WPS
+# each handle the overflow differently, some clipping the image instead of
+# scaling it down. Sizing every figure to fit within one page, whichever of
+# width or height is more restrictive for its own aspect ratio, removes that
+# per-renderer guesswork.
+MAX_FIGURE_WIDTH_IN = 4.3
+MAX_FIGURE_HEIGHT_IN = 6.3
+
+
+def figure_size(img_path):
+    with Image.open(img_path) as im:
+        w, h = im.size
+    aspect = h / w
+    width_in = min(MAX_FIGURE_WIDTH_IN, MAX_FIGURE_HEIGHT_IN / aspect)
+    return round(width_in, 2)
+
 
 def convert_figures(src):
     def replace_figure(m):
         fig_label, fig_title, fig_name, caption_rest = m.groups()
         img_path = f"{DIAGRAM_IMG_DIR}/{fig_name}.png"
-        return f"![{fig_label}: {fig_title}. {caption_rest}]({img_path})"
+        width_in = figure_size(img_path)
+        return f"![{fig_label}: {fig_title}. {caption_rest}]({img_path}){{width={width_in}in}}"
 
     src = FIGURE_RE.sub(replace_figure, src)
 
@@ -38,7 +60,8 @@ def convert_figures(src):
         if not fig_name:
             return m.group(0)
         img_path = f"{DIAGRAM_IMG_DIR}/{fig_name}.png"
-        return f"![{full_label}]({img_path})"
+        width_in = figure_size(img_path)
+        return f"![{full_label}]({img_path}){{width={width_in}in}}"
 
     src = SIMPLE_FIGURE_RE.sub(replace_simple, src)
     return src
@@ -56,8 +79,14 @@ def divider(title, subtitle=""):
     return md
 
 
+# Full usable width (page width minus left/right margins); explicit so the
+# cover renders identically across Word, LibreOffice, and WPS instead of
+# relying on each one's own fallback for an oversized inline image.
+COVER_WIDTH_IN = 4.4
+
+
 def cover_page():
-    return f"![]({COVER_IMG})\n"
+    return f"![]({COVER_IMG}){{width={COVER_WIDTH_IN}in}}\n"
 
 
 TOC_STRUCTURE = [
@@ -110,27 +139,29 @@ def build():
     tp = f"{REPO}/templates"
     cl = f"{REPO}/checklists"
 
-    parts = [cover_page(), PAGE_BREAK, toc_page(), PAGE_BREAK]
+    # Every module/worksheet/template/checklist file and every divider()
+    # starts with exactly one Heading 1, which is styled with
+    # page-break-before in the reference doc (see make_reference_docx.py),
+    # so a manual PAGE_BREAK before them would be redundant and, worse, can
+    # produce a genuinely blank page if the preceding content happens to
+    # fill its page exactly. Only 00-copyright.md has no leading heading,
+    # so it's the one place a manual break is still needed.
+    parts = [cover_page(), toc_page(), PAGE_BREAK]
 
-    # Front matter (skip the hand-written 04-table-of-contents.md; using
-    # --toc flag generates a real, updatable Word table of contents instead)
+    # Front matter (skip the hand-written 04-table-of-contents.md; the
+    # hand-built toc_page() above serves as the table of contents instead)
     front_matter_files = [
         "00-copyright.md", "01-disclaimer.md", "02-dedication.md", "03-preface.md",
         "05-how-to-use-this-book.md", "06-introduction.md", "07-the-blueprint-framework.md",
     ]
-    for i, fname in enumerate(front_matter_files):
+    for fname in front_matter_files:
         parts.append(read(f"{fm}/{fname}"))
-        parts.append(PAGE_BREAK)
 
     parts.append(divider("Part One: Foundations"))
-    parts.append(PAGE_BREAK)
     parts.append(read(f"{p1}/module-01-the-truth-about-sales.md"))
-    parts.append(PAGE_BREAK)
     parts.append(read(f"{p1}/module-02-how-customers-really-buy.md"))
-    parts.append(PAGE_BREAK)
 
     parts.append(divider("Part Two: The Blueprint Framework"))
-    parts.append(PAGE_BREAK)
     p2_files = [
         "module-03-build-trust.md", "module-04-learn-the-customer.md",
         "module-05-understand-the-problem.md", "module-06-establish-value.md",
@@ -140,42 +171,30 @@ def build():
     ]
     for fname in p2_files:
         parts.append(read(f"{p2}/{fname}"))
-        parts.append(PAGE_BREAK)
 
     parts.append(divider("Part Three: Modern Selling"))
-    parts.append(PAGE_BREAK)
     parts.append(read(f"{p3}/module-12-digital-selling.md"))
-    parts.append(PAGE_BREAK)
     parts.append(read(f"{p3}/module-13-sales-systems.md"))
-    parts.append(PAGE_BREAK)
 
     parts.append(divider("Part Four: Implementation"))
-    parts.append(PAGE_BREAK)
     parts.append(read(f"{p4}/module-14-the-30-day-sales-blueprint.md"))
-    parts.append(PAGE_BREAK)
 
     parts.append(divider("Appendices"))
-    parts.append(PAGE_BREAK)
     for fname in [
         "00-worksheets-index.md", "01-templates-index.md", "02-checklists-index.md",
         "03-glossary.md", "05-frequently-asked-questions.md", "04-references.md",
     ]:
         parts.append(read(f"{ap}/{fname}"))
-        parts.append(PAGE_BREAK)
 
     parts.append(divider("Worksheets", "All fourteen, in full"))
-    parts.append(PAGE_BREAK)
     for i in range(1, 15):
         matches = glob.glob(f"{ws}/{i:02d}-*.md")
         if matches:
             parts.append(read(matches[0]))
-            parts.append(PAGE_BREAK)
 
     parts.append(divider("Templates"))
-    parts.append(PAGE_BREAK)
     for fname in ["proposal-template.md", "customer-persona-template.md", "follow-up-email-template.md"]:
         parts.append(read(f"{tp}/{fname}"))
-        parts.append(PAGE_BREAK)
 
     parts.append(divider("Checklists"))
     parts.append(PAGE_BREAK)

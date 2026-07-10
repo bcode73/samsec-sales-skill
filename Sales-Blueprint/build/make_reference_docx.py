@@ -62,6 +62,16 @@ def main():
         by_name[h].paragraph_format.space_after = Pt(6)
         by_name[h].paragraph_format.keep_with_next = True
 
+    # Every major section (front-matter file, module, worksheet, template,
+    # checklist, part divider) starts with exactly one Heading 1. Forcing
+    # the break here, on the heading itself, guarantees exactly one page
+    # break per section regardless of how the previous section's content
+    # happens to fill its last page. A separately inserted manual page-break
+    # paragraph doesn't have that guarantee: if the prior content happens to
+    # end exactly at the bottom of a page, the manual break paragraph has to
+    # start its own (blank) page before it can force the next one.
+    by_name["Heading 1"].paragraph_format.page_break_before = True
+
     style_font(by_name["Image Caption"], name=HEADING_FONT, size=Pt(9), color=CHARCOAL)
     style_font(by_name["Caption"], name=HEADING_FONT, size=Pt(9), color=CHARCOAL)
 
