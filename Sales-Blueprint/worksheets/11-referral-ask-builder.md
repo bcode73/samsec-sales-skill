@@ -21,3 +21,11 @@ Write, in advance, the short note you'll send this customer after the introducti
 ## Step 5: Apply it forward
 
 Make the ask. Log the outcome and the date you closed the loop. Over time, track how many introductions convert to new customers, and how many of those new customers eventually become advocates themselves.
+
+## Step 6: If no specific person comes to mind
+
+If Step 2 comes up empty, write an alternative, equally specific ask instead: permission for a named case study, a short testimonial about the specific problem solved, or a public review. Use this version rather than defaulting to a vague, general request.
+
+## Step 7: Check your own asking frequency
+
+Before you ask this customer again in future, check: is this ask driven by something they mentioned unprompted, or by your own need for a new lead? If it's the latter, wait for a genuine opening instead.
