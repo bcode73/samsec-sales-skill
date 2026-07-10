@@ -27,3 +27,11 @@ Write the full value stack as you'll present it, outcome by outcome, with the pr
 ## Step 5: Apply it forward
 
 After presenting this, note the buyer's first question. If it's about meaning or difference from competitors, the stack needs another pass. If it's about timing or implementation, move to Module 7.
+
+## Step 6: Handle the unquantifiable
+
+If any outcome resists a hard number, don't invent one. Write instead a specific, concrete scene the buyer will recognise (a moment, a place, a small detail) that demonstrates the outcome without a fabricated statistic attached.
+
+## Step 7: Cut the padding
+
+Re-read your full stack. Is every item genuinely distinct, or does one just restate another to make the pile look bigger? Remove any item that doesn't survive this check, even if it leaves you with only two.
