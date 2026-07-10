@@ -32,6 +32,14 @@ The mechanism is straightforward: every additional option a buyer has to weigh a
 
 Some buyers, particularly larger organisations with a formal purchasing process, will ask directly for two or three priced options as a condition of even considering the deal, and refusing outright isn't realistic. In that situation, the recommendation still exists; it just has to survive being placed next to alternatives rather than being the only thing on the page. State plainly, in the document itself, which option you recommend and why, tied to the specific diagnosed problem, rather than presenting all options neutrally and letting the buyer guess your view. A seller who stays silent about their own recommendation inside a mandated menu is still creating the over-optioned, directionless choice this stage exists to avoid, even though the format wasn't their idea.
 
+## Menu, ladder, and single recommendation, compared
+
+| Format | What the buyer experiences | When to use it |
+|---|---|---|
+| Equal-weight menu (three unconnected options) | Comparative analysis before they can even decide whether to buy at all | Avoid it by default |
+| Anchored ladder (one recommendation, two bounded alternatives) | A bounded choice around a clear default | When the buyer genuinely wants options, or procurement requires them |
+| Single recommendation | A yes or no decision, not a multiple-choice one | Whenever you have the freedom to present it this way |
+
 ## Fix the scope before the buyer has to ask
 
 Priya's fixed-scope page directly answered the concern Farah raised cold in Module 2 and Marguerite would almost certainly raise here: what's included, and who explains it if something changes. Naming the boundary of the offer in writing, before the buyer asks, is a reliability signal in the same family as the ones covered in Module 3, applied now to the specific document the buyer will actually sign.
@@ -53,6 +61,10 @@ Priya's proposal closed with a single sentence: "To hold the installation slot i
 ## Apply this today
 
 Look at your current proposal template. If it presents more than one package with equal weight, pick the one you'd actually recommend and rebuild the document around it, with any alternatives clearly subordinate. Add one sentence naming exactly what counts as a scope change, and replace any vague closing line with a specific, dated next step.
+
+## Check every proposal against the same four parts
+
+Once your template is rebuilt, don't let it drift back toward a menu the next time a buyer asks for options. Before any proposal goes out, run through the same four checks: is there one clear recommendation, is the included scope stated plainly, is the variation boundary named, and does it close with a specific, dated step rather than an open invitation. The check takes under a minute once it's a habit, and it's the difference between a template that was fixed once and a standard that holds across every deal.
 
 ## Measure success
 

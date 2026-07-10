@@ -30,6 +30,14 @@ This is also why value has to come after diagnosis and not before it. You cannot
 
 Asserted value gets discounted for a specific reason: a claim costs the person making it nothing, so a sceptical listener correctly treats it as weak evidence. Anyone can say their product improves productivity; saying it costs nothing and proves nothing. A number the buyer already gave you, reflected back with a concrete connection to what you're offering, costs you nothing extra to say but is far harder to dismiss, because dismissing it means dismissing something they told you themselves.
 
+## Asserted versus demonstrated, three examples
+
+| What you might say (asserted) | What you say instead (demonstrated) | Why it lands harder |
+|---|---|---|
+| "Our designs improve team productivity" | "This gives you the equivalent of twelve additional focus-capable desks on your two busiest days, roughly matching the six or seven people you said work from the coffee shop" | The buyer can check it against a number they supplied themselves |
+| "We're known for a calm, professional atmosphere" | "On a Tuesday afternoon, nobody will be standing in the kitchen taking a call, because there's nowhere quieter to go" | Specific and checkable against their own week, not a general reputation claim |
+| "We offer strong value for the price" | Three separate, itemised outcomes, each priced against a single total | A pile of distinct, real value is harder to dismiss than one vague phrase |
+
 ## When the outcome genuinely can't be quantified
 
 Not every value is countable. Some of what Priya sold Dominic (a calmer, less chaotic office atmosphere on the busiest days) is real but resists being turned into a number the way lost focus-hours can be. When that happens, demonstrate instead of quantify: describe the specific, concrete scene rather than reaching for a fabricated statistic to make it look measurable. "On a Tuesday afternoon, nobody will be standing in the kitchen taking a call because there's nowhere quieter to go" is demonstrated value without a single number in it, because it's specific and checkable against what the buyer already knows their Tuesdays look like. A vague claim dressed up with an invented percentage is worse than an honest, specific, unquantified one.
@@ -51,6 +59,10 @@ A value stack works because every item in it is real and distinct, and that stop
 ## Apply this today
 
 Take the diagnosed problem from Module 5's worksheet and write down every distinct outcome your solution produces for it, not just the headline one. Aim for at least three, and phrase each one using a number or a detail the buyer gave you, not a generic industry term.
+
+## Rehearse the translation before every proposal
+
+Before you send any proposal from now on, run one quick check on every claim it contains: could the buyer verify this against something they already told you, or are you simply asserting it and hoping it lands? Circle anything you can't answer with a specific number or detail from their own words, and rewrite it before the proposal goes out. Done often enough, this stops being a proofreading step and becomes how you draft the first version, because you'll start reaching for the buyer's own language automatically rather than falling back to your industry's.
 
 ## Measure success
 
