@@ -1,0 +1,150 @@
+@page { margin: 0; }
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #FBF9F4;
+  color: #1B1F1E;
+  font-family: "Bitstream Charter", "Liberation Serif", Georgia, serif;
+  font-size: 11pt;
+  line-height: 1.55;
+}
+
+h1, h2, h3, h4 {
+  font-family: "Liberation Sans", Arial, sans-serif;
+  color: #0F3D3E;
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+h1 { font-size: 22pt; margin: 0 0 0.28in 0; }
+h2 { font-size: 14pt; margin: 0.35in 0 0.12in 0; }
+h3 { font-size: 12pt; margin: 0.25in 0 0.1in 0; }
+
+p, li { margin: 0 0 0.14in 0; }
+
+a { color: #0F3D3E; }
+
+ul, ol { padding-left: 0.3in; }
+
+ul.task-list { list-style: none; padding-left: 0.05in; }
+ul.task-list li {
+  margin-bottom: 0.1in;
+  display: flex;
+  align-items: baseline;
+}
+ul.task-list input[type="checkbox"] {
+  margin-right: 0.1in;
+  margin-top: 0.02in;
+  flex-shrink: 0;
+}
+
+blockquote {
+  margin: 0.2in 0;
+  padding: 0.12in 0.22in;
+  border-left: 3px solid #0F3D3E;
+  background: rgba(15, 61, 62, 0.05);
+}
+blockquote p { margin: 0; }
+
+table { width: 100%; border-collapse: collapse; margin: 0.22in 0; font-size: 9.3pt; }
+th { background: #0F3D3E; color: #FBF9F4; text-align: left; padding: 0.07in 0.09in; }
+td { border-bottom: 1px solid #cfc9bd; padding: 0.07in 0.09in; vertical-align: top; }
+
+hr { border: none; border-top: 1px solid #d8d2c4; margin: 0.3in 0; }
+
+/* Cover: full bleed, no margin, no page number */
+.cover-page {
+  width: 6in;
+  height: 8.6in;
+  margin: 0;
+  padding: 0;
+  page-break-after: always;
+  overflow: hidden;
+}
+.cover-page img { width: 100%; height: 100%; object-fit: cover; display: block; }
+
+/* Table of contents */
+.toc-page {
+  min-height: 8.6in;
+  padding: 0.9in 0.75in 0.7in 0.75in;
+  page-break-after: always;
+}
+.toc-heading { font-size: 24pt; margin-bottom: 0.3in; }
+.toc-part { font-size: 12.5pt; margin: 0.22in 0 0.06in 0; }
+.toc-part a { text-decoration: none; color: #0F3D3E; }
+.toc-list { list-style: none; margin: 0 0 0.05in 0; padding-left: 0.15in; }
+.toc-list li { font-size: 10.3pt; margin: 0.035in 0; font-family: "Liberation Sans", Arial, sans-serif; }
+.toc-list a { text-decoration: none; color: #1B1F1E; }
+
+/* Part divider pages */
+.divider-page {
+  min-height: 8.6in;
+  padding: 0.7in;
+  page-break-before: always;
+  page-break-after: always;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: #0F3D3E;
+}
+.divider-inner { max-width: 4in; }
+.divider-kicker {
+  font-family: "Liberation Sans", Arial, sans-serif;
+  font-size: 10pt;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #9FC6C2;
+  margin: 0 0 0.2in 0;
+}
+.divider-title {
+  font-family: "Liberation Sans", Arial, sans-serif;
+  font-size: 32pt;
+  color: #FBF9F4;
+  margin: 0 0 0.12in 0;
+}
+.divider-subtitle {
+  font-family: "Liberation Sans", Arial, sans-serif;
+  font-size: 15pt;
+  color: #E3EEEC;
+  margin: 0;
+}
+
+/* Regular content sections: each starts a fresh page */
+.content-section {
+  padding: 0.85in 0.7in 0.6in 0.7in;
+  page-break-before: always;
+  min-height: 8.6in;
+}
+
+.copyright-page { display: flex; flex-direction: column; justify-content: center; }
+.copyright-page p { font-size: 10pt; text-align: center; color: #4a4a44; }
+.copyright-page p:first-child {
+  font-family: "Liberation Sans", Arial, sans-serif;
+  font-weight: 700;
+  font-size: 13pt;
+  color: #0F3D3E;
+  margin-bottom: 0.3in;
+}
+
+.dedication-page { display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; }
+.dedication-page p { font-style: italic; font-size: 13pt; max-width: 3.6in; }
+.dedication-page h1 { display: none; }
+
+/* Figures */
+.figure {
+  margin: 0.3in 0;
+  text-align: center;
+  page-break-inside: avoid;
+}
+.figure img { max-width: 100%; max-height: 3.5in; }
+.figure .caption {
+  font-family: "Liberation Sans", Arial, sans-serif;
+  font-size: 9pt;
+  color: #333029;
+  text-align: left;
+  margin-top: 0.1in;
+}

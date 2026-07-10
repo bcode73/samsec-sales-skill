@@ -1,0 +1,6 @@
+node_modules/
+package-lock.json
+Sales-Blueprint/build/diagram-images/
+Sales-Blueprint/build/body.html
+Sales-Blueprint/build/full.html
+Sales-Blueprint/build/build_errors.log

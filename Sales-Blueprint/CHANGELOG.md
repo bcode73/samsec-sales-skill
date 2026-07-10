@@ -6,6 +6,22 @@ Format: `## [Date] Phase: Summary`, followed by a short bullet list of changes.
 
 ---
 
+## [Unreleased] Phase 20: first sellable PDF built for Selar
+
+- User decision: launch as an ebook on Selar first; wider distribution (Amazon KDP, Apple Books, Google Play) is deferred, along with EPUB, ISBN, and print.
+- Built a full PDF compilation pipeline in `/build`:
+  - Renders all 19 Mermaid diagrams to high-resolution transparent PNGs via `mermaid-cli`.
+  - Converts every manuscript file, worksheet, template, and checklist to HTML with Python's `markdown` library (tables, task-list checkboxes, fenced code).
+  - Replaces each figure callout (both the standard blockquote form used by all 14 modules and the older italic form used once in the front matter) with the actual embedded diagram image and caption.
+  - Assembles one HTML document: a full-bleed cover page, a fully clickable table of contents, part-divider pages (deep teal, matching the brand palette), and every front-matter file, module, and appendix section starting on its own page.
+  - Renders to PDF with headless Chromium via Playwright at a 6in x 9in page size, with a page-number footer.
+- Included the full text of all 14 worksheets, 3 templates, and 1 checklist in the PDF itself, not just their index entries, so a Selar buyer gets a complete, standalone product rather than an index pointing elsewhere.
+- Typography: "Bitstream Charter" serif for body text, "Liberation Sans" for headings, both metric-compatible system fonts (no external font downloads needed), on the book's established cream/deep-teal/charcoal palette.
+- Visually reviewed a sample of pages before finalizing (cover, contents, copyright, disclaimer, a comparison table, an embedded figure, a worksheet with checkboxes, a part divider, the final page) and fixed one real defect found in review: wrapped checkbox list items lost their hanging indent, now fixed with a flex layout.
+- **Output:** `exports/pdf/sales-blueprint.pdf`, 186 pages, 2.9 MB.
+- **Known rough edges** (documented in `build/README.md`): a small page number appears in the footer margin on the cover and part-divider pages, since Chromium's header/footer templates apply uniformly to every page with no per-page suppression; no PDF bookmarks/outline (navigation relies on the clickable in-document table of contents instead). Neither blocks a sale.
+- This is a digital-only build: no ISBN, no print bleed or crop marks, no CMYK conversion. Print-ready export and the full wraparound cover (spine + back) remain future work.
+
 ## [Unreleased] Phase 20 (partial): front cover generated, approved, and committed
 
 - Generated a front-cover concept directly in Canva rather than as a written external-generation prompt, since Canva's tools were connected in this session. Used the book's own palette (cream `#FBF9F4` background, deep teal `#0F3D3E` accent, charcoal `#1B1F1E` ink) and minimal business-consulting style from `BOOK_BIBLE.md` §7, not a Canva brand kit.
