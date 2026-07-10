@@ -27,3 +27,11 @@ Pick the stakeholder most likely to advocate for you when you're not in the room
 ## Step 5: Apply it forward
 
 Before your next meeting on this deal, contact one person from your list you have not yet spoken to directly, even briefly, and ask them what would need to be true for them to feel comfortable with this decision.
+
+## Step 6: Check for disagreement between stakeholders
+
+Look at the concerns you listed in Step 2. Do any two of them pull in different directions (for example, one wants the most impressive option, another wants the lowest cost)? If so, name the tension directly rather than assuming it will resolve itself.
+
+## Step 7: Judge committee size honestly
+
+Estimate how large this committee is likely to grow, based on how much this decision costs the business and how hard it would be to reverse, not based on how big the company is. If the answer is "probably bigger than the two or three people I've already met," plan your next meeting around finding out who's missing.

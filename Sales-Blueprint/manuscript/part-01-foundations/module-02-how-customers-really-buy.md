@@ -7,6 +7,7 @@ By the end of this module, you will be able to:
 - Explain why most considered purchases are decided by a committee, not a single buyer
 - Identify the distinct concern each stakeholder in a deal is privately weighing
 - Recognise why a technically superior option still loses to the status quo
+- Judge how large a buying committee is likely to be before you've met everyone in it
 - Map the hidden decision-makers in your own current pipeline
 
 ## Kestrel Office Interiors: the meeting Priya almost didn't get invited to
@@ -21,15 +22,27 @@ When a purchase is small or personal, "the buyer" is a useful shorthand: one per
 
 Selling to only the most enthusiastic person in that group, and assuming their enthusiasm will carry the others, is one of the most common ways a strong pitch quietly loses. Module 4 teaches how to identify and work with every stakeholder in a deal deliberately, rather than discovering them, as Priya did, in the fifth meeting.
 
+## Committee size scales with deal size, not with company size
+
+It's tempting to assume a small business means a small committee, but the honest driver is the size and reversibility of the decision, not the size of the company. A fifteen-person business spending a meaningful share of its annual budget on a single purchase will often involve as many stakeholders as a two-hundred-person business making a routine, easily reversed one. Kestrel's smallest clients, run by a single founder who controls the money and the decision alone, sometimes have a committee of one; a mid-sized client spending heavily and disrupting daily operations for weeks can have a committee of four or five, including people Priya never speaks to directly.
+
+The practical implication: don't estimate committee size from company size. Estimate it from how much this specific decision costs the business and how hard it would be to reverse if it went wrong. The accountancy firm was small, but the decision (a full office move) was expensive and highly visible, which is exactly why Farah existed and Priya hadn't accounted for her.
+
 ## Each stakeholder is solving a different problem
 
 Neil's problem was practical: he has to work in this space every day, and he wants it to function and to look right. Farah's problem was financial exposure: she is the one who explains any overspend to the board, so an unclear scope is a personal risk to her, regardless of how the finished office looks. A managing director's problem is usually reputational: they are betting their own judgement on the outcome, and a visibly disruptive or delayed project reflects on them specifically, not just on the business.
 
 A pitch built around only one of these concerns will satisfy the person who shares it and leave the others unaddressed, and unaddressed concerns don't disappear quietly; they surface later, often as a stalled decision that never gets explained to the seller directly.
 
+## When stakeholders disagree with each other
+
+Sometimes the harder problem isn't an unaddressed stakeholder; it's two stakeholders who want different things from the same decision. Neil wanted an office that felt impressive to visiting clients. Farah wanted the lowest defensible spend. Those aren't automatically compatible, and a seller who only hears from Neil can walk straight into a proposal that Farah will resist on principle, not because anything in it is wrong. The fix isn't to pick a side. It's to surface the tension directly, early, by asking each stakeholder what the others in the room care about, rather than assuming their own priority is shared. Priya's mistake wasn't building the wrong design for Neil. It was never finding out, until Farah spoke up, that a second, different priority existed at all.
+
 ## The status quo has its own gravity
 
 Doing nothing always feels lower-risk to a buyer than switching, even when the numbers say otherwise, because the cost of a bad decision to switch is personal and visible, while the cost of staying put is diffuse and easy to attribute to circumstances. This is why an objectively better, cheaper option can still lose to "let's stay with what we know": the buyer isn't comparing your offer to the alternative on a spreadsheet. They're comparing the risk of being blamed for a decision that goes wrong against the safety of a decision no one will ever ask them to justify, because nothing changed.
+
+This asymmetry is worth naming plainly: a wrong decision to act gets attributed to the person who acted. A wrong decision to do nothing usually gets attributed to circumstances, bad luck, or someone else. No one gets fired for the office staying slightly cramped for another year. Someone can get blamed for championing an expensive move that didn't work out. Every seller is quietly competing against that asymmetry, whether or not they can see it happening.
 
 Overcoming this isn't about pushing harder. It's about reducing the buyer's personal exposure to being wrong, which is a large part of what the coming chapters on trust and value are actually doing underneath the surface.
 
@@ -43,6 +56,8 @@ Even a stakeholder who is completely convinced still has to explain the choice t
 
 Take your largest open deal right now. Write down the name of every person who could delay or block it, not just the person you've been talking to. For each name, write one sentence describing what they personally stand to lose if this decision goes wrong. If you can only name one person, that is very likely why the deal has been quiet for longer than you'd expect.
 
+Then ask your main contact one direct question: "Is there anyone else on this who might want something different from what you and I have been discussing?" That single question, asked early, would have surfaced Farah three meetings before she surfaced herself.
+
 ## Measure success
 
 You'll know this module has landed when, before your next proposal, you can name every stakeholder in the deal and the specific concern each one is weighing, without having to guess. A good sign this is working: fewer deals that stall unexpectedly after seeming close to done, because the previously invisible stakeholder was accounted for from the start rather than discovered in the final meeting.
@@ -53,11 +68,15 @@ You'll know this module has landed when, before your next proposal, you can name
 - Building a single pitch that only answers the concern of whoever is in the room
 - Assuming a delayed decision means disinterest, rather than an unaddressed stakeholder still weighing in
 - Never asking directly who else needs to be comfortable with this before it can move forward
+- Estimating committee size from company size instead of from the size and reversibility of the decision itself
+- Assuming every stakeholder wants the same outcome and being surprised when two of them disagree
 
 ## Chapter summary
 
 - Considered purchases are almost always decided by a small, often informal committee, not by one person.
 - Each stakeholder in that committee is weighing a distinct concern: practical, financial, or reputational.
+- Committee size tracks the size and reversibility of the decision, not the size of the company making it.
+- Stakeholders sometimes want different things from each other, and surfacing that tension early beats discovering it in a late meeting.
 - The status quo has built-in gravity because staying put carries less personal risk to the buyer than switching does, regardless of the numbers.
 - A convinced stakeholder still needs the tools to justify the decision to people who weren't in the room.
 

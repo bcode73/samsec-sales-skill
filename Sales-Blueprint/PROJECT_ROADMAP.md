@@ -42,8 +42,8 @@ Status values used throughout: **Not started · Drafted · Revised · Final**.
 
 | Module | Status |
 |---|---|
-| 1: The Truth About Sales | Final |
-| 2: How Customers Really Buy | Final |
+| 1: The Truth About Sales | Revised |
+| 2: How Customers Really Buy | Revised |
 
 ## Part Two: The Blueprint Framework (`manuscript/part-02-blueprint-framework/`)
 
