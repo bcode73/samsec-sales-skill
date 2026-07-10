@@ -70,7 +70,7 @@ Status values used throughout: **Not started · Drafted · Revised · Final**.
 
 | Module | Status |
 |---|---|
-| 14: The 30-Day Sales Blueprint | Final |
+| 14: The 30-Day Sales Blueprint | Revised |
 
 ## Appendices (`manuscript/appendices/`) and References (`manuscript/references/`)
 

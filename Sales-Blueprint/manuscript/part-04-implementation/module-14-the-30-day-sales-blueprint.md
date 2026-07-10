@@ -7,6 +7,8 @@ By the end of this module, you will be able to:
 - Install the nine-stage Blueprint Framework into your business over four structured weeks, rather than all at once
 - Sequence the rollout so each week's habit has something solid to build on
 - Know specifically what should be different in your pipeline by day thirty
+- Adjust the thirty-day plan for a sales cycle that genuinely runs longer than a month
+- Recover a week that didn't go as planned without abandoning the sequence
 - Use the framework's worksheets, in order, as the actual mechanism of installation, not just as reading material
 
 ## Everything so far, condensed
@@ -33,9 +35,23 @@ In the final week, look back at every customer you've closed in the last year an
 
 > **Figure 14.1: The 30-Day Rollout.** See `visuals/diagrams/figure-14.1-thirty-day-rollout.mmd`. Four weeks, two or three stages installed at a time, each building on the trust and diagnosis established in the week before.
 
+## If your sales cycle runs longer than a month
+
+Kestrel's projects typically close in three to fourteen weeks, which means a single deal can span the entire rollout without reaching a signature. If your business runs a longer cycle than that, don't expect day thirty to show a finished deal; expect it to show the framework correctly applied at whatever stage your live deals have actually reached. A twelve-month enterprise sales cycle installs the same way, just measured in earlier signals: has Build Trust and Learn the Customer been run properly on every live deal, rather than has anything closed. The habits are what thirty days installs. The deals close on their own timeline, not the rollout's.
+
+## When a week doesn't go as planned
+
+Some weeks won't go the way the plan describes; a slow week for new enquiries, an unexpected crisis in an existing project, a Week 2 with no deal advanced enough to run a real diagnosis on. When that happens, don't skip ahead to keep pace with the calendar. Repeat the week, using whatever live deal is available, even an old or unpromising one, rather than moving to Week 3's material without having actually practised Week 2's. The four-week structure is a sequence, not a deadline; a five- or six-week rollout that's genuinely installed each stage beats a four-week one that rushed past a stage nobody actually practised.
+
 ## What should be different by day thirty
 
 You won't have closed every deal in your pipeline using the full framework in one month; most sales cycles run longer than that. What you should have, by day thirty, is a pipeline where every open deal is correctly tagged to a real stage, a proposal template that leads with a recommended package instead of a menu, at least one resolved doubt and one shrunk next step you can point to directly, three genuine nurture conversations completed with past customers, and one specific referral ask made rather than hoped for. Those are the concrete, checkable signs that the system, not just the reading, is now running.
+
+## Where Kestrel ended up
+
+The Priya Shah at the start of this book stood in a car park re-reading a rejection email, certain her product was good enough and quietly unsure whether she was. The Priya Shah at the end of it runs a pipeline tagged by Blueprint stage, has a documented value stack template built from real client language, has turned a single satisfied customer's offhand comment into a repeatable referral system, and watches her win rate climb quarter over quarter on a dashboard she actually trusts. Nothing about her personality changed between those two points. What changed was the sequence she ran, in order, on every deal, until it stopped being something she had to think about and became simply how Kestrel sold.
+
+That is the actual promise of this book, restated plainly at the end of it: not a transplant into someone more naturally suited to selling, but a system precise enough to run on purpose, in an order that removes the guesswork one stage at a time.
 
 ## Common mistakes
 
@@ -43,13 +59,17 @@ You won't have closed every deal in your pipeline using the full framework in on
 - Treating the four weeks as a reading schedule instead of a doing schedule tied to worksheets and live deals
 - Skipping Week 4's systems work because it feels less urgent than the deals in front of you right now
 - Measuring success by how much of the book you've read rather than what's changed in your actual pipeline
+- Expecting a long sales cycle to produce a closed deal by day thirty instead of correctly applied early stages
+- Skipping ahead to the next week's material when the current week wasn't actually practised on a live deal
 
 ## Chapter summary
 
 - The nine-stage framework installs best in sequence, two or three stages at a time over four weeks, not all at once.
 - Each week's habit is tied to a specific worksheet and applied to live deals, not read about in the abstract.
+- A longer sales cycle installs the same habits on the same schedule; only the closed deal itself arrives later.
+- A week that didn't go as planned should be repeated, not skipped, even if that stretches the rollout past thirty days.
 - By day thirty, the concrete signs of progress are a correctly tagged pipeline, a rebuilt proposal template, at least one resolved doubt, completed nurture conversations, and a specific referral ask, not a finished deal count.
-- The system Priya built this way is the same one that later won Bramble Analytics, Tom's remote deal, and everything that followed it.
+- The system Priya built this way is the same one that later won Bramble Analytics, Tom's remote deal, and everything that followed it; nothing about her personality changed, only the sequence she ran.
 
 ## Key takeaway
 

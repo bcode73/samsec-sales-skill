@@ -38,3 +38,11 @@ Answer honestly:
 - Did you make at least one specific referral ask?
 
 Whatever isn't yet true, repeat that week before moving on. The sequence matters more than the calendar.
+
+## If your sales cycle is longer than a month
+
+Replace "at least one deal has moved from agreement to signed commitment" in Week 3 with "at least one deal has been correctly diagnosed, valued, and offered using this sequence." Judge Week 3 by whether the stages were run properly, not by whether a signature exists yet.
+
+## If a week didn't go as planned
+
+Note here which week, and why (no advanced deal to work with, an unexpected crisis, something else). Repeat that week using whatever live deal is available before moving on to the next one, even if it means your rollout takes five or six weeks instead of four.

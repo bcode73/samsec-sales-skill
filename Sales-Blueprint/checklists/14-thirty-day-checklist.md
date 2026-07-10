@@ -38,3 +38,5 @@ A quick-reference version of Module 14's rollout. Use Worksheet 14 for the detai
 - [ ] Three nurture conversations and one referral ask are complete
 
 If any box above is unchecked, repeat that week before starting the next cycle. The sequence matters more than the calendar.
+
+**Long sales cycle?** Swap "moved at least one deal to signed commitment" for "correctly diagnosed, valued, and offered at least one deal using this sequence." The habit is what thirty days installs; the signature arrives on its own timeline.
