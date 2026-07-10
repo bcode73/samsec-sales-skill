@@ -26,3 +26,11 @@ Write the one sentence you'll say back to the buyer to confirm your understandin
 ## Step 6: Apply it forward
 
 If they corrected you, repeat Steps 2 to 5 before proposing anything. If they agreed and added detail, you're ready for Module 6.
+
+## Step 7: Check for more than one cause
+
+Did your follow-up questions surface a second, separate factor alongside the main one? If so, list it here rather than folding it into the main cause. Each one may need its own place in your value case.
+
+## Step 8: Sanity-check against over-diagnosis
+
+Honestly: did your follow-up question actually change the shape of the solution, or did it just confirm what the buyer told you the first time? If nothing changed, the first answer was likely already correct. Don't manufacture complexity that isn't there.
