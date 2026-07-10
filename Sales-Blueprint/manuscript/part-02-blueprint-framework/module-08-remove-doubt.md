@@ -8,6 +8,8 @@ By the end of this module, you will be able to:
 - Ask the direct question that surfaces what's actually worrying a hesitant buyer
 - Distinguish a real objection from ordinary politeness or a stalling tactic
 - Resolve a doubt with a specific plan or evidence, rather than general reassurance
+- Respond well when resolving one doubt reveals another one underneath it
+- Handle an objection that turns out to be valid and genuinely unresolvable
 
 ## Why R follows P
 
@@ -29,6 +31,8 @@ Marguerite said yes. Priya sent a schedule that deliberately routed the loudest 
 
 Marguerite's question named a day, a risk, and a reason. That specificity is what marks it as a real, resolvable objection rather than a polite way of declining. A vague "we're still thinking it over" or "it's not quite the right time," with nothing concrete attached, is more often stalling than genuine doubt, and it usually means an earlier stage (often Build Trust or Understand the Problem) was never fully completed, rather than something this stage alone can fix. Module 1's story, the buyer who said "we've decided to go with another supplier" without any specifics, is the version of an objection that never got the chance to become concrete, because the question that would have surfaced it was never asked.
 
+Buyers tend to voice concerns as flat statements rather than open questions for a straightforward reason: stating "we're not sure this will work" sounds more assured than admitting "I don't know whether to trust this, and I'm uncomfortable saying so directly." The statement form protects the buyer from sounding uncertain in front of colleagues or in front of you. Recognising that the statement is doing that protective work is what makes it possible to ask the underlying question directly without the buyer feeling exposed for having had it in the first place.
+
 > **Figure 8.1: The Objection Flowchart.** See `visuals/diagrams/figure-8.1-objection-flowchart.mmd`. When a buyer hesitates, ask what specifically is behind it before responding. A specific answer gets a specific resolution; a vague answer signals an earlier stage needs revisiting.
 
 ## Resolve with a plan, not persuasion
@@ -36,6 +40,14 @@ Marguerite's question named a day, a risk, and a reason. That specificity is wha
 Priya didn't try to talk Marguerite out of her concern. She built a schedule that answered it directly, using specifics Marguerite could check against her own calendar. That's the pattern worth repeating: once a doubt is named, the fastest way to resolve it is usually a specific plan, document, or piece of evidence the buyer can verify themselves, not a more confident version of the same reassurance that didn't work the first time.
 
 > **Figure 8.2: The Decision Tree.** See `visuals/diagrams/figure-8.2-decision-tree.mmd`. Once the specific doubt is named, it usually sorts into one of a small number of categories (timing, budget, trust in delivery, internal buy-in), each with its own kind of resolution.
+
+## When resolving one doubt reveals another
+
+Removing a doubt sometimes uncovers a second one that was hiding behind the first, and this is not a sign that the process has failed. Marguerite's scheduling question, once answered, could easily have been followed by a question about which specific contractor would be doing the noisy work, or what happens if the schedule itself slips. Treat a second doubt the same way as the first: ask what's specifically behind it, and resolve it with evidence rather than reassurance. A deal with two or three sequential, specific doubts that each get properly resolved is healthier than one where a single vague doubt never gets named at all.
+
+## When the doubt is valid and you can't resolve it
+
+Occasionally an objection turns out to be entirely reasonable and genuinely beyond what you can fix. If Kestrel's schedule genuinely couldn't avoid disrupting Bramble's busiest days, no amount of reframing would make that concern go away, because it wouldn't be wrong. The honest move in that situation is to say so plainly, name the trade-off, and let the buyer decide with accurate information, rather than manufacturing a reassurance that won't survive contact with reality. A seller who admits a real limitation here is spending exactly the candour signal built in Module 3, at the moment it matters most. Losing a deal this way costs less, over time, than winning one on a reassurance that later turns out to be false.
 
 ## Apply this today
 
@@ -51,12 +63,16 @@ You'll know this is working when hesitations in your pipeline start arriving as 
 - Treating a vague stall as a resolvable objection instead of revisiting an earlier stage that was never fully completed
 - Arguing with an objection instead of building a specific plan that answers it directly
 - Assuming silence after a proposal means disinterest rather than an unaddressed, unspoken doubt
+- Treating a second doubt, surfaced after resolving the first, as a sign the deal is falling apart
+- Manufacturing a reassurance for a doubt that's actually valid and can't honestly be resolved
 
 ## Chapter summary
 
-- An objection is a question wearing a statement's clothes; asking what's specifically behind it is the fastest way to resolve it.
+- An objection is a question wearing a statement's clothes, often because stating a concern feels less exposing than admitting uncertainty directly.
 - Specific objections are usually real and resolvable; vague stalling usually signals an earlier stage was never finished.
 - A specific plan or piece of verifiable evidence resolves doubt; a more confident version of the same reassurance does not.
+- A second doubt surfacing after the first is resolved is normal, not a bad sign; resolve it the same way.
+- A genuinely valid, unresolvable doubt deserves an honest admission, not a reassurance that won't survive contact with reality.
 - Removing doubt well depends on having done the discovery in Module 4 well enough to build a plan that answers the buyer's actual concern.
 
 ## Key takeaway

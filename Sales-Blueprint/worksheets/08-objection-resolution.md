@@ -28,3 +28,7 @@ Write the specific plan, document, or piece of evidence, not a general reassuran
 ## Step 6: Apply it forward
 
 Deliver the resolution and note what happened next. If the deal moves forward, the doubt was real and now resolved. If a new hesitation appears, repeat this worksheet; it may be a different doubt underneath the first one.
+
+## Step 7: If the doubt turns out to be valid
+
+If, in building the resolution in Step 5, you realise the concern is actually true and you cannot honestly fix it, write down the plain, honest sentence you'll use to name the trade-off to the buyer instead of forcing a resolution that won't hold up.
