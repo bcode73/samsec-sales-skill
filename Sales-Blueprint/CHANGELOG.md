@@ -6,6 +6,13 @@ Format: `## [Date] Phase: Summary`, followed by a short bullet list of changes.
 
 ---
 
+## [Unreleased] Phase 19 (expansion): deepen all 14 modules
+
+- User decision: deepen every module rather than add new content or accept the shorter length.
+- Expanded all 14 modules with mechanism explanations (why each behaviour works, not just what it is), edge cases (first-time buyers, procurement-mandated menus, unquantifiable value, longer sales cycles, and more), and two to three new steps per worksheet. Module 14 gained a closing retrospective, "Where Kestrel ended up," tying the book's full arc together.
+- Every expanded module was self-reviewed against the Humanizer Pass and checked for continuity against the rest of the manuscript.
+- **New total:** approximately 25,800 words of manuscript (front matter, modules, appendices) plus approximately 5,700 words of worksheets/templates/checklists, roughly 31,500 words altogether, up from about 23,300 before this pass. At typical business-book density (275 to 325 words per page) that is approximately 95 to 115 pages. This is real growth, not padding, but it remains short of the 220 to 280 page target in `BOOK_BIBLE.md` §1. Reported honestly rather than closed prematurely; further expansion, a revised target, or additional content are all still open decisions.
+
 ## [Unreleased] Phase 19: Final QC pass
 
 - Fixed 3 stray em dashes in CHANGELOG.md phase headers, introduced during later phases after the initial Humanizer cleanup; a full-repository sweep found no other em dashes, en dashes, curly quotes, or emoji anywhere in the project.
