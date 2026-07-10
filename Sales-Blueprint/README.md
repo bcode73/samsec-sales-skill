@@ -3,7 +3,7 @@
 
 **Author:** Samuel Omobusuyi · **Publisher:** SSO Publishing · **Language:** British English
 
-This directory is the working repository for the manuscript, worksheets, templates, checklists, diagrams and premium visuals that make up *Sales Blueprint*, a commercially publishable business book (220 to 280 pages), built and edited to sit alongside the best-known books on sales and customer psychology.
+This directory is the working repository for the manuscript, worksheets, templates, checklists, diagrams and premium visuals that make up *Sales Blueprint*, a commercially publishable business book (125 to 150 pages), built and edited to sit alongside the best-known books on sales and customer psychology.
 
 This is a **publishing project**, not a generated ebook. Every module is drafted, then reviewed, then revised against [`BOOK_BIBLE.md`](./BOOK_BIBLE.md) before being marked final. Nothing is copied from source material: the repository's existing `SKILL.md` files (in `sales-skills/`, `skills1/`, `skills2/`, `skills3/`) are used only as research to identify principles worth teaching. All explanations, analogies, exercises, diagrams and the running case study are original.
 
