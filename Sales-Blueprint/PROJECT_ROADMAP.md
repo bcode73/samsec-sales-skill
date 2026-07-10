@@ -64,7 +64,7 @@ Status values used throughout: **Not started · Drafted · Revised · Final**.
 | Module | Status |
 |---|---|
 | 12: Digital Selling | Revised |
-| 13: Sales Systems | Final |
+| 13: Sales Systems | Revised |
 
 ## Part Four: Implementation (`manuscript/part-04-implementation/`)
 

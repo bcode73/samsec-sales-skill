@@ -26,3 +26,11 @@ Decide what you'll track monthly: win rate, average time to signature, referral 
 ## Step 5: Apply it forward
 
 Review this pipeline weekly. After three months, compare your four numbers to the baseline in Step 4 and note what changed.
+
+## Step 6: Flag the quiet deals
+
+Mark any deal that has sat at the same stage for more than three weeks without a specific action taken. For each one, decide honestly: is it stalled and recoverable, or genuinely dead? Move dead deals to closed-lost so they stop inflating your pipeline.
+
+## Step 7: Check the system travels
+
+If anyone else is or will be involved in selling, confirm they can look at this board and know the next action for any deal on it, without asking you to explain it first.
