@@ -6,6 +6,21 @@ Format: `## [Date] Phase: Summary`, followed by a short bullet list of changes.
 
 ---
 
+## [Unreleased] Phase 20: editable DOCX working copy
+
+- User feedback on the PDF pagination fix was that it still was not good enough, and asked instead for a genuinely editable Word document preserving the established layout and design, so they can revise it directly themselves going forward.
+- Built a second, independent pipeline in `/build` converting the manuscript straight from Markdown to DOCX with Pandoc, rather than converting the existing PDF (which would have produced floating text boxes instead of real editable paragraphs):
+  - `build_docx_md.py` assembles one Pandoc-Markdown document from the manuscript, worksheets, templates, and checklists, converting figure callouts into real embedded images.
+  - `make_reference_docx.py` restyles Pandoc's default reference document to match the book's brand: deep teal headings, charcoal serif body text, 6in x 9in page size.
+  - `add_page_numbers.py` inserts an auto-updating page-number field into the footer (python-docx has no built-in helper for this; it's a small raw-XML field insert).
+- Found and fixed three Pandoc defaults that would otherwise have broken the result:
+  - CSS and LaTeX-style page breaks are silently ignored by Pandoc's HTML/Markdown readers; real Word page breaks need raw OOXML passthrough (a fenced code block tagged `{=openxml}` containing a `<w:br w:type="page"/>`).
+  - Pandoc's Markdown reader converts straight quotes to curly ones and `--`/`---` to en/em dashes by default, which would have violated the Humanizer Pass across the whole document. Fixed with `--from=markdown-smart`.
+  - Pandoc's native `--toc` flag produces a Word TOC field that renders blank until manually updated, which reads as broken on first open. Used a plain, always-visible bullet-list table of contents instead.
+- Verified by converting the result to PDF with LibreOffice headless (a `.docx` has no fixed pages of its own to inspect directly) and visually checking the cover, table of contents, a comparison table, an embedded figure with caption, a worksheet with checkboxes, and the final page. Confirmed zero curly quotes or en/em dashes by inspecting `word/document.xml` directly.
+- **Output:** `exports/docx/sales-blueprint.docx`, 249 pages in Word's default view (not comparable to the PDF's page count, and will keep changing as the user edits).
+- The PDF remains the fixed-layout version for the Selar listing; the DOCX is a separate, parallel working copy for the author, not a replacement.
+
 ## [Unreleased] Phase 20 (fix): pagination defects and folder-path wording
 
 - User reported, from reading the actual PDF on a phone: an apparent blank page in the table of contents, paragraphs breaking awkwardly across pages (a mid-phrase split literally read "at the 10 point you need it" when copied, the page number caught between words), and body text referencing `/worksheets` and `/templates` folders, which means nothing to someone holding a finished ebook rather than browsing the repository.

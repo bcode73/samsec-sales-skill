@@ -1,6 +1,11 @@
-# PDF build pipeline
+# Build pipelines
 
-Turns the Markdown manuscript into `exports/pdf/sales-blueprint.pdf`. Not run automatically; run by hand when the manuscript changes and a new PDF is needed.
+Two independent pipelines turn the Markdown manuscript into reader-facing files. Neither runs automatically; run by hand when the manuscript changes and a new export is needed.
+
+- **PDF** (`exports/pdf/sales-blueprint.pdf`): fixed layout, for reading and for the Selar listing. See "PDF build pipeline" below.
+- **DOCX** (`exports/docx/sales-blueprint.docx`): a genuinely editable Word document, for the author to revise directly. See "DOCX build pipeline" further down.
+
+## PDF build pipeline
 
 ## Requirements
 
@@ -57,3 +62,42 @@ Turns the Markdown manuscript into `exports/pdf/sales-blueprint.pdf`. Not run au
 - The cover and part-divider pages carry a small page number in the footer margin; there is no per-page suppression of the footer (Chromium's header/footer templates apply uniformly to every page). Cosmetic only.
 - No PDF bookmarks/outline are generated; navigation relies on the in-document table of contents, which is fully clickable.
 - Sized for on-screen ebook reading (Selar, direct download), not for print: no bleed, no crop marks, no CMYK conversion. A print-ready version is separate future work once a print run is actually being prepared.
+
+---
+
+## DOCX build pipeline
+
+Turns the same manuscript into a real, editable Word document: proper paragraph and heading styles, an editable table of contents (plain list, not a Word TOC field, see below), native Word tables, embedded images, and an auto-updating page-number footer. Converts from Markdown directly with Pandoc rather than from the PDF, which avoids the floating-text-box mess a PDF-to-Word conversion usually produces.
+
+### Requirements
+
+- `pandoc` (`apt-get install pandoc` or see pandoc.org)
+- Python 3 with `pip install python-docx` (also needs `markdown`/`pymdown-extensions` if you haven't already installed them for the PDF pipeline)
+- Diagram images already rendered into `build/diagram-images/` (same step as the PDF pipeline, see above)
+
+### Steps
+
+1. Render the diagrams to images (same command as PDF step 1 above; `-b white` rather than `-b transparent` reads better against Word's default white canvas, but either works).
+2. From `build/`, run:
+
+   ```
+   bash render_docx.sh
+   ```
+
+   This runs `build_docx_md.py` (assembles one big Pandoc-Markdown file from the manuscript, worksheets, templates, and checklists, converting figure callouts to real `![]()` images), generates `reference.docx` on first run (via `make_reference_docx.py`, which restyles Pandoc's default reference document: deep teal headings, charcoal serif body text, 6in x 9in page size), converts with `pandoc --from=markdown-smart` (the `-smart` suffix is not optional: Pandoc's default Markdown reader silently turns straight quotes into curly ones and `--`/`---` into en/em dashes, both banned by the Humanizer Pass), and finally adds a centered, auto-updating page-number field to the footer via `add_page_numbers.py` (python-docx has no built-in helper for this; it's a small raw-XML field insert).
+
+3. Output lands at `exports/docx/sales-blueprint.docx`.
+
+### Why the table of contents is a plain list, not a Word TOC field
+
+Pandoc's `--toc` flag generates a genuine, native Word TOC field, which sounds better than a plain list, but it renders **blank** until the user (or an automated pass) explicitly updates it, since Word fields are not calculated until told to. For a document someone is about to open and start editing, an apparently blank first page reads as broken. A plain Markdown bullet list is always visible immediately, at the cost of not being a clickable, auto-updating field. If you'd rather have the real thing, add `--toc --toc-depth=1` back to the pandoc invocation in `render_docx.sh` and remove the `toc_page()` call in `build_docx_md.py`, and tell whoever opens the file to right-click the TOC and choose "Update Field" (or press F9) once.
+
+### Verifying a build without Microsoft Word
+
+`soffice --headless --convert-to pdf exports/docx/sales-blueprint.docx` (LibreOffice, `apt-get install libreoffice-writer`) renders a throwaway PDF for a quick visual check, since a `.docx` has no fixed page images of its own to inspect directly.
+
+### Known limitations of this first version
+
+- No table header shading (Pandoc's default docx table style is a plain grid); add it in Word with Table Design if wanted.
+- Page count is not comparable to the PDF's; Word reflows text differently (line spacing, font metrics), so it will differ and will keep changing as the user edits.
+- Part-divider pages are a plain heading and subheading, not a full-bleed dark teal page; Word doesn't support per-page background colour, only one background for the whole document.
