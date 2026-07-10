@@ -89,6 +89,12 @@ A second, slower signal: within a few months of working this way, you should not
 - Skipping straight to Part Two's later chapters (Value, Offer, Price) because they feel more comfortable than Trust and Diagnosis
 - Deciding your market is the commodity exception described above without actually checking whether your buyers make judgement calls or run spec comparisons
 
+## In a different kind of business
+
+The same four myths show up well outside considered, high-value sales like Kestrel's. Elena, a freelance copywriter, spent years assuming that clients who went quiet after a strong pitch call had simply found someone cheaper. When she finally started asking directly what made a prospect choose someone else, the actual answer was rarely price. It was usually a specific, nameable doubt about whether she could turn work around fast enough during a tight launch window, something no amount of portfolio polish would have fixed, and something she could have surfaced and answered in the very first call if she had thought to ask rather than assume.
+
+Elena's deals close in days, not weeks, which made the pattern easier to see once she started looking for it: a client who said "we've decided to go a different way" almost never meant her writing was weak. It meant an unresolved worry, about speed, about reliability, about whether she'd disappear mid-project, had never been named out loud and so never got the chance to be answered. The myths that cost Priya six weeks of work can cost a freelancer a single afternoon of second-guessing; the mechanism behind them doesn't change with the size or the length of the deal, only the clock it runs on.
+
 ## Chapter summary
 
 - Most sales advice that doesn't work fails because it targets the wrong myth: it teaches technique where the real problem is sequence.

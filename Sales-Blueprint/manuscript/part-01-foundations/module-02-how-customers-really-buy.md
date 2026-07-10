@@ -85,6 +85,12 @@ You'll know this module has landed when, before your next proposal, you can name
 - Estimating committee size from company size instead of from the size and reversibility of the decision itself
 - Assuming every stakeholder wants the same outcome and being surprised when two of them disagree
 
+## In a different kind of business
+
+A wedding photographer's committee looks nothing like an accountancy firm's, and it is still a committee. Marcus, who shoots weddings for a living, used to pitch to whichever partner reached out first, assuming that person's enthusiasm was the whole decision. It rarely was. One partner cared about the emotional coverage of the day itself; the other cared about how the album would read years later, alongside a budget set, more often than either partner would admit outright, by a parent quietly paying for part of the day. Marcus lost more than one booking to a competitor whose sample album simply photographed better in a screenshot forwarded to a mother who was never in the room for his actual pitch.
+
+Once he started asking, early and directly, who else besides the couple in front of him would see the proposal before a deposit was paid, his booking rate improved without him changing a single photograph in his portfolio. The lesson travels cleanly from a forty-person office move to a single day's photography: the person enjoying the pitch and the person who can quietly veto it are not reliably the same person, whatever the size of the purchase.
+
 ## Chapter summary
 
 - Considered purchases are almost always decided by a small, often informal committee, not by one person.
