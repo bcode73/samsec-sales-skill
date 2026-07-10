@@ -1,10 +1,18 @@
 %% Figure 7.1: The Offer Builder
 %% Placement: manuscript/part-02-blueprint-framework/module-07-present-the-offer.md
 %% Caption: Figure 7.1: a well-built offer has four parts, in a fixed order.
-flowchart LR
-    A["1. Recommended package\nbuilt from the confirmed value stack"] --> B["2. What's included\nstated plainly, not implied"]
-    B --> C["3. What counts as a variation\nnamed before the buyer has to ask"]
-    C --> D["4. One next step\nspecific and dated, not open-ended"]
+flowchart TD
+    subgraph Row1 [" "]
+        direction LR
+        A["1. Recommended package\nbuilt from the confirmed value stack"] --> B["2. What's included\nstated plainly, not implied"]
+    end
+    subgraph Row2 [" "]
+        direction LR
+        C["3. What counts as a variation\nnamed before the buyer has to ask"] --> D["4. One next step\nspecific and dated, not open-ended"]
+    end
+    B --> C
 
     classDef part fill:#E3EEEC,stroke:#0F3D3E,color:#0F3D3E;
     class A,B,C,D part;
+    style Row1 fill:transparent,stroke:transparent
+    style Row2 fill:transparent,stroke:transparent

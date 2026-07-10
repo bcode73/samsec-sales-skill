@@ -1,15 +1,24 @@
 %% Figure 13.1: The Lead Pipeline
 %% Placement: manuscript/part-03-modern-selling/module-13-sales-systems.md
 %% Caption: Figure 13.1: every open deal sits under its actual Blueprint stage, which tells you the next specific action.
-flowchart LR
-    B["B\nBuild Trust"] --> L["L\nLearn the\nCustomer"]
-    L --> U["U\nUnderstand\nthe Problem"]
-    U --> E["E\nEstablish\nValue"]
-    E --> P["P\nPresent the\nOffer"]
-    P --> R["R\nRemove\nDoubt"]
-    R --> I["I\nInspire\nAction"]
-    I --> N["N\nNurture"]
-    N --> T["T\nAdvocate"]
+flowchart TD
+    subgraph Row1 [" "]
+        direction LR
+        B["B\nBuild Trust"] --> L["L\nLearn the\nCustomer"] --> U["U\nUnderstand\nthe Problem"]
+    end
+    subgraph Row2 [" "]
+        direction LR
+        E["E\nEstablish\nValue"] --> P["P\nPresent the\nOffer"] --> R["R\nRemove\nDoubt"]
+    end
+    subgraph Row3 [" "]
+        direction LR
+        I["I\nInspire\nAction"] --> N["N\nNurture"] --> T["T\nAdvocate"]
+    end
+    U --> E
+    R --> I
 
     classDef stage fill:#E3EEEC,stroke:#0F3D3E,color:#0F3D3E;
     class B,L,U,E,P,R,I,N,T stage;
+    style Row1 fill:transparent,stroke:transparent
+    style Row2 fill:transparent,stroke:transparent
+    style Row3 fill:transparent,stroke:transparent

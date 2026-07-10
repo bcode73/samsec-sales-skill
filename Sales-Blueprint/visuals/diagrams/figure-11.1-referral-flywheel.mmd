@@ -1,11 +1,19 @@
 %% Figure 11.1: The Referral Flywheel
 %% Placement: manuscript/part-02-blueprint-framework/module-11-turn-customers-into-advocates.md
 %% Caption: Figure 11.1: deliver a confirmed win, ask specifically, make it easy, then close the loop. Each cycle makes the next one easier.
-flowchart LR
-    WIN["Confirmed win\nproof has landed, not just a promise"] --> ASK["Specific ask\nnamed person, one bounded action"]
-    ASK --> EASY["Easy to say yes to\nan introduction, not an endorsement essay"]
-    EASY --> CLOSE["Close the loop\nreport back what happened"]
-    CLOSE -.next cycle.-> WIN
+flowchart TD
+    subgraph Row1 [" "]
+        direction LR
+        WIN["Confirmed win\nproof has landed, not just a promise"] --> ASK["Specific ask\nnamed person, one bounded action"]
+    end
+    subgraph Row2 [" "]
+        direction LR
+        EASY["Easy to say yes to\nan introduction, not an endorsement essay"] --> CLOSE["Close the loop\nreport back what happened"]
+    end
+    WIN <-.-|next cycle| CLOSE
+    ASK --> EASY
 
     classDef step fill:#E3EEEC,stroke:#0F3D3E,color:#0F3D3E;
     class WIN,ASK,EASY,CLOSE step;
+    style Row1 fill:transparent,stroke:transparent
+    style Row2 fill:transparent,stroke:transparent
