@@ -76,6 +76,12 @@ You'll know this is working when your proposals start referencing details a gene
 - Repeating a deflected question more insistently instead of rephrasing it from a less exposing angle
 - Assuming a new stakeholder is already sold because someone else on the deal is
 
+## In a different kind of business
+
+A commercial cleaning company owner named Grace used to open every new-client conversation with a walkthrough of her checklist and her staff's training, which felt thorough and rarely won the deal. The client who finally taught her otherwise ran a small medical clinic, and the walkthrough of her cleaning checklist meant nothing to him until she asked her own version of Priya's three questions. What she learned changed everything: the practice manager was personally measured on passing an unannounced hygiene inspection, not on how the waiting room looked, and the thing he could least defend to his partners was a missed corner during exactly that kind of inspection.
+
+Grace's original pitch had been built entirely around visible cleanliness, a generic answer to a question nobody at the clinic was actually asking. Once she rebuilt the proposal around inspection readiness specifically, using the practice manager's own language, the same service she'd been offering all along suddenly sounded like the right fit. The three questions work whether the deal is a six-figure office fit-out or a modest recurring cleaning contract, because what they surface, the actual stake behind the stated request, doesn't scale with the size of the invoice.
+
 ## Chapter summary
 
 - Learn the Customer only works once Build Trust has earned the buyer's honest answers, which is why it comes second.

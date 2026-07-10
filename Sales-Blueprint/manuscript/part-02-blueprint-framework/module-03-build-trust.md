@@ -79,6 +79,12 @@ You'll know this is working when a prospect starts volunteering information they
 - Assuming a first-time buyer has nothing to diagnose because they have no past supplier to complain about
 - Staying silent about a small mid-deal slip on the assumption the buyer won't notice
 
+## In a different kind of business
+
+An independent accountant named Farooq built his entire client base on referrals, which meant he rarely got a real first meeting; a new client usually arrived already half-trusting him because a friend had vouched for him. That worked until a referral came from a client he barely knew, a fast-growing online retailer whose previous accountant had missed a filing deadline and left them exposed to a penalty. The retailer's founder didn't want warmth. She wanted to know, specifically, what system would catch a deadline before it became a crisis, because that was precisely where her trust had been broken before.
+
+Farooq's instinct, the one he'd relied on for years, was to talk about his qualifications and his years in practice. It didn't land, because her deficit wasn't about competence at all; it was entirely about reliability. Once he described the exact reminder system he used, and the specific point at which he'd flag a looming deadline to a client rather than wait for it to become urgent, she signed within the week. The three trust signals don't arrive in equal proportion with every buyer; the skill is diagnosing which one this particular buyer is actually short of, rather than defaulting to whichever one you're proudest of.
+
 ## Chapter summary
 
 - Build Trust comes first because every later stage assumes the buyer is willing to take what you say at face value.
