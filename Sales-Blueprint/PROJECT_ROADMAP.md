@@ -50,7 +50,7 @@ Status values used throughout: **Not started · Drafted · Revised · Final**.
 | Module | Status |
 |---|---|
 | 3: Build Trust | Revised |
-| 4: Learn the Customer | Final |
+| 4: Learn the Customer | Revised |
 | 5: Understand the Problem | Final |
 | 6: Establish Value | Final |
 | 7: Present the Offer | Final |

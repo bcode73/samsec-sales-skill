@@ -8,6 +8,8 @@ By the end of this module, you will be able to:
 - Ask the three questions that reveal a stakeholder's role, pressure, and personal stake in the decision
 - Map the full buying committee for a deal at the first opportunity, rather than discovering it late
 - Apply a discovery structure that feels like genuine curiosity rather than an interrogation
+- Handle a stakeholder who stays guarded even after trust is established
+- Restart discovery cleanly when a new stakeholder joins a deal already in progress
 
 ## Why L follows B
 
@@ -29,11 +31,21 @@ Generic discovery ("tell me about your business," "what are your goals?") produc
 
 None of these questions work as a checklist read aloud in order. They work because trust, built in the previous stage, makes the buyer willing to answer them honestly, in a normal conversation rather than a form.
 
+Each question is aimed at a different failure that shows up later if it's skipped. Skip the committee question, and you get Module 2's problem: a confident pitch to the wrong audience. Skip the personal-stake question, and your value case in Module 6 ends up generic, because you never learned what "success" actually means to this specific person. Skip the hard-to-defend question, and you spend Module 8 discovering an objection live that you could have prepared for weeks earlier. The three questions aren't arbitrary; each closes a specific gap that a later stage would otherwise have to work around blind.
+
+## When a stakeholder stays guarded anyway
+
+Trust makes honest answers more likely, not certain. Some stakeholders are guarded by habit or by role (a finance director who has been trained never to reveal budget ceilings, for instance) regardless of how much trust exists. When a direct question gets a deflected answer, don't repeat it more insistently; change its shape instead. Ask about a comparable past decision rather than this one directly ("how did a purchase like this usually get decided here before?"), or ask what a good outcome would look like rather than what they're afraid of. Both versions get at the same information from an angle that feels less exposing to answer. If a stakeholder still won't open up after two attempts at rephrasing, treat that reticence itself as data: it usually means either the relationship needs more time, or that person genuinely isn't the one worth learning more from right now.
+
 ## Learning the organisation, not just the person
 
 Individual discovery tells you about Dominic. Organisational discovery tells you how Bramble Analytics actually makes this kind of decision: whether it needs board sign-off, whether there's a formal procurement process, how fast decisions have moved on similar purchases before. Priya asked Dominic how the company had chosen its accounting software the previous year, a purchase of comparable weight but nothing to do with office design, specifically to learn the shape of their decision process rather than the details of this particular deal. He told her it took six weeks and needed both his and Marguerite's sign-off, which set her expectations for this sale's timeline before she'd built a single proposal.
 
 > **Figure 4.1: The Customer Journey.** See `visuals/diagrams/figure-4.1-customer-journey.mmd`. What Priya learned about Dominic maps onto four stages of his own journey toward a decision: aware of the problem, evaluating options, deciding internally, and justifying the choice afterward. Each stage needs different information from him, which is why one long discovery conversation rarely captures it all.
+
+## Restarting discovery when someone new joins
+
+Marguerite hadn't been in the room for any of Priya's early conversations with Dominic, which meant that when she eventually did get involved, Build Trust and Learn the Customer both had to restart for her specifically, even though the deal itself was well past that point with Dominic. This is the framework's loop-back in practice: a new stakeholder doesn't inherit the trust or the discovery already done with someone else in the same deal. Treating Marguerite as already-sold because Dominic was would have skipped stages she'd never actually been through, and it's exactly the kind of gap that shows up later as an unexpected objection. Module 13 covers how to track this without losing your place across a whole pipeline; the discipline itself starts here, the first time a deal grows a second name.
 
 ## Apply this today
 
@@ -49,13 +61,16 @@ You'll know this is working when your proposals start referencing details a gene
 - Asking broad, generic questions that produce broad, generic answers
 - Learning about the individual in the room without learning how their organisation actually decides
 - Treating discovery as a one-time form to fill in rather than an ongoing habit throughout the deal
+- Repeating a deflected question more insistently instead of rephrasing it from a less exposing angle
+- Assuming a new stakeholder is already sold because someone else on the deal is
 
 ## Chapter summary
 
 - Learn the Customer only works once Build Trust has earned the buyer's honest answers, which is why it comes second.
-- Three specific questions (who else must be comfortable, what they're personally measured on, what would be hard to defend) reveal more than generic discovery ever will.
+- Three specific questions (who else must be comfortable, what they're personally measured on, what would be hard to defend) each close a specific gap that a later stage would otherwise have to work around blind.
+- A guarded stakeholder needs a differently shaped question, not a more insistent version of the same one.
 - Learning the organisation's decision process, not just the individual's preferences, sets realistic expectations for the whole deal.
-- Discovery is not a one-time form; it continues as new stakeholders and new information appear.
+- Discovery is not a one-time form; it restarts for every new stakeholder who joins a deal already in progress.
 
 ## Key takeaway
 

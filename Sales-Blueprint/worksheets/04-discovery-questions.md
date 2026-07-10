@@ -32,3 +32,11 @@ Ask how they made a comparable decision before (even in a different category) an
 ## Step 4: Apply it forward
 
 Compare your current proposal or pitch against what you learned in Steps 1 to 3. Does it speak to the personal stake you uncovered, or only to the generic business need? Revise one sentence of your pitch to reference something specific you learned in this conversation.
+
+## Step 5: Rephrase for a guarded stakeholder
+
+If any answer in Step 1 came back vague or deflected, write a rephrased version of that same question, aimed at a comparable past decision or a good outcome, instead of the direct version. Use it next time you speak with that stakeholder.
+
+## Step 6: Flag new stakeholders for a restart
+
+If a new person joins this deal after today, note their name here and mark that Steps 1 to 3 need to be repeated for them specifically. Do not assume their answers will match the stakeholder you already spoke to.
