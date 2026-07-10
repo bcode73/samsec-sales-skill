@@ -35,6 +35,14 @@ Once you've correctly diagnosed a doubt as resolved, as Marguerite's clearly was
 
 Every stage before this one has been building toward a decision. This stage is about making that decision as small and specific an action as possible at the moment it's needed. "Sign this document" is a bigger, vaguer ask than "give me fifteen minutes to walk through it together and sign." The content of the decision doesn't change; the size of the immediate action does, and smaller, more specific actions get taken faster than large, open-ended ones.
 
+## Diagnosing the friction, not the doubt
+
+| What's actually in the way | Wrong response | Right response |
+|---|---|---|
+| Competing priorities | Reopening the value conversation from scratch | A scheduled, bounded action, such as a fifteen-minute call |
+| Unclear who signs internally | Waiting for the buyer to work it out | Asking directly who needs to be on the call to close it |
+| A long, effortful document | Sending another reminder to review it | Walking through it live together and signing on the call |
+
 ## Genuine urgency, not manufactured urgency
 
 The installation slot Priya mentioned to Dominic was real: Kestrel's schedule genuinely depended on it, and missing it genuinely would have pushed the project back. That's the difference between a real deadline and the manufactured kind ("only two spots left this month!") that buyers have learned to discount, and which actively damages the trust built all the way back in Module 3 if it's ever caught being untrue. Use a real constraint when one exists. Don't invent one when it doesn't.
@@ -50,6 +58,10 @@ There's a point where reasonable persistence starts to read as pressure, and it 
 ## Apply this today
 
 Look at any deal in your pipeline where the buyer has said something close to "yes, we want to do this" but hasn't yet acted. Call them and ask plainly what's in the way. Then reduce whatever they tell you into the smallest possible next action, scheduled specifically, rather than left open-ended.
+
+## Audit every yes in your pipeline, not just the loudest one
+
+Once a month, list every deal where the buyer has verbally agreed but hasn't yet signed, and check each one against a single question: is there a specific, scheduled action already on the calendar, or is it sitting on an open-ended "let me know"? Any deal without a scheduled action gets one before the review ends. This catches the quietly stalled agreements that never announce themselves the way an unresolved objection does, because nothing about them looks urgent until weeks have already passed.
 
 ## Measure success
 

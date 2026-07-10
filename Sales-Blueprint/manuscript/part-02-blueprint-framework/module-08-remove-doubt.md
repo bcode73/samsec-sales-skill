@@ -41,6 +41,14 @@ Priya didn't try to talk Marguerite out of her concern. She built a schedule tha
 
 > **Figure 8.2: The Decision Tree.** See `visuals/diagrams/figure-8.2-decision-tree.mmd`. Once the specific doubt is named, it usually sorts into one of a small number of categories (timing, budget, trust in delivery, internal buy-in), each with its own kind of resolution.
 
+## Reassurance versus resolution, three doubt types
+
+| Doubt type | Reassurance (what doesn't work) | Resolution (what does) |
+|---|---|---|
+| Timing or disruption | "Don't worry, we're very experienced" | A week-by-week schedule matched to their own quietest days |
+| Budget or scope | "We'll keep costs under control" | The fixed-scope and variation page built in Module 7 |
+| Trust in delivery | "We've done this many times before" | A specific reference, or the exact escalation plan if something slips |
+
 ## When resolving one doubt reveals another
 
 Removing a doubt sometimes uncovers a second one that was hiding behind the first, and this is not a sign that the process has failed. Marguerite's scheduling question, once answered, could easily have been followed by a question about which specific contractor would be doing the noisy work, or what happens if the schedule itself slips. Treat a second doubt the same way as the first: ask what's specifically behind it, and resolve it with evidence rather than reassurance. A deal with two or three sequential, specific doubts that each get properly resolved is healthier than one where a single vague doubt never gets named at all.
@@ -52,6 +60,10 @@ Occasionally an objection turns out to be entirely reasonable and genuinely beyo
 ## Apply this today
 
 Think of the last hesitation a live prospect raised with you. Write down the specific question you believe was actually behind it, and one piece of evidence or a specific plan, not a general reassurance, that would answer that exact question. If you haven't asked them directly what's behind the hesitation, do that first.
+
+## Review the whole pipeline for silence, not just one deal
+
+Once a week, go past the deal that's currently on your mind and look at every proposal that has gone quiet without a stated reason. For each one, write down your best guess at the specific question sitting underneath that silence, then decide whether it's worth reopening with a direct question of your own. Most sellers only apply this thinking to the deal that's loudest right now; the quiet ones, reviewed on the same schedule, are often where a genuinely resolvable doubt has been sitting unanswered the longest.
 
 ## Measure success
 
