@@ -16,7 +16,7 @@ Every module, worksheet, diagram and line of front matter must be consistent wit
 | **Publisher** | SSO Publishing |
 | **Language** | British English |
 | **Category** | Business / Sales / Entrepreneurship |
-| **Target length** | 220 to 280 formatted pages |
+| **Target length** | 125 to 150 formatted pages (revised from an initial 220 to 280 page target after three rounds of deepening plus new appendix content; see `PROJECT_ROADMAP.md` phase log for the full history) |
 | **Comparable shelf** | Sits beside *To Sell Is Human*, *The Challenger Sale*, *Never Split the Difference*, *Influence*: practical, structured, no-nonsense business craft rather than motivational content |
 
 **SSO Publishing is the official publishing imprint of this entire project.** Every front-matter page, copyright notice, footer, export (DOCX/PDF/EPUB/print) and external reference to the book's publisher must read "SSO Publishing." No other imprint name is used anywhere in the manuscript, repository, or generated assets.

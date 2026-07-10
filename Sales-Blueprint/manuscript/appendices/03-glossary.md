@@ -31,3 +31,23 @@ Terms as used throughout this book, in alphabetical order.
 **Trust deficit.** The gap between how much confidence a buyer needs to say yes and how much they currently have. See Module 3.
 
 **Value stack.** The visible, itemised list of outcomes a customer gets, arranged so the price feels small next to the pile. See Module 6.
+
+**Asserted value.** A benefit stated as a claim, with nothing the buyer can check it against. Gets discounted because it costs the seller nothing to say. See Module 6.
+
+**Demonstrated value.** A benefit connected to a specific outcome the buyer already confirmed, ideally using the buyer's own numbers or words. Harder to dismiss than an asserted claim. See Module 6.
+
+**Discovery.** The structured process of learning a stakeholder's role, personal stake, and pressures, run only once trust has been established. See Module 4.
+
+**Friction.** Ordinary organisational or personal obstacles (a busy week, an unclear sign-off process) that delay a convinced buyer from acting, distinct from an unresolved doubt. See Module 9.
+
+**Loop-back.** The framework's rule that a new stakeholder joining a deal already in progress restarts Build Trust and Learn the Customer for that person specifically, regardless of how far along the deal is with someone else. See Module 4 and Module 13.
+
+**Nurture cadence.** A scheduled, deliberate sequence of genuine, no-pitch check-ins with a past customer, distinct from reactive contact that only happens around problems or new pitches. See Module 10.
+
+**Pipeline.** The full set of open deals a seller or business is tracking, ideally organised by actual Blueprint stage rather than a generic label. See Module 13.
+
+**Status quo gravity.** The tendency of a buyer to prefer doing nothing over switching, because a bad decision to act is personally attributed to the person who acted, while a bad decision to stay put is usually attributed to circumstance. See Module 2.
+
+**Symptom.** The problem a buyer states out loud, based on what they've actually experienced, as distinct from the underlying cause producing it. See Module 5.
+
+**Trust signal.** Specific, checkable evidence, of competence, reliability, or candour, that earns a buyer's willingness to take what a seller says at face value. See Module 3.

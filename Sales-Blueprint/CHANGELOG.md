@@ -6,6 +6,16 @@ Format: `## [Date] Phase: Summary`, followed by a short bullet list of changes.
 
 ---
 
+## [Unreleased] Phase 19 (final length pass): FAQ appendix, expanded glossary, quick reference
+
+- User decision: the manuscript's length is essentially fine as is; add roughly 10 more pages of new content rather than another full deepening round.
+- Added a new appendix, `manuscript/appendices/05-frequently-asked-questions.md`: 20 direct questions and answers covering practical reader concerns not fully addressed elsewhere (genuine commodity markets, selling inside a larger company, internal pitches, formal RFPs, product churn, team consistency without identical scripts, one-off no-repeat businesses, and more), each referencing the relevant module. Added the file to the front-matter table of contents.
+- Added a "quick reference: the nine stages and their key question" table inside the same appendix, a one-line summary of what each Blueprint stage is actually asking, useful for a quick pipeline check.
+- Expanded the glossary with 11 additional terms (asserted value, demonstrated value, discovery, friction, loop-back, nurture cadence, pipeline, status quo gravity, symptom, trust signal), cross-referenced to the modules that define them.
+- Self-reviewed against the Humanizer Pass.
+- Revised `BOOK_BIBLE.md`'s target length from 220 to 280 pages to 125 to 150 pages, to reflect the manuscript's actual, user-accepted scope after three deepening rounds and this final content pass.
+- **New total:** approximately 40,427 words altogether (31,870 words of manuscript plus 5,688 words of worksheets/templates/checklists plus the new appendix content), approximately 124 to 147 pages at typical business-book density, up from about 37,558 words before this pass. This closes the length-expansion work started in Phase 19; the manuscript is considered complete at this length.
+
 ## [Unreleased] Phase 19 (round 3 expansion): a second worked scenario per module
 
 - User decision: a third pass with substantially larger additions per module than rounds 1 or 2, specifically to test whether bigger increments close meaningfully more of the length gap.
