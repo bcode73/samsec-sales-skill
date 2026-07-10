@@ -77,6 +77,12 @@ You'll know this is working when you can summarise a buyer's problem back to the
 - Manufacturing a deeper cause that isn't actually there, when the buyer's first answer was already correct
 - Picking the tidiest of several compounding causes and quietly ignoring the rest
 
+## In a different kind of business
+
+A small marketing agency run by a woman named Iris kept losing pitches to a specific kind of client complaint: "our previous agency didn't really understand our audience." Every prospective client said some version of it, and Iris's instinct for years was to respond with a bigger portfolio and more case studies, proof that she did, in fact, understand audiences in general. It never quite worked, because the stated symptom, "you don't understand our audience," was standing in for something more specific that clients rarely spelled out unprompted.
+
+The pattern only became visible once she started asking one direct follow-up: "can you show me an example of content that missed, and tell me exactly what felt wrong about it?" The answers converged on something she hadn't expected: it wasn't audience understanding at all. It was tone, specifically a previous agency's tendency to sound more corporate than the client's own brand voice, dressed up in the language of "audience fit" because that was the easiest way for a frustrated client to describe a feeling they hadn't fully named. Once Iris started diagnosing tone mismatch instead of audience misunderstanding, her pitches started addressing the actual cause, and her win rate on exactly this kind of complaint improved within a single quarter.
+
 ## Chapter summary
 
 - What a buyer says the problem is (the symptom) and what's actually causing it (the cause) are often different, and only the second one is worth solving.

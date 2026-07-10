@@ -77,6 +77,12 @@ You'll know this is working when a buyer's next question is about implementation
 - Inventing a statistic to make an inherently unquantifiable benefit look measurable
 - Padding the value stack with a weak, repetitive item just to make the pile look bigger
 
+## In a different kind of business
+
+A bespoke furniture maker named Owen used to describe his work the way most craftspeople do: solid oak, hand-finished joints, built to last generations. It was all true, and none of it moved a client who'd already been told the same three phrases by two competitors quoting a similar price. The client who changed how Owen pitched was a couple furnishing a narrow, oddly-shaped dining room that had defeated every off-the-shelf table they'd tried, the reason they'd come to a bespoke maker in the first place.
+
+Instead of repeating his usual language about craftsmanship, Owen measured the room himself and said plainly: "Every table you've looked at online forces you to choose between fitting through the doorway in one piece or seating the eight people you actually want at it. This one does both, because I'm building it in two sections that join invisibly once they're in the room." That sentence, tied to the specific problem the couple had spent months failing to solve, did more work than any description of the wood grain. The same underlying quality claim, generically asserted, would have sounded like every other quote in their inbox.
+
 ## Chapter summary
 
 - Value that is asserted is a claim; value that is demonstrated is a connection the buyer can check against what they already told you.
