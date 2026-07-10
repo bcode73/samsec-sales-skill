@@ -76,6 +76,12 @@ You'll know this is working when you can look at your pipeline and immediately k
 - Only paying attention to whichever deal is asking loudest, while a quiet one dies unnoticed at the same stage for weeks
 - Leaving genuinely lost deals sitting in the active pipeline, which inflates every metric built from it
 
+## In a different kind of business
+
+A small events staffing agency run by three partners hit the same wall Priya did, only faster, because three people were each keeping their own version of the pipeline in their own head, with no shared picture of who was talking to which client about what. One partner assumed a promising venue-services client was still at the discovery stage; another partner had actually sent that same client a full proposal two weeks earlier and forgotten to mention it. The client received two contradictory follow-ups in the same week and quietly went with a competitor rather than untangle the confusion.
+
+Rebuilding their shared pipeline around the same nine Blueprint stages, rather than each partner's private mental notes, fixed the specific failure that had cost them that client: a glance at the board now shows, for any deal, exactly which stage it's at and who last touched it, which matters more with three sellers sharing a client list than it ever did for Priya working alone. A system's real test isn't whether one disciplined person can hold it together. It's whether it still works when nobody in particular is the one holding it.
+
 ## Chapter summary
 
 - A framework that depends entirely on one person's memory is a habit, not a system, and it breaks under load.

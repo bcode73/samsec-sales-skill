@@ -66,6 +66,12 @@ The Priya Shah at the start of this book stood in a car park re-reading a reject
 
 That is the actual promise of this book, restated plainly at the end of it: not a transplant into someone more naturally suited to selling, but a system precise enough to run on purpose, in an order that removes the guesswork one stage at a time.
 
+## In a different kind of business
+
+The thirty-day structure stretches differently for a business whose deals close in days rather than weeks. Elena, the freelance copywriter from Module 1, didn't have a single slow-moving deal to carry through all four weeks the way Priya did with Bramble Analytics. She had a dozen short client conversations most weeks, which meant Week 1's trust-deficit question got tested a dozen times before the week was even over, not once. By the end of thirty days, Elena hadn't installed the framework stage by stage on one long deal; she had run the entire nine-stage sequence, start to finish, against ten or twelve separate short deals, some of which she'd won and some of which she'd lost cleanly enough to know exactly why.
+
+The lesson for a fast-cycle business is that the four weeks aren't really about the calendar; they're about getting enough live repetitions of each stage to make it a reflex. A business that closes one deal a quarter needs a full month to test a single habit properly. A business that closes several deals a week can test the same habit that many times before lunch on a Tuesday, and the thirty-day structure compresses accordingly, doing in days what it took Kestrel a full rollout to achieve.
+
 ## Common mistakes
 
 - Trying to apply all nine stages to every deal simultaneously in week one, rather than installing them in sequence
