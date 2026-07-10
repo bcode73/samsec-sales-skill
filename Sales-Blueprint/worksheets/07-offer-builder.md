@@ -31,3 +31,7 @@ Replace any open-ended closing line with a specific, dated action needed from th
 ## Step 6: Apply it forward
 
 Send the rebuilt proposal and note the buyer's first question. A question about the recommended option itself means the offer is doing its job; a question asking you to explain the difference between options means Step 1 needs another pass.
+
+## Step 7: If procurement requires multiple options
+
+If this buyer's process mandates more than one priced option, write the exact sentence you'll include stating which one you recommend and why, tied to their confirmed problem. Do not leave the document neutral.

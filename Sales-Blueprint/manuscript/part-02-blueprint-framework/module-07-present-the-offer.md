@@ -6,6 +6,7 @@ By the end of this module, you will be able to:
 
 - Explain why Present the Offer only works once value has already been established
 - Build one clear, recommended package instead of a menu of confusing options
+- Handle a formal procurement process that requires multiple priced options
 - Fix the scope explicitly, so "what counts as extra" is answered before the buyer has to ask
 - Give the buyer a single, specific next step instead of leaving the decision open-ended
 
@@ -25,6 +26,12 @@ She also included a page Dominic hadn't seen in a Kestrel proposal before: an ex
 
 Multiple options presented with equal weight force the buyer to do comparative analysis before they can even decide whether to buy, and comparative analysis is where deals stall. A single, clearly recommended package, built directly from the value stack the buyer already agreed with, turns the decision into a yes or no rather than a multiple-choice question. Where variation genuinely helps (a buyer who wants to see a smaller or larger version), it should sit underneath the recommendation as a scaled add-on, not beside it as an equal alternative.
 
+The mechanism is straightforward: every additional option a buyer has to weigh adds a comparison they have to resolve before they can act, and each comparison is a fresh opportunity to feel unsure and defer the whole decision. A single recommendation removes that comparison entirely, replacing "which of these three is right for us?" with the much smaller question "is this right for us?" The second question gets answered faster, because there's nothing to weigh it against except the buyer's own confirmed problem.
+
+## When procurement requires multiple options
+
+Some buyers, particularly larger organisations with a formal purchasing process, will ask directly for two or three priced options as a condition of even considering the deal, and refusing outright isn't realistic. In that situation, the recommendation still exists; it just has to survive being placed next to alternatives rather than being the only thing on the page. State plainly, in the document itself, which option you recommend and why, tied to the specific diagnosed problem, rather than presenting all options neutrally and letting the buyer guess your view. A seller who stays silent about their own recommendation inside a mandated menu is still creating the over-optioned, directionless choice this stage exists to avoid, even though the format wasn't their idea.
+
 ## Fix the scope before the buyer has to ask
 
 Priya's fixed-scope page directly answered the concern Farah raised cold in Module 2 and Marguerite would almost certainly raise here: what's included, and who explains it if something changes. Naming the boundary of the offer in writing, before the buyer asks, is a reliability signal in the same family as the ones covered in Module 3, applied now to the specific document the buyer will actually sign.
@@ -34,6 +41,8 @@ Priya's fixed-scope page directly answered the concern Farah raised cold in Modu
 ## Price as a ladder, not a single figure
 
 Where Priya did want to give Dominic and Marguerite a real, bounded choice, she used a short ladder rather than a wide menu: the recommended package in the middle, a slightly reduced version below it, and a defined enhancement above it, with the recommended tier visually and verbally the default. A ladder with a clear anchor lets a budget-conscious co-founder feel she has a genuine choice without reopening the entire proposal from scratch.
+
+The middle position does specific work here. A buyer scanning three tiers reads the lowest as a compromise and the highest as excessive, almost automatically, which leaves the middle feeling like the reasonable choice before they've evaluated a single feature. That's why the recommended package belongs in the middle rather than at either end, and why it should be visually distinguished (larger, more prominent, explicitly labelled) rather than left to win the comparison on position alone. Position helps; it isn't a substitute for the tier actually being the right one for the buyer's confirmed problem.
 
 > **Figure 7.2: The Pricing Ladder.** See `visuals/diagrams/figure-7.2-pricing-ladder.mmd`. Three tiers, one clearly anchored as the recommendation. A ladder, not a menu of equals.
 
@@ -52,15 +61,19 @@ You'll know this is working when buyers respond to a proposal with a question ab
 ## Common mistakes
 
 - Presenting several options with equal weight and no clear recommendation
+- Staying neutral inside a procurement-mandated menu instead of stating a clear recommendation anyway
 - Leading with price before the value stack has been shown
 - Leaving scope boundaries unstated until a dispute forces the conversation
 - Closing with an open-ended invitation to respond instead of a specific, dated action
+- Relying on the middle tier's position to do all the persuasive work instead of making sure it's genuinely the right fit
 
 ## Chapter summary
 
 - Present the Offer only works once Establish Value has given the buyer something to weigh the price against.
-- One clearly recommended package, with any alternatives subordinate to it, is easier to say yes to than a menu of equals.
+- One clearly recommended package, with any alternatives subordinate to it, is easier to say yes to than a menu of equals, because every extra option adds a comparison the buyer has to resolve before they can act.
+- Even inside a procurement process that mandates multiple options, state a clear recommendation rather than presenting them neutrally.
 - Naming the scope boundary in writing, before the buyer asks, answers the reliability concern before it becomes an objection.
+- A middle-tier ladder position helps a recommendation read as reasonable, but it only works when that tier is actually the right fit.
 - A specific, dated next step keeps momentum; an open invitation to respond lets it stall.
 
 ## Key takeaway

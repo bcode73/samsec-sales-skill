@@ -53,7 +53,7 @@ Status values used throughout: **Not started · Drafted · Revised · Final**.
 | 4: Learn the Customer | Revised |
 | 5: Understand the Problem | Revised |
 | 6: Establish Value | Revised |
-| 7: Present the Offer | Final |
+| 7: Present the Offer | Revised |
 | 8: Remove Doubt | Final |
 | 9: Inspire Action | Final |
 | 10: Nurture Relationships | Final |
