@@ -43,6 +43,14 @@ Not every satisfied customer has a specific introduction in mind, and asking "do
 
 Priya's short note back to Dominic (the introduction led to a meeting, and she wanted him to know) did more for the relationship than the referral itself. A customer who makes an introduction and never hears anything about it again learns, correctly, that the effort disappeared into a void, and is less likely to offer another one. Closing the loop, telling the advocate what happened, win or lose, is what turns a single referral into a habit rather than a one-off favour.
 
+## Vague ask versus specific ask
+
+| Situation | Vague ask (easy to forget) | Specific ask (bounded and actionable) |
+|---|---|---|
+| A named person comes to mind | "Let me know if you hear of anyone" | "Would you introduce me directly to this person?" |
+| No specific person comes to mind | "Keep me in mind for anyone who needs this" | A named case study, testimonial, or review |
+| After the introduction happens | Nothing further said | A short note closing the loop on what happened |
+
 ## The compounding value of an advocate
 
 A customer who refers even one similar business roughly doubles the value Kestrel gets from the original relationship, without any proportional increase in Priya's own prospecting effort. Over several years and several introductions, that compounding effect is usually larger than the value of the original project itself.
@@ -56,6 +64,10 @@ An advocate who has made two or three introductions for you has done something g
 ## Apply this today
 
 Think of a customer who has recently told you something positive about the result you delivered, even in passing. Ask them one specific question: whether they'd be willing to introduce you to a particular person or a particular kind of contact, rather than a general request to keep you in mind.
+
+## Attach the ask to your existing nurture cadence
+
+Rather than waiting for a customer to volunteer something you can act on, build the referral ask into the six-week and six-month check-ins from Module 10. When proof has clearly landed and the conversation is already positive, ask the specific question then, instead of treating it as a separate task you have to remember to do at some other time. The nurture cadence already puts you in the room at the right moment; this just makes sure you use it.
 
 ## Measure success
 

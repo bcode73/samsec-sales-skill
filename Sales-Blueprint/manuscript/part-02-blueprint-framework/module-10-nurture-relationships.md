@@ -33,6 +33,14 @@ A relationship that only gets attention when something breaks or when there's a 
 
 > **Figure 10.1: The Follow-up Timeline.** See `visuals/diagrams/figure-10.1-follow-up-timeline.mmd`. A handful of deliberate touchpoints, each with its own honest purpose, spaced out from delivery onward. None of them exists to sell something.
 
+## The nurture cadence, at a glance
+
+| Touchpoint | Timing | Purpose | What it isn't |
+|---|---|---|---|
+| First check-in | Six weeks after delivery | Confirm the original diagnosis actually held up in practice | An upsell attempt |
+| Business check-in | Six months after delivery | Learn what's changed in the business since | A renewal pitch |
+| Anniversary note | Around twelve months | Share something genuinely useful | A reason to buy again |
+
 ## Genuine nurture has no pitch hiding in it
 
 The test for whether a follow-up is nurture or a disguised pitch is simple: if you removed any possibility of future revenue from the conversation, would you still make the call? Priya's six-week question about the coffee shop passed that test easily; she wanted to know whether the diagnosis in Module 5 had actually held up in practice, independent of whether Bramble Analytics ever bought from her again. A customer can tell the difference between a call like that and a call that's really a warmed-up sales pitch wearing a check-in's clothes, and the difference is exactly what determines whether they pick up the phone next time.
@@ -46,6 +54,10 @@ A handful of customers is easy to nurture individually; a growing client base is
 ## Apply this today
 
 Pick one customer you closed more than a month ago and haven't spoken to since. Call or message them with a single, genuine question about how what you delivered is actually working, with nothing to sell attached. Note what they tell you; it's often information you can't get any other way.
+
+## Put the cadence on a calendar, not in your memory
+
+Rather than relying on remembering to check in, set the six-week, six-month, and anniversary touchpoints as calendar reminders the moment a deal closes, for every customer, not just the ones you happen to think of. When a reminder fires, spend a minute recalling something specific to that customer before you reach out, so the message still reads as genuine rather than templated. The schedule can run on autopilot; the content never should.
 
 ## Measure success
 
