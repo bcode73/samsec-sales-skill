@@ -44,6 +44,14 @@ Dominic's question was easy to answer because he had a specific, recent bad expe
 
 Naming a real weakness before the buyer finds it sounds, to most sellers, like handing them a reason to walk away. It does the opposite, for a specific reason: a buyer's default assumption about any seller is that they're hearing the flattering, curated version of the truth. The moment a seller says something unflattering and true, that default assumption breaks, and everything said afterward gets evaluated differently, because the buyer now has evidence you're capable of telling them things that don't serve you. This is why candour has to come after competence and reliability in the pyramid rather than first: a stranger who opens with a confession sounds like they're apologising for something, not building anything. The same confession, offered by someone who has already demonstrated they know what they're doing, reads as honesty instead of weakness.
 
+## Old habit versus new behaviour
+
+| Situation | Priya's old habit | What she does now |
+|---|---|---|
+| Opening a first meeting | Leads with portfolio and past projects | Asks what went wrong with the last supplier first |
+| A limitation in the product or process | Hopes the buyer won't ask | States it plainly before the buyer discovers it |
+| A mid-deal delay | Stays quiet and hopes it isn't noticed | Names it, explains the fix, and reconfirms the plan |
+
 > **Figure 3.1: The Trust Pyramid.** See `visuals/diagrams/figure-3.1-trust-pyramid.mmd`. Competence and reliability signals form the base; candour sits above them, because admitting a limitation only builds trust once the buyer already believes you're capable and dependable. Trust granted sits at the apex, not the start.
 
 ## Trust can be spent and re-earned within a single deal
@@ -53,6 +61,10 @@ Trust built in the first meeting isn't a permanent balance; it can be drawn down
 ## Apply this today
 
 Before your next first meeting, write down one question you can ask that surfaces what went wrong the last time this buyer tried to solve this problem, or what they're most worried could go wrong if they have no past experience to reference. Ask it before you present anything. Then choose one candour signal, a real limitation of your product or service, and say it out loud in that same meeting, before the buyer has to discover it themselves.
+
+## Build this into every first meeting, not just this one
+
+Treat the opening question and the candour signal as a standing routine, not a one-time technique for this deal. Before every first meeting from now on, spend thirty seconds preparing both: the question that surfaces the deficit, and the one true limitation you'll name unprompted. Over several meetings, this becomes a fixed opening move rather than something you have to remember to do, which is exactly when it starts working best, because it stops sounding rehearsed and starts sounding like how you naturally open every conversation.
 
 ## Measure success
 

@@ -37,6 +37,14 @@ Each question is aimed at a different failure that shows up later if it's skippe
 
 Trust makes honest answers more likely, not certain. Some stakeholders are guarded by habit or by role (a finance director who has been trained never to reveal budget ceilings, for instance) regardless of how much trust exists. When a direct question gets a deflected answer, don't repeat it more insistently; change its shape instead. Ask about a comparable past decision rather than this one directly ("how did a purchase like this usually get decided here before?"), or ask what a good outcome would look like rather than what they're afraid of. Both versions get at the same information from an angle that feels less exposing to answer. If a stakeholder still won't open up after two attempts at rephrasing, treat that reticence itself as data: it usually means either the relationship needs more time, or that person genuinely isn't the one worth learning more from right now.
 
+## The three questions and what they prevent
+
+| Question | Gap it closes | What happens if skipped |
+|---|---|---|
+| Who else needs to be comfortable with this? | Reveals the buying committee | A confident pitch to the wrong audience (Module 2) |
+| What are you personally measured on this year? | Reveals the personal stake | A generic value case with no real stakes attached (Module 6) |
+| What would be hard to defend to your board or team? | Reveals the likely objection early | Discovering the objection live, unprepared (Module 8) |
+
 ## Learning the organisation, not just the person
 
 Individual discovery tells you about Dominic. Organisational discovery tells you how Bramble Analytics actually makes this kind of decision: whether it needs board sign-off, whether there's a formal procurement process, how fast decisions have moved on similar purchases before. Priya asked Dominic how the company had chosen its accounting software the previous year, a purchase of comparable weight but nothing to do with office design, specifically to learn the shape of their decision process rather than the details of this particular deal. He told her it took six weeks and needed both his and Marguerite's sign-off, which set her expectations for this sale's timeline before she'd built a single proposal.
@@ -50,6 +58,10 @@ Marguerite hadn't been in the room for any of Priya's early conversations with D
 ## Apply this today
 
 In your next conversation with an existing prospect, ask one question you haven't asked yet: what they're personally measured on this year, or who else needs to be comfortable with the decision. Write down the answer immediately, in their words, not your summary of it.
+
+## Rotate the three questions across every deal
+
+Rather than trying to fit all three questions into a single conversation, spread them across your natural check-ins with a prospect: one per call, in whatever order the conversation makes room for. Over a handful of deals, cycling through all three consistently will tell you more about your typical buyer than trying to interrogate any single one of them in full on day one.
 
 ## Measure success
 

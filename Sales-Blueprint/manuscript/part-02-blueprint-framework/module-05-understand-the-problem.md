@@ -38,6 +38,14 @@ Not every stated problem hides something deeper, and treating every buyer statem
 
 Some problems don't resolve into a single clean cause. By the time Priya finished asking, Dominic's situation had at least two compounding factors: uneven attendance, and a noise problem that was itself discouraging attendance on the days it mattered most. These interacted rather than sitting side by side; solving only the space problem wouldn't have fixed the behavioural pattern it was partly causing. When a diagnosis surfaces more than one factor like this, resist the urge to pick the tidiest one and ignore the rest. Name all of them to the buyer, and let Module 6's value stack address each one separately rather than collapsing them into a single, oversimplified story.
 
+## Symptom versus cause, side by side
+
+| What the buyer says (symptom) | What follow-up questions reveal (cause) | What it changes |
+|---|---|---|
+| "We've outgrown this office" | Space doesn't flex to a 40 per cent attendance swing | Points to a flexible-room redesign, not a bigger footprint |
+| "Sales calls keep getting missed" | No one owns follow-up once a lead goes quiet | Points to a process fix, not more headcount |
+| "Our website looks dated" | Visitors can't find the one page that actually converts | Points to a navigation fix, not a full redesign |
+
 ## Quantify the cost, in their numbers
 
 A vague problem produces a vague sense of urgency, and vague urgency is easy for a buyer to defer indefinitely. Priya asked Dominic to estimate how many people worked from a coffee shop on a typical packed day. "Maybe six or seven," he said. At a rough hourly cost of their time and the awkwardness of client calls taken in public, that put a real, specific number on a problem that had previously just been "annoying." Numbers the buyer generates themselves carry more weight internally than any figure you could offer them, because they can repeat those numbers to their own co-founder without having to defend where they came from.
@@ -51,6 +59,10 @@ Priya didn't move straight from that conversation into a proposal. She summarise
 ## Apply this today
 
 Take the problem your current prospect described to you in their own words. Ask one follow-up question specific enough to have a concrete, short answer (a day, a number, a moment it happens), the way Priya asked about a typical Tuesday. Write down how the answer changes, or doesn't change, what you thought the problem was.
+
+## Practise the habit on old deals, not just new ones
+
+If your pipeline is quiet this week, don't wait for a new prospect to practise this on. Pull up a deal you closed months ago and ask, in hindsight, whether you actually solved the cause or just the symptom the buyer originally described. Many sellers find, looking back, that a project succeeded despite an incomplete diagnosis rather than because of a correct one. Recognising that gap after the fact sharpens the same instinct for the next live conversation.
 
 ## Measure success
 
