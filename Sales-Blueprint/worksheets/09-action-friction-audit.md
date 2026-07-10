@@ -27,3 +27,7 @@ Is there a real constraint (a schedule slot, a resource availability, a seasonal
 ## Step 6: Apply it forward
 
 Deliver the shrunk next step and the genuine deadline together. Note how long it takes from this point to a committed action, and compare it to how long the deal had already been stalled.
+
+## Step 7: Track your follow-up count
+
+Log how many times you've followed up on this specific ask. If you're past one honest follow-up with no new information to add, stop repeating it and instead ask directly whether anything has changed.

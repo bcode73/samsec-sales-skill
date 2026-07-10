@@ -8,6 +8,8 @@ By the end of this module, you will be able to:
 - Identify the real reason a convinced buyer hasn't yet acted
 - Reduce the next step to the smallest possible action a buyer can take immediately
 - Use genuine deadlines instead of manufactured urgency to prompt a decision
+- Prompt action honestly when no natural deadline exists
+- Judge how much follow-up is persistence and how much has become pressure
 
 ## Why I follows R
 
@@ -25,6 +27,8 @@ That told Priya exactly what to do. She didn't need to resell the value or resol
 
 Once you've correctly diagnosed a doubt as resolved, as Marguerite's clearly was, don't keep treating the deal as if a doubt is still the obstacle. Ask instead what's physically or organisationally in the way of the buyer taking the next action: competing priorities, an unclear process for who actually signs, a document that's longer or more effortful to deal with than the decision itself deserves. Priya's fifteen-minute call worked because it replaced an open-ended task ("review and sign this document at some point") with a bounded, scheduled one, which is a much easier thing for a busy person to say yes to.
 
+"Let me know when you're ready" fails for the same reason Module 2's status quo has gravity: it puts the entire burden of disrupting the buyer's routine on the buyer, with no scheduled moment forcing the question, and an easy, low-effort default (do nothing today, deal with it later) will win against a vague, unscheduled ask almost every time. A specific, scheduled action removes that default by giving the task an actual place on the calendar rather than a permanent spot on an ever-growing list.
+
 > **Figure 9.1: The Sales Funnel.** See `visuals/diagrams/figure-9.1-sales-funnel.mmd`. Interest and agreement are wide; committed action is the narrowest point. Most deals that stall do so at exactly that narrowing, not earlier.
 
 ## Shrink the next step
@@ -34,6 +38,14 @@ Every stage before this one has been building toward a decision. This stage is a
 ## Genuine urgency, not manufactured urgency
 
 The installation slot Priya mentioned to Dominic was real: Kestrel's schedule genuinely depended on it, and missing it genuinely would have pushed the project back. That's the difference between a real deadline and the manufactured kind ("only two spots left this month!") that buyers have learned to discount, and which actively damages the trust built all the way back in Module 3 if it's ever caught being untrue. Use a real constraint when one exists. Don't invent one when it doesn't.
+
+## When there's genuinely no deadline
+
+Some deals have no natural constraint to point to: no limited slot, no seasonal factor, nothing that actually changes if the buyer signs this week rather than next month. In that situation, resist the temptation to invent one, and instead shrink the action itself even further rather than manufacturing urgency around it. A fifteen-minute scheduled call still works without a deadline attached, because it's replacing an open-ended task with a bounded one, which was always the more important half of what made Priya's approach effective. The deadline sharpened the timing; the shrunk action was what actually got the signature.
+
+## How much follow-up is too much
+
+There's a point where reasonable persistence starts to read as pressure, and it usually arrives sooner than sellers expect. One follow-up call asking plainly what's in the way is diagnostic and welcome. A second or third message that repeats the same ask without new information starts to feel like exactly the kind of pushing Module 1 warned against, and it can quietly undo trust built over several earlier stages. If a shrunk, scheduled action and one honest follow-up haven't produced movement, the more useful move is usually to ask directly whether something has changed, rather than to simply ask again in a different tone.
 
 ## Apply this today
 
@@ -49,13 +61,17 @@ You'll know this is working when the average time between a buyer's verbal agree
 - Leaving the next action open-ended ("let me know when you're ready") instead of scheduled and specific
 - Waiting passively for the buyer to act on their own momentum
 - Inventing artificial urgency instead of using a genuine constraint, and risking the trust built in earlier stages
+- Manufacturing a deadline when none exists instead of simply shrinking the action further
+- Repeating the same follow-up until reasonable persistence starts to read as pressure
 
 ## Chapter summary
 
 - A convinced buyer and a committed buyer are different people, usually separated by ordinary friction, not lingering doubt.
 - Diagnosing that friction correctly (a priority problem, not a trust problem) tells you what kind of push is actually needed.
-- Shrinking the next action to something small, specific, and scheduled gets it done faster than an open-ended request.
+- Shrinking the next action to something small, specific, and scheduled gets it done faster than an open-ended request, because it removes the easy, low-effort default of doing nothing today.
 - Genuine deadlines prompt action without damaging trust; manufactured urgency risks the trust built in every earlier stage.
+- Without a natural deadline, shrink the action itself rather than inventing urgency around it.
+- Persistence has a limit; one honest follow-up beats several repeated ones.
 
 ## Key takeaway
 
