@@ -1,11 +1,11 @@
 # Front cover
 
-**Status:** Draft, generated in Canva. Not yet reviewed or exported.
+**Status:** Approved by the user. Exported and committed.
 
-**Where the file lives:** This is a pointer, not the asset. The cover is a Canva design, not a static image file, so nothing binary is checked into this repository. Open the link below to view, edit, or export it.
+**Where the file lives:** `assets/brand/exports/front-cover.png` (1587 x 2245 px, RGB PNG). The live, editable source remains in Canva if further changes are needed.
 
-- **Edit:** https://www.canva.com/d/2loV4FT9USsDnvZ
-- **View:** https://www.canva.com/d/rgLyQoDDxKuChXE
+- **Edit (Canva source):** https://www.canva.com/d/2loV4FT9USsDnvZ
+- **View (Canva source):** https://www.canva.com/d/rgLyQoDDxKuChXE
 - **Canva design ID:** `DAHO-SFuyRk`
 
 ## Brief used to generate it
@@ -23,6 +23,5 @@ Front cover only (no spine or back cover yet; those need a firm page count first
 
 ## Still to do
 
-- Review the generated design against `BOOK_BIBLE.md` §7 and the manuscript's actual voice; the first pass has not been checked against Humanizer-Pass-equivalent visual scrutiny (does it look premium, or does it look generated).
 - Once a final page count is set, extend to a full wraparound cover (front, spine, back with blurb space) for print.
-- Export a flat image file once the design is approved, and add it to `visuals/exports/` or a dedicated cover export path.
+- Export a print-resolution version (300 DPI at the final trim size) once a print run is actually being prepared; the current PNG is sized for digital/ebook use.

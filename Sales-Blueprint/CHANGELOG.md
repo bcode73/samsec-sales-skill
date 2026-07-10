@@ -6,12 +6,13 @@ Format: `## [Date] Phase: Summary`, followed by a short bullet list of changes.
 
 ---
 
-## [Unreleased] Phase 20 (partial): front cover generated in Canva
+## [Unreleased] Phase 20 (partial): front cover generated, approved, and committed
 
 - Generated a front-cover concept directly in Canva rather than as a written external-generation prompt, since Canva's tools were connected in this session. Used the book's own palette (cream `#FBF9F4` background, deep teal `#0F3D3E` accent, charcoal `#1B1F1E` ink) and minimal business-consulting style from `BOOK_BIBLE.md` §7, not a Canva brand kit.
-- Four candidates generated; user selected one, converted to a permanent, editable Canva design.
-- Recorded a pointer in `assets/brand/cover.md` (edit and view links, the brief used to generate it, and remaining to-dos), since the asset is a live Canva design rather than a binary file this repository tracks directly.
-- Scope: front cover only. Spine and back cover (full wraparound) intentionally deferred until a firm final page count is set, since spine width depends on it.
+- Four candidates generated; user selected one, converted to a permanent, editable Canva design, and approved the result.
+- Exported the design as a PNG. The direct download from Canva's export URL was blocked by this session's network egress policy (canva.com and its subdomains are denied), so the user downloaded it themselves and attached the file back into the session.
+- Committed the file to `assets/brand/exports/front-cover.png` (1587 x 2245 px). Updated `assets/brand/cover.md` to point at the committed file, keeping the Canva edit/view links for future changes.
+- Scope: front cover only. Spine and back cover (full wraparound) intentionally deferred until a firm final page count is set, since spine width depends on it. The committed PNG is sized for digital/ebook use; a 300 DPI print-resolution export is still needed before a print run.
 
 ## [Unreleased] Phase 19 (diagram QA sweep): fixed 7 badly proportioned diagrams
 
