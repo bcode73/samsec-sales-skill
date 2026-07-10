@@ -41,6 +41,14 @@ Email, video, and chat-based messaging aren't interchangeable, and the framework
 
 Module 7's fixed-scope offer and Module 8's specific-doubt resolution both translate directly to a digital process, usually as a shared document or a short recorded walkthrough rather than a page handed across a table. What doesn't translate well is a long, unstructured video call standing in for what should be a written, referenceable offer; a buyer reviewing a decision with people who weren't on the call needs something they can forward, not just a memory of what was said. Priya sent Tom a recorded video walkthrough of the proposed layout alongside the same fixed-scope document she'd have used in person, specifically so he could share it with his co-founders without needing her present to explain it.
 
+## In-person signal versus digital equivalent
+
+| In-person version | Digital equivalent | Why it matters |
+|---|---|---|
+| A face-to-face first impression | A published result plus a fast, specific reply | Competence and reliability get signalled before a conversation even starts |
+| Reading hesitation from posture or a pause | Asking directly what a colleague or co-founder might not agree with | Nothing surfaces on its own without a direct question |
+| A conversation summarised afterward from memory | A shareable document or a recorded walkthrough | Absent stakeholders need something to review, not a secondhand account |
+
 ## Nurture and advocacy without ever meeting in person
 
 Modules 10 and 11 don't require physical proximity to work, but they do require the same discipline, arguably more of it, because there's no chance encounter or office visit to substitute for a deliberate check-in. Priya's six-week nurture question worked as well over a video call with Tom as it had over the phone with Dominic, precisely because its power came from being genuine and specific, not from being delivered face to face. The same holds for a referral ask: a remote customer can make an introduction just as easily as a local one, sometimes more easily, because a digital introduction (forwarding an email, adding someone to a group chat) costs the advocate even less effort than arranging an in-person meeting would.
@@ -48,6 +56,10 @@ Modules 10 and 11 don't require physical proximity to work, but they do require 
 ## Apply this today
 
 Look at your current inbound or remote-sourced leads. Pick one stage from Modules 3 to 8 and write down its specific digital equivalent for this deal: what proof, question, or document replaces the in-person version. Send or ask it within the next working day.
+
+## Check the channel before every message, not just the first one
+
+Before sending anything at any stage of a remote deal, ask one quick question: does this need real-time back-and-forth, or does it need to be something the buyer can forward to someone who wasn't there? Match the channel to the answer rather than defaulting to whichever one happens to be open. Over enough deals, this becomes an automatic filter rather than a conscious decision, and it's usually the difference between a remote deal that moves at a normal pace and one that stalls on a channel mismatch nobody noticed.
 
 ## Measure success
 

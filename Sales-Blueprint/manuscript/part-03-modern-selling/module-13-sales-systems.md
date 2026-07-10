@@ -23,6 +23,14 @@ Most off-the-shelf pipeline tools use generic stages: lead, qualified, proposal,
 
 > **Figure 13.1: The Lead Pipeline.** See `visuals/diagrams/figure-13.1-lead-pipeline.mmd`. Every open deal sits under its actual Blueprint stage, which tells you the next specific action, not just how far along it is.
 
+## Generic pipeline versus Blueprint-staged pipeline
+
+| Generic label | What it tells you | Blueprint stage equivalent | What it tells you instead |
+|---|---|---|---|
+| "Lead" | Someone showed interest | Build Trust or Learn the Customer | Which specific signal or question is still missing |
+| "Proposal" | A document was sent | Present the Offer or Remove Doubt | Whether it needs a clearer recommendation or a named doubt resolved |
+| "Closed" | Money changed hands | Nurture Relationships or Turn Customers into Advocates | The relationship's value is only just starting |
+
 ## The quiet deal is the dangerous one
 
 Attention naturally goes to whichever deal is asking loudest for it: the buyer who just emailed, the one closest to signing, the one with a looming deadline. A deal that has gone quiet at a particular stage doesn't announce itself the same way, which is exactly why it's the one most likely to be silently lost. A pipeline organised by Blueprint stage makes this visible in a way a mental list never does: a glance at the board shows which deals have sat at the same letter for weeks without moving, and that staleness is itself information, usually meaning either the next action was never taken or an unspoken doubt (see Module 8) is quietly blocking progress. Reviewing the pipeline isn't just about updating what's changed; it's about noticing what hasn't.
@@ -50,6 +58,10 @@ As a business grows past one person doing all the selling, the system has to sur
 ## Apply this today
 
 Rebuild your own pipeline, however simple, around the nine Blueprint letters instead of generic stage labels. For each open deal, write down which letter it's actually at and the one specific action that letter calls for, using the relevant module's guidance.
+
+## Run the same four-number review every month, regardless
+
+Put the monthly dashboard review on the calendar as a fixed date, not something you get to when a quiet stretch gives you time. Review win rate, time to signature, referral rate, and the in-person-to-remote split whether the month felt busy or slow, and whether the numbers moved or stayed flat. A metric only tells you something useful when you have several months of it in a row; skipping the review in a hectic month is exactly when the pipeline is most likely to have quietly gone stale.
 
 ## Measure success
 

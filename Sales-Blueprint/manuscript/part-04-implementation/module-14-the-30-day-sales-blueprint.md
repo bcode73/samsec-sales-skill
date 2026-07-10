@@ -35,6 +35,15 @@ In the final week, look back at every customer you've closed in the last year an
 
 > **Figure 14.1: The 30-Day Rollout.** See `visuals/diagrams/figure-14.1-thirty-day-rollout.mmd`. Four weeks, two or three stages installed at a time, each building on the trust and diagnosis established in the week before.
 
+## The four-week rollout at a glance
+
+| Week | Stages installed | Worksheet | Sign it's working |
+|---|---|---|---|
+| 1 | Build Trust, Learn the Customer | 3, 4 | You can name the full buying committee on every live deal |
+| 2 | Understand the Problem, Establish Value | 5, 6 | Every live deal has a confirmed diagnosis and an agreed value stack |
+| 3 | Present the Offer, Remove Doubt, Inspire Action | 7, 8, 9 | At least one deal moves from agreement to a signed commitment |
+| 4 | Nurture Relationships, Turn Customers into Advocates, Systems | 10, 11, 13 | Three genuine check-ins completed and one specific referral ask made |
+
 ## If your sales cycle runs longer than a month
 
 Kestrel's projects typically close in three to fourteen weeks, which means a single deal can span the entire rollout without reaching a signature. If your business runs a longer cycle than that, don't expect day thirty to show a finished deal; expect it to show the framework correctly applied at whatever stage your live deals have actually reached. A twelve-month enterprise sales cycle installs the same way, just measured in earlier signals: has Build Trust and Learn the Customer been run properly on every live deal, rather than has anything closed. The habits are what thirty days installs. The deals close on their own timeline, not the rollout's.
@@ -46,6 +55,10 @@ Some weeks won't go the way the plan describes; a slow week for new enquiries, a
 ## What should be different by day thirty
 
 You won't have closed every deal in your pipeline using the full framework in one month; most sales cycles run longer than that. What you should have, by day thirty, is a pipeline where every open deal is correctly tagged to a real stage, a proposal template that leads with a recommended package instead of a menu, at least one resolved doubt and one shrunk next step you can point to directly, three genuine nurture conversations completed with past customers, and one specific referral ask made rather than hoped for. Those are the concrete, checkable signs that the system, not just the reading, is now running.
+
+## Treat the thirty days as a reset, not a one-time onboarding
+
+Habits installed once still slip, especially after a hectic quarter or a run of deals that pulled focus back onto whichever one was loudest. When you notice a stage from this book has quietly stopped happening on live deals, don't treat that as a failure of the framework; rerun the relevant week's worksheet against your current pipeline the same way you did the first time. A business that revisits the rollout whenever a habit has clearly slipped keeps the system running for years, not just for the thirty days it took to install it the first time.
 
 ## Where Kestrel ended up
 
