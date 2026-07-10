@@ -78,6 +78,12 @@ You'll know this is working when hesitations in your pipeline start arriving as 
 - Treating a second doubt, surfaced after resolving the first, as a sign the deal is falling apart
 - Manufacturing a reassurance for a doubt that's actually valid and can't honestly be resolved
 
+## In a different kind of business
+
+A landscaping company owner named Petra used to hear the same soft objection from homeowners at the end of a strong quote conversation: "we just want to think about it." For years she took that at face value and followed up a week later, usually to silence. The client who broke the pattern for her finally said what was actually underneath it, but only because Petra asked directly what specifically she wanted to think over: whether the newly planted beds would survive the first winter, because a previous landscaper's work had died within months and never been replaced.
+
+"We want to think about it" had been standing in for a specific, resolvable fear the whole time. Once Petra started asking that direct question of every hesitant client, she stopped hearing the vague version nearly as often, because she was resolving the real concern (in this case, a written one-year establishment guarantee on all planting) before it had the chance to calcify into a polite decline. The lesson holds regardless of whether the objection concerns a six-figure office fit-out or a modest garden border: a specific fear named early is answerable; a vague feeling left unnamed usually isn't.
+
 ## Chapter summary
 
 - An objection is a question wearing a statement's clothes, often because stating a concern feels less exposing than admitting uncertainty directly.

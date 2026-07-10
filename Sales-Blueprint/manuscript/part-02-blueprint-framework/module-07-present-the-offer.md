@@ -79,6 +79,12 @@ You'll know this is working when buyers respond to a proposal with a question ab
 - Closing with an open-ended invitation to respond instead of a specific, dated action
 - Relying on the middle tier's position to do all the persuasive work instead of making sure it's genuinely the right fit
 
+## In a different kind of business
+
+An IT support provider named Deshawn used to send prospective clients a rate card with three support tiers, bronze, silver, and gold, each described in terms of response times and included hours. Clients routinely asked him to walk them through the differences on a call, which he took as a sign of interest but was actually a sign the document wasn't doing its job. Every additional question was a comparison he hadn't resolved for them in writing.
+
+The proposal that changed his close rate dropped the three-tier rate card entirely for new clients and replaced it with one recommended plan, sized specifically to the server count and support history the client had already described to him, with a single clearly labelled downgrade option underneath for anyone who genuinely wanted less. He also added, on the same page, one sentence he'd never written before: exactly what counted as an emergency call-out versus routine support, and what each one cost. Clients stopped asking him to explain the document and started asking when he could start, the same shift Priya saw once her own proposals stopped reading like a menu.
+
 ## Chapter summary
 
 - Present the Offer only works once Establish Value has given the buyer something to weigh the price against.
